@@ -272,6 +272,43 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
     box-shadow: inset 3.5px 0 0 var(--primary);
 }
 
+.nav-item.locked {
+    opacity: 0.55;
+    position: relative;
+    cursor: not-allowed;
+}
+
+.nav-item.locked a {
+    cursor: not-allowed;
+    color: var(--text-light);
+}
+
+.nav-item.locked:hover a {
+    background: transparent;
+    color: var(--text-light);
+}
+
+.nav-item.locked .lock-pill {
+    margin-left: auto;
+    font-size: 0.68rem;
+    color: #ef4444;
+    background: rgba(239, 68, 68, 0.12);
+    border: 1px solid rgba(239, 68, 68, 0.25);
+    padding: 2px 7px;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-weight: 600;
+}
+
+.dark-theme .nav-item.locked .lock-pill {
+    color: #f87171;
+    background: rgba(248, 113, 113, 0.15);
+    border-color: rgba(248, 113, 113, 0.3);
+}
+
+
 .sidebar-footer {
     margin-top: auto;
     padding: 1.15rem 1.35rem;

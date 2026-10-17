@@ -65,9 +65,19 @@ window.togglePracticeFollowups = function(tid, btn) {
 };
 
 window.startSimWithTopic = function(tid) {
+    const isTeacher = state.student.isTeacher || (typeof checkIfTeacher === 'function' && checkIfTeacher(state.student.name, state.student.classCode));
+    const topic = ALL_TOPICS_POOL.find(t => t.id === tid);
+    if (!isTeacher && topic && topic.category !== 'benefits') {
+        showToast('🔒 Đề thi này thuộc nhóm đang tạm khóa cho lớp B212!');
+        return;
+    }
     // Navigate to simulator tab
-    const simNav = document.querySelector('[data-target="tool-simulator"]');
-    if (simNav) simNav.click();
+    if (typeof window.switchTab === 'function') {
+        window.switchTab('tool-simulator');
+    } else {
+        const simNav = document.querySelector('[data-target="tool-simulator"]');
+        if (simNav) simNav.click();
+    }
     
     // Select topic in simulator dropdown
     setTimeout(() => {
@@ -2678,15 +2688,59 @@ const CLASS_STUDENTS = {
 ]
 };
 
+// Các tab được mở quyền truy cập cho lớp B212 (Mở Nhóm 1, Tổng quan và Công cụ; Khóa Nhóm 2-6)
+const UNLOCKED_TABS_B212 = ['overview', 'group-benefits', 'tool-simulator', 'tool-flashcards'];
+
 // Chuẩn hóa chuỗi so sánh họ tên
 function normalizeStr(str) {
     return (str || '')
         .normalize('NFD')
-        .replace(/[̀-ͯ]/g, '')
+        .replace(/[\u0300-\u036f]/g, '')
         .replace(/[đĐ]/g, 'd')
         .toLowerCase()
         .replace(/\s+/g, ' ')
         .trim();
+}
+
+// Kiểm tra quyền Giáo viên
+function checkIfTeacher(name, classCode) {
+    const formattedClass = (classCode || '').toUpperCase().replace(/\s+/g, '');
+    const normName = normalizeStr(name || '');
+    return formattedClass === 'GV' || 
+           formattedClass === 'GV2026' ||
+           normName === 'ptmn' || 
+           normName.includes('ptmn') || 
+           normName.includes('co nguyet') || 
+           normName.includes('minh nguyet') || 
+           normName.includes('ms nguyet') || 
+           normName.includes('pham thi minh nguyet') ||
+           normName === 'nguyet' ||
+           normName.includes('giao vien');
+}
+
+// Áp dụng khóa/mở các nhóm đề thi
+function applyAccessControl(isTeacher) {
+    const navItems = document.querySelectorAll('.nav-item');
+    navItems.forEach(item => {
+        const target = item.dataset.target || item.getAttribute('data-target');
+        const existingPill = item.querySelector('.lock-pill');
+        if (existingPill) existingPill.remove();
+
+        if (isTeacher || UNLOCKED_TABS_B212.includes(target)) {
+            item.classList.remove('locked');
+            item.removeAttribute('title');
+        } else {
+            item.classList.add('locked');
+            item.setAttribute('title', 'Tạm khóa cho lớp B212');
+            const link = item.querySelector('a');
+            if (link) {
+                const pill = document.createElement('span');
+                pill.className = 'lock-pill';
+                pill.innerHTML = '<i class="fa-solid fa-lock"></i> Khóa';
+                link.appendChild(pill);
+            }
+        }
+    });
 }
 
 // Authentication & Access Control
@@ -2706,6 +2760,9 @@ function initAuth() {
     state.student.classCode = '';
     state.student.isTeacher = false;
     
+    // Mặc định ban đầu áp dụng chế độ khóa cho học viên
+    applyAccessControl(false);
+
     if (modal) {
         modal.style.display = 'flex';
         modal.classList.remove('hidden');
@@ -2743,21 +2800,10 @@ function initAuth() {
         }
 
         let formattedClass = classVal.toUpperCase().replace(/\s+/g, '');
-        // Tự động nhận diện CB21O tương đương CB210
-        if (formattedClass === 'CB21O') {
-            formattedClass = 'CB210';
-        }
-
         const normName = normalizeStr(nameVal);
 
         // 1. Kiểm tra tài khoản Giáo viên (tên PTMN, mã lớp GV)
-        const isTeacher = 
-            (formattedClass === 'GV' || formattedClass === 'GV2026') ||
-            normName === 'ptmn' ||
-            normName.includes('ptmn') ||
-            normName.includes('co nguyet') ||
-            normName.includes('minh nguyet') ||
-            normName.includes('pham thi minh nguyet');
+        const isTeacher = checkIfTeacher(nameVal, classVal);
 
         let finalName = '';
         let finalClass = '';
@@ -2767,7 +2813,7 @@ function initAuth() {
             finalClass = formattedClass || 'GV';
             state.student.isTeacher = true;
         } else {
-            // 2. Kiểm tra học viên thuộc 5 lớp: CB206, CB210, CB211, CB213, ONB103
+            // 2. Kiểm tra học viên thuộc lớp B212
             const allowedClasses = ['B212'];
             if (!allowedClasses.includes(formattedClass)) {
                 if (errorMsg) {
@@ -2779,7 +2825,7 @@ function initAuth() {
             }
 
             const roster = CLASS_STUDENTS[formattedClass];
-            const matchedStudent = roster.find(s => normalizeStr(s) === normName);
+            const matchedStudent = roster ? roster.find(s => normalizeStr(s) === normName) : null;
 
             if (!matchedStudent) {
                 if (errorMsg) {
@@ -2799,6 +2845,21 @@ function initAuth() {
 
         state.student.name = finalName;
         state.student.classCode = finalClass;
+
+        // Áp dụng quyền truy cập: mở Nhóm 1 cho B212, mở tất cả nếu là Giáo viên
+        applyAccessControl(state.student.isTeacher);
+        if (typeof window.refreshSimulatorTopics === 'function') {
+            window.refreshSimulatorTopics(state.student.isTeacher);
+        }
+
+        // Nếu tab hiện tại đang bị khóa thì tự động chuyển về Nhóm 1
+        const activeNav = document.querySelector('.nav-item.active');
+        const currentTarget = activeNav ? activeNav.getAttribute('data-target') : 'overview';
+        if (!state.student.isTeacher && !UNLOCKED_TABS_B212.includes(currentTarget)) {
+            if (typeof window.switchTab === 'function') {
+                window.switchTab('group-benefits');
+            }
+        }
 
         const logData = `${finalName} - Lớp: ${finalClass}`;
         const trackingUrl = 'https://docs.google.com/forms/d/e/1FAIpQLScpre6r5axG648nbdv1kiNUHV1JXmF2Fssv0top8w-SpnFcWw/formResponse';
@@ -2930,29 +2991,53 @@ function initNavigation() {
     const sidebar = document.getElementById('sidebar');
     const backdrop = document.getElementById('sidebar-backdrop');
 
+    window.switchTab = function(targetId) {
+        const isTeacher = state.student.isTeacher || checkIfTeacher(state.student.name, state.student.classCode);
+        if (!isTeacher && !UNLOCKED_TABS_B212.includes(targetId)) {
+            showToast('🔒 Nhóm bài học này đang tạm khóa cho lớp B212 và sẽ được mở trong các buổi học tiếp theo!');
+            targetId = 'group-benefits';
+        }
+
+        navItems.forEach(i => {
+            if (i.getAttribute('data-target') === targetId) {
+                i.classList.add('active');
+            } else {
+                i.classList.remove('active');
+            }
+        });
+
+        document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+        const targetPane = document.getElementById(targetId);
+        if (targetPane) {
+            targetPane.classList.add('active');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        const activeItem = document.querySelector(`.nav-item[data-target="${targetId}"]`);
+        if (activeItem && topTitle) {
+            const rawTitle = activeItem.querySelector('span') ? activeItem.querySelector('span').innerText : targetId;
+            topTitle.innerText = rawTitle.replace('Khóa', '').trim();
+        }
+
+        if (sidebar && sidebar.classList.contains('open')) {
+            sidebar.classList.remove('open');
+            if (backdrop) backdrop.classList.remove('open');
+        }
+    };
+
     navItems.forEach(item => {
         item.addEventListener('click', (e) => {
             e.preventDefault();
             const targetId = item.getAttribute('data-target');
             if (!targetId) return;
 
-            navItems.forEach(i => i.classList.remove('active'));
-            item.classList.add('active');
-
-            document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
-            const targetPane = document.getElementById(targetId);
-            if (targetPane) {
-                targetPane.classList.add('active');
-                window.scrollTo({ top: 0, behavior: 'smooth' });
+            const isTeacher = state.student.isTeacher || checkIfTeacher(state.student.name, state.student.classCode);
+            if (!isTeacher && !UNLOCKED_TABS_B212.includes(targetId)) {
+                showToast('🔒 Nhóm bài học này đang tạm khóa cho lớp B212 và sẽ được mở trong các buổi học tiếp theo!');
+                return;
             }
 
-            const titleText = item.querySelector('span') ? item.querySelector('span').innerText : targetId;
-            if (topTitle) topTitle.innerText = titleText;
-
-            if (sidebar && sidebar.classList.contains('open')) {
-                sidebar.classList.remove('open');
-                if (backdrop) backdrop.classList.remove('open');
-            }
+            window.switchTab(targetId);
         });
     });
 
@@ -3114,15 +3199,47 @@ function initExamSimulator() {
     const playerAudio = document.getElementById('sim-audio-player');
     const downloadAudioBtn = document.getElementById('sim-download-audio-btn');
 
-    if (topicSelect) {
+    window.refreshSimulatorTopics = function(isTeacher) {
+        if (!topicSelect) return;
         topicSelect.innerHTML = '';
-        ALL_TOPICS_POOL.forEach((t, i) => {
+
+        const availableTopics = isTeacher 
+            ? ALL_TOPICS_POOL 
+            : ALL_TOPICS_POOL.filter(t => t.category === 'benefits');
+
+        availableTopics.forEach((t) => {
             const opt = document.createElement('option');
             opt.value = t.id;
             opt.textContent = '[' + t.categoryName + '] ' + t.title;
             topicSelect.appendChild(opt);
         });
 
+        // Với học viên B212: Hiển thị các chủ đề của nhóm 2-6 dưới dạng tạm khóa
+        if (!isTeacher) {
+            const lockedTopics = ALL_TOPICS_POOL.filter(t => t.category !== 'benefits');
+            if (lockedTopics.length > 0) {
+                const optGroup = document.createElement('optgroup');
+                optGroup.label = '── 🔒 CÁC CHỦ ĐỀ ĐANG TẠM KHÓA (LỚP B212) ──';
+                lockedTopics.forEach(t => {
+                    const opt = document.createElement('option');
+                    opt.value = t.id;
+                    opt.disabled = true;
+                    opt.textContent = '🔒 [' + t.categoryName + '] ' + t.title;
+                    optGroup.appendChild(opt);
+                });
+                topicSelect.appendChild(optGroup);
+            }
+        }
+
+        if (availableTopics.length > 0) {
+            topicSelect.value = availableTopics[0].id;
+            loadSimTopic(availableTopics[0]);
+        }
+    };
+
+    window.refreshSimulatorTopics(state.student.isTeacher);
+
+    if (topicSelect) {
         topicSelect.addEventListener('change', () => {
             const found = ALL_TOPICS_POOL.find(t => t.id === topicSelect.value);
             if (found) loadSimTopic(found);
@@ -3131,8 +3248,13 @@ function initExamSimulator() {
 
     if (randomBtn) {
         randomBtn.addEventListener('click', () => {
-            const randIdx = Math.floor(Math.random() * ALL_TOPICS_POOL.length);
-            const randTopic = ALL_TOPICS_POOL[randIdx];
+            const isTeacher = state.student.isTeacher || checkIfTeacher(state.student.name, state.student.classCode);
+            const pool = isTeacher 
+                ? ALL_TOPICS_POOL 
+                : ALL_TOPICS_POOL.filter(t => t.category === 'benefits');
+            if (!pool || pool.length === 0) return;
+            const randIdx = Math.floor(Math.random() * pool.length);
+            const randTopic = pool[randIdx];
             if (topicSelect) topicSelect.value = randTopic.id;
             loadSimTopic(randTopic);
             showToast('Đã chọn ngẫu nhiên chủ đề mới!');
