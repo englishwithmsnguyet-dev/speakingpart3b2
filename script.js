@@ -184,17 +184,17 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Improve work performance",
+        "text": "Create job opportunities",
         "pos": "top",
         "type": "verb",
-        "vi": "Nâng cao hiệu suất công việc"
+        "vi": "Tạo cơ hội việc làm"
       },
       {
         "num": 2,
-        "text": "Create job opportunities",
+        "text": "Improve work performance",
         "pos": "right",
         "type": "verb",
-        "vi": "Tạo nhiều cơ hội việc làm"
+        "vi": "Nâng cao hiệu suất công việc"
       },
       {
         "num": 3,
@@ -242,21 +242,21 @@ const ALL_TOPICS_POOL = [
         "text": "Flexible",
         "pos": "top",
         "type": "adj",
-        "vi": "Linh hoạt về thời gian & địa điểm"
+        "vi": "Linh hoạt"
       },
       {
         "num": 2,
         "text": "Time-saving",
         "pos": "right",
         "type": "adj",
-        "vi": "Tiết kiệm thời gian đi lại"
+        "vi": "Tiết kiệm thời gian"
       },
       {
         "num": 3,
         "text": "Money-saving",
         "pos": "bottom",
         "type": "adj",
-        "vi": "Tiết kiệm chi phí sinh hoạt & học tập"
+        "vi": "Tiết kiệm tiền bạc"
       },
       {
         "num": 4,
@@ -352,21 +352,21 @@ const ALL_TOPICS_POOL = [
         "text": "Develop themselves",
         "pos": "top",
         "type": "verb",
-        "vi": "Phát triển bản thân toàn diện"
+        "vi": "Phát triển bản thân"
       },
       {
         "num": 2,
         "text": "See the world",
         "pos": "right",
         "type": "verb",
-        "vi": "Khám phá thế giới rộng lớn"
+        "vi": "Khám phá thế giới"
       },
       {
         "num": 3,
         "text": "Experience different styles of education",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Trải nghiệm nền giáo dục tiên tiến"
+        "vi": "Trải nghiệm các nền giáo dục khác nhau"
       },
       {
         "num": 4,
@@ -407,21 +407,21 @@ const ALL_TOPICS_POOL = [
         "text": "Communication",
         "pos": "top",
         "type": "noun",
-        "vi": "Giao tiếp toàn cầu"
+        "vi": "Giao tiếp"
       },
       {
         "num": 2,
         "text": "Career and job opportunities",
         "pos": "right",
         "type": "noun",
-        "vi": "Cơ hội việc làm rộng mở"
+        "vi": "Cơ hội nghề nghiệp & việc làm"
       },
       {
         "num": 3,
         "text": "Academic purposes",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Mục đích học thuật & nghiên cứu"
+        "vi": "Mục đích học thuật"
       },
       {
         "num": 4,
@@ -462,21 +462,21 @@ const ALL_TOPICS_POOL = [
         "text": "Become more independent and sociable",
         "pos": "top",
         "type": "verb",
-        "vi": "Tự lập và hòa đồng hơn"
+        "vi": "Trở nên tự lập và hòa đồng hơn"
       },
       {
         "num": 2,
         "text": "Better preparation for formal schooling",
         "pos": "right",
         "type": "noun",
-        "vi": "Chuẩn bị tốt cho trường tiểu học"
+        "vi": "Chuẩn bị tốt hơn cho việc học chính thức"
       },
       {
         "num": 3,
-        "text": "Support parents in balancing work and life",
+        "text": "Support parents in balancing work and family life",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Giúp cha mẹ an tâm làm việc"
+        "vi": "Hỗ trợ cha mẹ cân bằng công việc và gia đình"
       },
       {
         "num": 4,
@@ -517,21 +517,21 @@ const ALL_TOPICS_POOL = [
         "text": "Higher levels of job satisfaction",
         "pos": "top",
         "type": "noun",
-        "vi": "Mức độ hài lòng công việc cao"
+        "vi": "Mức độ hài lòng công việc cao hơn"
       },
       {
         "num": 2,
         "text": "Higher levels of creativity",
         "pos": "right",
         "type": "noun",
-        "vi": "Khuyến khích sự sáng tạo"
+        "vi": "Mức độ sáng tạo cao hơn"
       },
       {
         "num": 3,
         "text": "Higher levels of cooperation and teamwork",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Tăng cường hợp tác nhóm"
+        "vi": "Mức độ hợp tác và làm việc nhóm cao hơn"
       },
       {
         "num": 4,
@@ -572,21 +572,21 @@ const ALL_TOPICS_POOL = [
         "text": "Relax",
         "pos": "top",
         "type": "verb",
-        "vi": "Thư giãn tinh thần"
+        "vi": "Thư giãn"
       },
       {
         "num": 2,
         "text": "Widen knowledge",
         "pos": "right",
         "type": "verb",
-        "vi": "Mở rộng hiểu biết sâu rộng"
+        "vi": "Mở rộng kiến thức"
       },
       {
         "num": 3,
-        "text": "Improve memory and focus",
+        "text": "Improve vocabulary",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Cải thiện trí nhớ và tập trung"
+        "vi": "Nâng cao vốn từ vựng"
       },
       {
         "num": 4,
@@ -627,21 +627,21 @@ const ALL_TOPICS_POOL = [
         "text": "Improve healthcare",
         "pos": "top",
         "type": "verb",
-        "vi": "Nâng cao chất lượng y tế"
+        "vi": "Cải thiện y tế và chăm sóc sức khỏe"
       },
       {
         "num": 2,
         "text": "Facilitate teaching and learning",
         "pos": "right",
         "type": "verb",
-        "vi": "Hỗ trợ dạy và học hiệu quả"
+        "vi": "Hỗ trợ việc dạy và học"
       },
       {
         "num": 3,
-        "text": "Handle daily repetitive tasks",
+        "text": "Handle daily tasks",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Xử lý công việc lặp đi lặp lại"
+        "vi": "Xử lý các công việc hàng ngày"
       },
       {
         "num": 4,
@@ -679,7 +679,7 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Make time for personal hobbies",
+        "text": "Make time for hobbies",
         "pos": "top",
         "type": "verb",
         "vi": "Dành thời gian cho sở thích"
@@ -689,14 +689,14 @@ const ALL_TOPICS_POOL = [
         "text": "Build personal relationships",
         "pos": "right",
         "type": "verb",
-        "vi": "Gắn kết tình cảm gia đình"
+        "vi": "Xây dựng các mối quan hệ cá nhân"
       },
       {
         "num": 3,
-        "text": "Have time to relax and recover",
+        "text": "Have time to relax",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Thư giãn phục hồi năng lượng"
+        "vi": "Có thời gian thư giãn"
       },
       {
         "num": 4,
@@ -737,21 +737,21 @@ const ALL_TOPICS_POOL = [
         "text": "Explore different cultures",
         "pos": "top",
         "type": "verb",
-        "vi": "Khám phá các nền văn hóa"
+        "vi": "Khám phá các nền văn hóa khác nhau"
       },
       {
         "num": 2,
         "text": "Make new friends",
         "pos": "right",
         "type": "verb",
-        "vi": "Kết nối thêm bạn bè mới"
+        "vi": "Kết bạn mới"
       },
       {
         "num": 3,
-        "text": "Reduce stress and refresh mind",
+        "text": "Reduce stress",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Giảm căng thẳng mệt mỏi"
+        "vi": "Giảm căng thẳng"
       },
       {
         "num": 4,
@@ -792,7 +792,7 @@ const ALL_TOPICS_POOL = [
         "text": "Show gratitude and appreciation for life",
         "pos": "top",
         "type": "verb",
-        "vi": "Biết ơn và trân trọng cuộc sống"
+        "vi": "Thể hiện lòng biết ơn và trân trọng cuộc sống"
       },
       {
         "num": 2,
@@ -803,10 +803,10 @@ const ALL_TOPICS_POOL = [
       },
       {
         "num": 3,
-        "text": "Acquire useful social skills",
+        "text": "Acquire useful skills",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Rèn luyện kỹ năng xã hội hữu ích"
+        "vi": "Tiếp thu các kỹ năng hữu ích"
       },
       {
         "num": 4,
@@ -847,21 +847,21 @@ const ALL_TOPICS_POOL = [
         "text": "Inexpensive",
         "pos": "top",
         "type": "adj",
-        "vi": "Tiết kiệm chi phí"
+        "vi": "Không tốn kém / Tiết kiệm"
       },
       {
         "num": 2,
-        "text": "Relaxing and comfortable",
+        "text": "Relax",
         "pos": "right",
-        "type": "adj",
-        "vi": "Thư giãn, không ồn ào"
+        "type": "verb",
+        "vi": "Thư giãn"
       },
       {
         "num": 3,
-        "text": "Safe and peaceful",
+        "text": "Safety",
         "pos": "bottom",
-        "type": "adj",
-        "vi": "An toàn, tránh kẹt xe"
+        "type": "noun",
+        "vi": "An toàn"
       },
       {
         "num": 4,
@@ -902,21 +902,21 @@ const ALL_TOPICS_POOL = [
         "text": "More experienced",
         "pos": "top",
         "type": "adj",
-        "vi": "Nhiều kinh nghiệm thực chiến"
+        "vi": "Giàu kinh nghiệm hơn"
       },
       {
         "num": 2,
         "text": "More knowledgeable",
         "pos": "right",
         "type": "adj",
-        "vi": "Kiến thức sâu rộng"
+        "vi": "Hiểu biết sâu rộng hơn"
       },
       {
         "num": 3,
-        "text": "More responsible and calm",
+        "text": "More responsible",
         "pos": "bottom",
         "type": "adj",
-        "vi": "Điềm tĩnh và trách nhiệm"
+        "vi": "Có trách nhiệm hơn"
       },
       {
         "num": 4,
@@ -964,11 +964,11 @@ const ALL_TOPICS_POOL = [
         "text": "Lack of shopping experience",
         "pos": "right",
         "type": "noun",
-        "vi": "Thiếu trải nghiệm thử đồ thực tế"
+        "vi": "Thiếu trải nghiệm mua sắm thực tế"
       },
       {
         "num": 3,
-        "text": "Unexpected product quality",
+        "text": "Unexpected quality",
         "pos": "bottom",
         "type": "noun",
         "vi": "Chất lượng không như mong đợi"
@@ -985,17 +985,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can consumers protect themselves when shopping online?",
         "vi": "Làm thế nào người mua tự bảo vệ mình?",
-        "a": "Consumers should <strong>buy products from official and trusted stores</strong> on reputable websites. Furthermore, always <strong>read reviews and customer ratings carefully</strong> before making a purchase."
+        "a": "Consumers should <strong>buy products from official and trusted stores</strong> on reputable websites. In addition, they should always <strong>read reviews and customer ratings carefully</strong> before buying."
       },
       {
         "q": "Will online stores completely replace traditional shopping malls?",
         "vi": "Cửa hàng online có thay thế hoàn toàn trung tâm thương mại?",
-        "a": "No, traditional malls will not disappear because people love <strong>trying on clothes in person and hanging out</strong> with friends. Real shopping gives an <strong>exciting social experience</strong> that screens cannot replace."
+        "a": "No, traditional malls will not disappear because people love <strong>trying on clothes in person and hanging out</strong> with friends. Real shopping gives an <strong>enjoyable experience</strong> that online shopping cannot replace."
       },
       {
         "q": "What should you do if an online order arrives damaged?",
         "vi": "Nên làm gì khi hàng online bị hư hỏng?",
-        "a": "You should <strong>take clear photos of the damaged package</strong> and notify the seller immediately. After that, you can <strong>request a replacement or a full refund</strong>."
+        "a": "You should <strong>take photos of the damaged package</strong> and notify the seller immediately. After that, you can <strong>ask for a replacement or a full refund</strong>."
       }
     ]
   },
@@ -1012,21 +1012,21 @@ const ALL_TOPICS_POOL = [
         "text": "Take a lot of time",
         "pos": "top",
         "type": "verb",
-        "vi": "Mất nhiều thời gian chờ đợi"
+        "vi": "Mất nhiều thời gian"
       },
       {
         "num": 2,
-        "text": "Be very crowded during rush hours",
+        "text": "Be very crowded",
         "pos": "right",
         "type": "verb",
-        "vi": "Rất đông đúc vào giờ cao điểm"
+        "vi": "Rất đông đúc"
       },
       {
         "num": 3,
-        "text": "Risk of being victims of petty crimes",
+        "text": "Be victims of criminal acts",
         "pos": "bottom",
-        "type": "noun",
-        "vi": "Nguy cơ bị móc túi, mất đồ"
+        "type": "verb",
+        "vi": "Có nguy cơ là nạn nhân của tội phạm"
       },
       {
         "num": 4,
@@ -1040,12 +1040,12 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can governments encourage more people to ride buses and metros?",
         "vi": "Chính phủ khuyến khích đi xe bus thế nào?",
-        "a": "Governments should <strong>offer cheaper monthly tickets</strong> and keep buses clean and air-conditioned. Moreover, <strong>adding more frequent departure routes</strong> will save passengers valuable time."
+        "a": "Governments should <strong>offer cheaper tickets</strong> and keep buses clean and comfortable. In addition, <strong>adding more bus routes</strong> will help passengers save time."
       },
       {
         "q": "Is public transport eco-friendly?",
         "vi": "Phương tiện công cộng có thân thiện môi trường không?",
-        "a": "Yes, public transport is <strong>much more eco-friendly than private cars</strong> because buses carry many passengers at once. This helps <strong>reduce smoke emissions and traffic jams</strong> significantly."
+        "a": "Yes, public transport is <strong>much more eco-friendly than private vehicles</strong> because buses can carry many people at once. This helps <strong>reduce traffic jams and air pollution</strong> significantly."
       },
       {
         "q": "Do you prefer traveling by motorbike or by bus?",
@@ -1059,29 +1059,29 @@ const ALL_TOPICS_POOL = [
     "category": "drawbacks",
     "categoryName": "Nhóm Bất Lợi",
     "topicCode": "ĐỀ SỐ 03",
-    "title": "Doing exercise also has some drawbacks.",
+    "title": "There are some drawbacks of doing exercise.",
     "center": "Doing exercise",
     "branches": [
       {
         "num": 1,
-        "text": "Waste time if not planned well",
+        "text": "Waste time",
         "pos": "top",
         "type": "verb",
-        "vi": "Tốn thời gian nếu không sắp xếp tốt"
+        "vi": "Lãng phí thời gian"
       },
       {
         "num": 2,
-        "text": "Waste money on gym memberships",
+        "text": "Waste money",
         "pos": "right",
         "type": "verb",
-        "vi": "Tốn chi phí tập luyện đắt đỏ"
+        "vi": "Lãng phí tiền bạc"
       },
       {
         "num": 3,
-        "text": "Risk of getting injured",
+        "text": "Get injured",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Nguy cơ chấn thương cơ bắp/khớp"
+        "vi": "Bị chấn thương"
       },
       {
         "num": 4,
@@ -1095,17 +1095,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can people prevent sports injuries?",
         "vi": "Làm thế nào phòng tránh chấn thương thể thao?",
-        "a": "People should <strong>warm up carefully for ten minutes</strong> before doing intense sports. In addition, <strong>wearing proper athletic shoes</strong> protects joints and muscles from sudden injuries."
+        "a": "People should <strong>warm up carefully for ten minutes</strong> before doing exercise. In addition, <strong>wearing suitable sports shoes</strong> helps protect their feet and prevent injuries."
       },
       {
         "q": "Is going to an expensive gym necessary to stay fit?",
         "vi": "Có cần đến phòng gym đắt tiền không?",
-        "a": "No, an expensive gym is not necessary because people can <strong>jog in the local park or exercise at home</strong>. Doing simple push-ups and walking daily is <strong>more than enough to stay healthy</strong>."
+        "a": "No, going to an expensive gym is not necessary because people can <strong>jog in the park or exercise at home</strong>. Doing simple exercises every day is <strong>enough to stay healthy</strong>."
       },
       {
         "q": "How many hours of exercise per week is enough for adults?",
         "vi": "Người lớn nên tập bao nhiêu giờ mỗi tuần?",
-        "a": "Adults should exercise for <strong>about three to five hours per week</strong> to maintain fitness. Doing <strong>thirty minutes of moderate movement each day</strong> brings the best health results."
+        "a": "Adults should exercise for <strong>about three to five hours each week</strong>. Doing <strong>thirty minutes of moderate exercise each day</strong> brings great health benefits."
       }
     ]
   },
@@ -1119,24 +1119,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Financial burden and risks",
+        "text": "Financial burden",
         "pos": "top",
         "type": "noun",
-        "vi": "Gánh nặng và rủi ro tài chính"
+        "vi": "Gánh nặng tài chính"
       },
       {
         "num": 2,
-        "text": "Lack of employment benefits",
+        "text": "Lack of benefits",
         "pos": "right",
         "type": "noun",
         "vi": "Thiếu các chế độ bảo hiểm, đãi ngộ"
       },
       {
         "num": 3,
-        "text": "Increased responsibility and long hours",
+        "text": "Increased responsibility",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Trách nhiệm nặng nề & giờ làm dài"
+        "vi": "Trách nhiệm nặng nề hơn"
       },
       {
         "num": 4,
@@ -1150,17 +1150,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Do you think people should become self-employed despite these disadvantages?",
         "vi": "Có nên tự kinh doanh bất chấp bất lợi?",
-        "a": "Yes, self-employment allows people to <strong>control their own working schedule</strong> and pursue their true passions. If they work hard and stay patient, they can <strong>achieve great financial freedom</strong>."
+        "a": "Yes, self-employment gives people <strong>freedom to control their own work schedule</strong> and pursue their passions. If they work hard and stay patient, they can <strong>achieve great success</strong>."
       },
       {
         "q": "Should students choose self-employment or work for a company after graduation?",
         "vi": "Sinh viên nên tự kinh doanh hay đi làm công ty?",
-        "a": "Graduates should <strong>work for a company for a few years</strong> to gain practical experience and professional skills. After building a network, they can <strong>start their own business with lower risks</strong>."
+        "a": "Graduates should <strong>work for a company first</strong> to gain practical experience and professional skills. After a few years, they can <strong>start their own business with lower risks</strong>."
       },
       {
         "q": "What skills are most important for self-employed entrepreneurs?",
         "vi": "Kỹ năng nào quan trọng nhất cho chủ kinh doanh?",
-        "a": "The most important skills are <strong>strict self-discipline and financial management</strong>. Furthermore, having <strong>strong communication skills to attract customers</strong> is vital for long-term success."
+        "a": "The most important skills are <strong>self-discipline and good financial management</strong>. In addition, having <strong>good communication skills helps entrepreneurs attract more customers</strong>."
       }
     ]
   },
@@ -1174,24 +1174,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Pet restrictions",
+        "text": "Pet restriction",
         "pos": "top",
         "type": "noun",
-        "vi": "Quy định cấm nuôi thú cưng"
+        "vi": "Bị hạn chế nuôi thú cưng"
       },
       {
         "num": 2,
-        "text": "Limited private spaces",
+        "text": "Limited spaces",
         "pos": "right",
         "type": "noun",
-        "vi": "Không gian sinh hoạt hạn chế"
+        "vi": "Không gian hạn chế"
       },
       {
         "num": 3,
         "text": "Noise from neighbors",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Tiếng ồn từ các căn hộ lân cận"
+        "vi": "Tiếng ồn từ hàng xóm"
       },
       {
         "num": 4,
@@ -1205,17 +1205,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Why do many young families still choose apartments?",
         "vi": "Tại sao nhiều gia đình trẻ vẫn chọn chung cư?",
-        "a": "Young families choose apartments because of <strong>reasonable prices and modern building security</strong>. Besides, having <strong>elevators, playgrounds, and mini-marts right downstairs</strong> is extremely convenient."
+        "a": "Young families choose apartments because of <strong>reasonable prices and good security</strong>. In addition, having <strong>elevators, playgrounds, and mini-marts nearby</strong> is very convenient."
       },
       {
         "q": "How can apartment residents deal with noisy neighbors?",
         "vi": "Xử lý hàng xóm ồn ào thế nào?",
-        "a": "Residents should <strong>talk politely with their neighbors</strong> to ask for lower volume during late hours. If the problem continues, they can <strong>report it to the apartment management board</strong>."
+        "a": "Residents should <strong>talk politely with their neighbors</strong> to ask them to keep the noise down. If the problem continues, they can <strong>report it to the building management</strong>."
       },
       {
         "q": "Do you prefer a townhouse or a condominium?",
         "vi": "Bạn thích nhà phố hay chung cư?",
-        "a": "I prefer <strong>living in a condominium</strong> because it has 24/7 security guards and a quiet living environment. Living on higher floors also <strong>offers fresh air and avoids street dust</strong>."
+        "a": "I prefer <strong>living in an apartment</strong> because it offers good security and a peaceful living environment. Living on higher floors also <strong>provides fresh air and reduces street noise</strong>."
       }
     ]
   },
@@ -1232,7 +1232,7 @@ const ALL_TOPICS_POOL = [
         "text": "Over-reliance on AI in daily life",
         "pos": "top",
         "type": "noun",
-        "vi": "Lệ thuộc quá mức vào AI"
+        "vi": "Quá phụ thuộc vào AI trong cuộc sống"
       },
       {
         "num": 2,
@@ -1243,10 +1243,10 @@ const ALL_TOPICS_POOL = [
       },
       {
         "num": 3,
-        "text": "Risk of receiving false or biased information",
+        "text": "The risk of receiving false or biased information",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Nguy cơ tin giả và thông tin sai lệch"
+        "vi": "Nguy cơ nhận thông tin sai lệch hoặc thiên vị"
       },
       {
         "num": 4,
@@ -1260,17 +1260,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can students avoid relying too much on AI?",
         "vi": "Học sinh tránh phụ thuộc AI thế nào?",
-        "a": "Students should <strong>write their own ideas and drafts</strong> before using AI for quick reference. Moreover, teachers should <strong>ask students to give oral presentations</strong> in class."
+        "a": "Students should <strong>try to brainstorm and write drafts by themselves</strong> before checking with AI. In addition, teachers can <strong>organize more in-class speaking activities and presentations</strong>."
       },
       {
         "q": "Can AI replace human creativity in art and writing?",
         "vi": "AI có thay thế được sáng tạo nghệ thuật?",
-        "a": "No, AI cannot replace real human creativity because it lacks <strong>genuine emotions and personal life experience</strong>. True art comes from <strong>the soul and unique feelings of human beings</strong>."
+        "a": "No, AI cannot replace real human creativity because it lacks <strong>real feelings and personal life experiences</strong>. True art always comes from <strong>human emotions and imagination</strong>."
       },
       {
         "q": "What should schools do about students using ChatGPT to do homework?",
         "vi": "Trường học nên làm gì khi học sinh dùng ChatGPT?",
-        "a": "Schools should <strong>teach students how to use AI ethically</strong> as a research assistant. Additionally, teachers can <strong>assign in-class writing tests</strong> without internet access."
+        "a": "Schools should <strong>guide students on how to use AI as a helpful study tool</strong> instead of copying. In addition, teachers can <strong>assign more in-class writing tasks</strong>."
       }
     ]
   },
@@ -1287,21 +1287,21 @@ const ALL_TOPICS_POOL = [
         "text": "Get media influence",
         "pos": "top",
         "type": "verb",
-        "vi": "Chịu ảnh hưởng phim ảnh, game bạo lực"
+        "vi": "Chịu ảnh hưởng từ phim ảnh, truyền thông"
       },
       {
         "num": 2,
         "text": "Have peer pressure",
         "pos": "right",
         "type": "verb",
-        "vi": "Chịu áp lực xấu từ bạn bè"
+        "vi": "Chịu áp lực từ bạn bè"
       },
       {
         "num": 3,
         "text": "Lack of parental supervision",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Thiếu sự quan tâm uốn nắn từ cha mẹ"
+        "vi": "Thiếu sự giám sát của cha mẹ"
       },
       {
         "num": 4,
@@ -1315,7 +1315,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can schools help prevent school violence?",
         "vi": "Trường học làm gì để ngăn bạo lực học đường?",
-        "a": "Schools should <strong>teach moral lessons about mutual respect</strong> and organize anti-bullying workshops. Furthermore, <strong>installing security cameras and strict rules</strong> will stop aggressive behavior."
+        "a": "Schools should <strong>teach moral lessons about mutual respect</strong> and organize anti-bullying workshops. In addition, <strong>installing security cameras and strict rules</strong> will stop aggressive behavior."
       },
       {
         "q": "Is cyberbullying among youth becoming worse?",
@@ -1342,21 +1342,21 @@ const ALL_TOPICS_POOL = [
         "text": "Be closer to the children",
         "pos": "top",
         "type": "verb",
-        "vi": "Gần gũi nhất với con cái"
+        "vi": "Gần gũi với con cái hơn"
       },
       {
         "num": 2,
         "text": "Teach them with love and responsibility",
         "pos": "right",
         "type": "verb",
-        "vi": "Dạy dỗ bằng tình yêu và trách nhiệm"
+        "vi": "Dạy dỗ con bằng tình thương và trách nhiệm"
       },
       {
         "num": 3,
-        "text": "Understand their strengths and weaknesses",
+        "text": "Understand the strengths and weaknesses",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Hiểu rõ điểm mạnh và điểm yếu của con"
+        "vi": "Thấu hiểu điểm mạnh và điểm yếu của con"
       },
       {
         "num": 4,
@@ -1394,24 +1394,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "High parental expectations",
+        "text": "Parents’ expectation",
         "pos": "top",
         "type": "noun",
-        "vi": "Kỳ vọng quá lớn từ cha mẹ"
+        "vi": "Kỳ vọng của cha mẹ"
       },
       {
         "num": 2,
         "text": "Peer competition",
         "pos": "right",
         "type": "noun",
-        "vi": "Áp lực ganh đua điểm số từ bạn bè"
+        "vi": "Sự cạnh tranh từ bạn bè"
       },
       {
         "num": 3,
-        "text": "Heavy academic workload",
+        "text": "Heavy workload",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Khối lượng bài vở, thi cử quá tải"
+        "vi": "Khối lượng bài vở nặng nề"
       },
       {
         "num": 4,
@@ -1452,21 +1452,21 @@ const ALL_TOPICS_POOL = [
         "text": "Good communication skills",
         "pos": "top",
         "type": "noun",
-        "vi": "Kỹ năng giao tiếp và đồng cảm tốt"
+        "vi": "Kỹ năng giao tiếp tốt"
       },
       {
         "num": 2,
         "text": "Effective teamwork skills",
         "pos": "right",
         "type": "noun",
-        "vi": "Khả năng làm việc nhóm hòa hợp"
+        "vi": "Kỹ năng làm việc nhóm hiệu quả"
       },
       {
         "num": 3,
         "text": "The ability to multitask",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Khả năng quán xuyến nhiều việc"
+        "vi": "Khả năng xử lý nhiều việc cùng lúc"
       },
       {
         "num": 4,
@@ -1504,24 +1504,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Study or work burnout",
+        "text": "Study/Work burnout",
         "pos": "top",
         "type": "noun",
-        "vi": "Áp lực kiệt sức vì công việc/học hành"
+        "vi": "Kiệt sức do học tập hoặc công việc"
       },
       {
         "num": 2,
         "text": "Poor financial situation",
         "pos": "right",
         "type": "noun",
-        "vi": "Khó khăn về tài chính, nợ nần"
+        "vi": "Tình hình tài chính khó khăn"
       },
       {
         "num": 3,
-        "text": "Relationship and marital problems",
+        "text": "Relationship problems",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Mâu thuẫn trong các mối quan hệ"
+        "vi": "Vấn đề trong các mối quan hệ"
       },
       {
         "num": 4,
@@ -1559,24 +1559,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Unhealthy fast-food eating habits",
+        "text": "Unhealthy eating habits",
         "pos": "top",
         "type": "noun",
-        "vi": "Thói quen ăn thức ăn nhanh nhiều dầu mỡ"
+        "vi": "Thói quen ăn uống không lành mạnh"
       },
       {
         "num": 2,
-        "text": "Excessive mobile phone and TV use",
+        "text": "Excessive mobile phone use",
         "pos": "right",
         "type": "noun",
-        "vi": "Dùng điện thoại và xem TV quá nhiều"
+        "vi": "Sử dụng điện thoại quá nhiều"
       },
       {
         "num": 3,
-        "text": "Lack of physical exercise and outdoor play",
+        "text": "Lack of physical exercise",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Lười vận động và chơi ngoài trời"
+        "vi": "Thiếu vận động thể chất"
       },
       {
         "num": 4,
@@ -1595,12 +1595,507 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What health issues can obese children face later in life?",
         "vi": "Trẻ béo phì đối mặt nguy cơ gì sau này?",
-        "a": "Obese children face high risks of <strong>diabetes, high blood pressure, and heart diseases</strong> as adults. Furthermore, they may <strong>feel low self-esteem due to teasing</strong>."
+        "a": "Obese children face high risks of <strong>diabetes, high blood pressure, and heart diseases</strong> as adults. In addition, they may <strong>feel low self-esteem due to teasing</strong>."
       },
       {
         "q": "How can families create an active lifestyle together?",
         "vi": "Gia đình làm sao để cùng nhau vận động?",
         "a": "Parents can <strong>take their kids cycling or swimming together</strong> every weekend. In addition, <strong>cooking fresh home-cooked meals</strong> prevents children from eating junk food."
+      }
+    ]
+  },
+  {
+    "id": "w-topic-01",
+    "category": "ways",
+    "categoryName": "Nhóm Cách Thức / Phương Pháp",
+    "topicCode": "ĐỀ SỐ 01",
+    "title": "There are several ways to overcome sadness.",
+    "center": "Overcome sadness",
+    "branches": [
+      {
+        "num": 1,
+        "text": "Share with someone else",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Tâm sự với người khác"
+      },
+      {
+        "num": 2,
+        "text": "Listen to music",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Nghe nhạc"
+      },
+      {
+        "num": 3,
+        "text": "Do exercise",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Tập thể dục"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Is crying a healthy way to release negative emotions?",
+        "vi": "Khóc có phải là cách lành mạnh giải tỏa cảm xúc?",
+        "a": "Yes, crying is <strong>a natural and healthy way to release emotional pain</strong>. After crying, the body releases tension and the heart <strong>feels noticeably lighter and calmer</strong>."
+      },
+      {
+        "q": "What should you do when a friend feels deeply sad?",
+        "vi": "Nên làm gì khi bạn bè buồn bã?",
+        "a": "You should <strong>sit beside them, listen attentively</strong>, and say comforting words. In addition, <strong>taking them out for a warm meal or walk</strong> helps cheer them up."
+      },
+      {
+        "q": "Can spending time in nature improve mental health?",
+        "vi": "Hòa mình vào thiên nhiên có cải thiện tâm trạng?",
+        "a": "Yes, spending time in green parks helps <strong>lower stress hormones and refresh the mind</strong>. Breathing fresh air makes people <strong>feel peaceful and physically revitalized</strong>."
+      }
+    ]
+  },
+  {
+    "id": "w-topic-02",
+    "category": "ways",
+    "categoryName": "Nhóm Cách Thức / Phương Pháp",
+    "topicCode": "ĐỀ SỐ 02",
+    "title": "There are ways to maintain good workplace relationships.",
+    "center": "Workplace relationships",
+    "branches": [
+      {
+        "num": 1,
+        "text": "Build effective communication skills",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Xây dựng kỹ năng giao tiếp hiệu quả"
+      },
+      {
+        "num": 2,
+        "text": "Keep good co-operation",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Duy trì sự hợp tác tốt"
+      },
+      {
+        "num": 3,
+        "text": "Avoid criticism and gossip",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Tránh chỉ trích và bàn tán"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Why is office gossip harmful to a team?",
+        "vi": "Tại sao tin đồn công sở gây hại?",
+        "a": "Office gossip is very harmful because it <strong>damages trust and hurts people's reputations</strong>. It creates a <strong>toxic working atmosphere and destroys team harmony</strong>."
+      },
+      {
+        "q": "How can introverted workers build rapport with team members?",
+        "vi": "Người hướng nội kết nối với đồng nghiệp thế nào?",
+        "a": "Introverted workers can <strong>smile and have short friendly chats</strong> during lunch breaks. Moreover, <strong>offering small help on daily tasks</strong> shows kindness and builds rapport naturally."
+      },
+      {
+        "q": "Should managers socialize with employees after work?",
+        "vi": "Sếp có nên đi chơi với nhân viên sau giờ làm?",
+        "a": "Yes, occasional team dinners after work can <strong>help managers and staff understand each other better</strong>. However, managers should <strong>maintain professional boundaries</strong> during working hours."
+      }
+    ]
+  },
+  {
+    "id": "w-topic-03",
+    "category": "ways",
+    "categoryName": "Nhóm Cách Thức / Phương Pháp",
+    "topicCode": "ĐỀ SỐ 03",
+    "title": "People should do a few things to have a successful interview.",
+    "center": "A successful interview",
+    "branches": [
+      {
+        "num": 1,
+        "text": "Being punctual",
+        "pos": "top",
+        "type": "noun",
+        "vi": "Đúng giờ"
+      },
+      {
+        "num": 2,
+        "text": "Being well-dressed",
+        "pos": "right",
+        "type": "noun",
+        "vi": "Ăn mặc lịch sự, chỉn chu"
+      },
+      {
+        "num": 3,
+        "text": "Being humorous",
+        "pos": "bottom",
+        "type": "noun",
+        "vi": "Hài hước, tự nhiên"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Do you think first impressions are important in job interviews?",
+        "vi": "Bạn có nghĩ ấn tượng ban đầu quan trọng trong phỏng vấn xin việc không?",
+        "a": "Yes, I think they are important. Interviewers often form opinions about candidates in the first few minutes. Therefore, a good first impression may increase candidates’ chances of getting the job."
+      },
+      {
+        "q": "Which do you think is more important in an interview: appearance or personality?",
+        "vi": "Theo bạn điều gì quan trọng hơn trong phỏng vấn: ngoại hình hay tính cách?",
+        "a": "I think both are important, but personality is more important. A good personality helps candidates communicate well with the interviewer. It can also help them build a good relationship with other people at work."
+      },
+      {
+        "q": "What can people do if they make a bad first impression in an interview?",
+        "vi": "Mọi người có thể làm gì nếu lỡ tạo ấn tượng ban đầu không tốt trong phỏng vấn?",
+        "a": "They should stay calm and continue the interview confidently. They can give clear answers and show their skills. This may help change the interviewer's opinion."
+      }
+    ]
+  },
+  {
+    "id": "w-topic-04",
+    "category": "ways",
+    "categoryName": "Nhóm Cách Thức / Phương Pháp",
+    "topicCode": "ĐỀ SỐ 04",
+    "title": "There are some simple ways to stay healthy.",
+    "center": "Stay healthy",
+    "branches": [
+      {
+        "num": 1,
+        "text": "Do exercise",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Tập thể dục"
+      },
+      {
+        "num": 2,
+        "text": "Manage stress",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Kiểm soát căng thẳng"
+      },
+      {
+        "num": 3,
+        "text": "Eat healthy food",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Ăn uống lành mạnh"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Why is drinking enough water every day essential?",
+        "vi": "Tại sao uống đủ nước rất quan trọng?",
+        "a": "Drinking enough water is essential because it <strong>helps filter toxins and keeps the skin hydrated</strong>. It also prevents <strong>fatigue and supports healthy body digestion</strong>."
+      },
+      {
+        "q": "How many hours of sleep do adults need per night?",
+        "vi": "Người lớn cần ngủ bao nhiêu tiếng mỗi đêm?",
+        "a": "Adults usually need <strong>about seven to eight hours of sound sleep</strong> every night. Sleeping enough allows the body to <strong>recover energy and keeps the brain sharp</strong>."
+      },
+      {
+        "q": "Is mental health as important as physical health?",
+        "vi": "Sức khỏe tinh thần có quan trọng như thể chất?",
+        "a": "Yes, mental health is <strong>just as important as physical fitness</strong> for overall well-being. A peaceful and happy mind <strong>boosts the immune system and prevents illnesses</strong>."
+      }
+    ]
+  },
+  {
+    "id": "w-topic-05",
+    "category": "ways",
+    "categoryName": "Nhóm Cách Thức / Phương Pháp",
+    "topicCode": "ĐỀ SỐ 05",
+    "title": "There are effective ways to manage stress in daily life.",
+    "center": "Manage stress",
+    "branches": [
+      {
+        "num": 1,
+        "text": "Do physical exercise",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Tập luyện thể chất"
+      },
+      {
+        "num": 2,
+        "text": "Talk to someone",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Tâm sự với ai đó"
+      },
+      {
+        "num": 3,
+        "text": "Take a short break",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Nghỉ ngơi ngắn"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Does meditation help reduce anxiety?",
+        "vi": "Thiền có giúp giảm lo âu không?",
+        "a": "Yes, mindfulness meditation helps <strong>calm racing thoughts and relaxes the whole nervous system</strong>. Practicing it for ten minutes daily <strong>brings peace and emotional balance</strong>."
+      },
+      {
+        "q": "Can listening to instrumental music help people relax?",
+        "vi": "Nhạc không lời có giúp thư giãn?",
+        "a": "Listening to gentle classical music or nature sounds <strong>lowers heart rate and blood pressure</strong> effectively. It creates a <strong>soothing atmosphere that relieves daily mental fatigue</strong>."
+      },
+      {
+        "q": "Why is taking short breaks during work crucial?",
+        "vi": "Tại sao nghỉ giải lao ngắn là cần thiết?",
+        "a": "Taking short breaks allows the brain to <strong>rest and regain sharp concentration</strong> quickly. It prevents <strong>work burnout and keeps productivity high</strong> throughout the day."
+      }
+    ]
+  },
+  {
+    "id": "w-topic-06",
+    "category": "ways",
+    "categoryName": "Nhóm Cách Thức / Phương Pháp",
+    "topicCode": "ĐỀ SỐ 06",
+    "title": "There are some good ways to save money as a student.",
+    "center": "Save money",
+    "branches": [
+      {
+        "num": 1,
+        "text": "Prepare meals at home",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Tự nấu ăn tại nhà"
+      },
+      {
+        "num": 2,
+        "text": "Avoid unnecessary shopping",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Tránh mua sắm không cần thiết"
+      },
+      {
+        "num": 3,
+        "text": "Set a monthly budget",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Lập ngân sách chi tiêu hàng tháng"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Why do you think saving money is important for students?",
+        "vi": "Tại sao bạn nghĩ việc tiết kiệm tiền lại quan trọng đối với sinh viên?",
+        "a": "Saving money is important because students often have a limited budget. They can use their savings to pay for books or other necessary things. It can also help them prepare for unexpected problems."
+      },
+      {
+        "q": "Which way of saving money do you think is the most effective for students?",
+        "vi": "Cách tiết kiệm tiền nào bạn nghĩ là hiệu quả nhất đối với sinh viên?",
+        "a": "I think setting a monthly budget is the most effective way. Students can plan how much money they can spend each month. As a result, they can control their spending and save more money."
+      },
+      {
+        "q": "What difficulties do students often face when trying to save money?",
+        "vi": "Sinh viên thường gặp khó khăn gì khi cố gắng tiết kiệm tiền?",
+        "a": "Students may find it difficult to save money because they have limited income. They may also want to buy clothes or eat out with their friends. As a result, they may spend too much money and have little left to save."
+      }
+    ]
+  },
+  {
+    "id": "w-topic-07",
+    "category": "ways",
+    "categoryName": "Nhóm Cách Thức / Phương Pháp",
+    "topicCode": "ĐỀ SỐ 07",
+    "title": "There are different ways to improve the school library.",
+    "center": "Improve the school library",
+    "branches": [
+      {
+        "num": 1,
+        "text": "Add more useful books and resources",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Bổ sung thêm sách và tài liệu hữu ích"
+      },
+      {
+        "num": 2,
+        "text": "Provide digital materials and computers",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Cung cấp tài liệu số và máy tính"
+      },
+      {
+        "num": 3,
+        "text": "Create a more comfortable reading space",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Tạo không gian đọc sách thoải mái hơn"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "How can libraries attract more students to visit?",
+        "vi": "Thư viện làm gì để thu hút học sinh?",
+        "a": "Libraries should <strong>provide comfortable study seats, fast Wi-Fi</strong>, and lots of modern books. Creating a <strong>quiet reading environment with natural light</strong> also attracts students."
+      },
+      {
+        "q": "Are physical libraries still needed in the internet age?",
+        "vi": "Thời đại internet có còn cần thư viện?",
+        "a": "Yes, physical libraries are still necessary because they <strong>offer a quiet and focused atmosphere</strong> that homes lack. Being around studious peers <strong>motivates students to read more</strong>."
+      },
+      {
+        "q": "Should food and drinks be allowed in school libraries?",
+        "vi": "Có nên cho phép đồ ăn trong thư viện?",
+        "a": "No, food and sugary drinks should be banned to <strong>keep books clean and avoid spilling on computers</strong>. However, having a <strong>small coffee corner outside the reading room</strong> is a great idea."
+      }
+    ]
+  },
+  {
+    "id": "w-topic-08",
+    "category": "ways",
+    "categoryName": "Nhóm Cách Thức / Phương Pháp",
+    "topicCode": "ĐỀ SỐ 08",
+    "title": "There are different ways to learn history effectively.",
+    "center": "Learn history",
+    "branches": [
+      {
+        "num": 1,
+        "text": "Reading more history books",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Đọc thêm sách lịch sử"
+      },
+      {
+        "num": 2,
+        "text": "Listen to historical stories",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Lắng nghe các câu chuyện lịch sử"
+      },
+      {
+        "num": 3,
+        "text": "Watch historical documentaries or films",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Xem phim tài liệu hoặc phim lịch sử"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Why do some students find history boring?",
+        "vi": "Tại sao vài học sinh thấy lịch sử nhàm chán?",
+        "a": "Students find it boring when they only <strong>memorize dry numbers and long lists of dates</strong> for tests. When history is taught without stories, it <strong>loses all its excitement and meaning</strong>."
+      },
+      {
+        "q": "How can visiting museums make history more exciting?",
+        "vi": "Tham quan bảo tàng giúp học lịch sử thế nào?",
+        "a": "Museums display <strong>real ancient weapons, traditional clothing, and historical films</strong>. Seeing real objects helps students <strong>visualize historical events much better</strong> than books."
+      },
+      {
+        "q": "Why is learning history important for every citizen?",
+        "vi": "Tại sao học lịch sử quan trọng với mọi công dân?",
+        "a": "Learning history helps citizens <strong>understand national traditions and take pride in their roots</strong>. It also teaches <strong>valuable lessons from the past to build a better future</strong>."
+      }
+    ]
+  },
+  {
+    "id": "w-topic-09",
+    "category": "ways",
+    "categoryName": "Nhóm Cách Thức / Phương Pháp",
+    "topicCode": "ĐỀ SỐ 09",
+    "title": "People use different ways to keep in touch with others.",
+    "center": "Keep in touch",
+    "branches": [
+      {
+        "num": 1,
+        "text": "Make phone calls",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Gọi điện thoại"
+      },
+      {
+        "num": 2,
+        "text": "Meet in person",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Gặp mặt trực tiếp"
+      },
+      {
+        "num": 3,
+        "text": "Write letters or messages",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Viết thư hoặc gửi tin nhắn"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "How has social media changed how we stay in touch?",
+        "vi": "Mạng xã hội đã thay đổi cách giữ liên lạc thế nào?",
+        "a": "Social media allows people to <strong>send free instant messages and video call friends anytime</strong>. It makes staying in touch <strong>extremely easy, even across different countries</strong>."
+      },
+      {
+        "q": "Do you prefer calling or texting?",
+        "vi": "Bạn thích gọi điện hay nhắn tin?",
+        "a": "I prefer <strong>texting for daily casual chats</strong> because it is quiet and convenient. However, for urgent matters, <strong>making a phone call is much clearer and faster</strong>."
+      },
+      {
+        "q": "Why is face-to-face communication still the best?",
+        "vi": "Tại sao gặp mặt trực tiếp vẫn là tốt nhất?",
+        "a": "Face-to-face talk is best because you can <strong>see real facial expressions and hear vocal tones</strong>. Meeting in person builds <strong>deep emotional connection and genuine trust</strong>."
       }
     ]
   },
@@ -1614,24 +2109,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Share routines and household tasks",
+        "text": "Share some routines & household tasks",
         "pos": "top",
         "type": "verb",
-        "vi": "Chia sẻ việc nhà hàng ngày"
+        "vi": "Chia sẻ sinh hoạt & việc nhà"
       },
       {
         "num": 2,
-        "text": "Equal childcare responsibility",
+        "text": "Childcare responsibility",
         "pos": "right",
         "type": "noun",
-        "vi": "Cùng chia sẻ việc nuôi dạy con"
+        "vi": "Trách nhiệm chăm sóc con cái"
       },
       {
         "num": 3,
-        "text": "Work together as a supportive team",
+        "text": "Work as a team",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Phối hợp hỗ trợ nhau như một đội"
+        "vi": "Phối hợp như một đội"
       },
       {
         "num": 4,
@@ -1669,24 +2164,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "High creativity",
+        "text": "Creativity",
         "pos": "top",
         "type": "noun",
-        "vi": "Khả năng sáng tạo cao"
+        "vi": "Sự sáng tạo"
       },
       {
         "num": 2,
-        "text": "Strong sense of responsibility",
+        "text": "Responsibility",
         "pos": "right",
         "type": "noun",
-        "vi": "Tinh thần trách nhiệm vững vàng"
+        "vi": "Tinh thần trách nhiệm"
       },
       {
         "num": 3,
-        "text": "Possess diverse multidisciplinary skills",
+        "text": "Have many skills",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Sở hữu đa dạng kỹ năng chuyên môn"
+        "vi": "Có nhiều kỹ năng đa dạng"
       },
       {
         "num": 4,
@@ -1724,24 +2219,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Give helpful and honest advice",
+        "text": "Give helpful advice",
         "pos": "top",
         "type": "verb",
-        "vi": "Đưa ra lời khuyên chân thành"
+        "vi": "Đưa ra lời khuyên hữu ích"
       },
       {
         "num": 2,
-        "text": "Listen empathetically and keep secrets",
+        "text": "Listen and keep your secrets",
         "pos": "right",
         "type": "verb",
-        "vi": "Lắng nghe và giữ kín bí mật"
+        "vi": "Lắng nghe và giữ bí mật"
       },
       {
         "num": 3,
-        "text": "Point out mistakes constructively",
+        "text": "Point out your mistakes",
         "pos": "bottom",
         "type": "verb",
-        "vi": "Góp ý chân tình khi bạn sai"
+        "vi": "Chỉ ra lỗi sai cho bạn"
       },
       {
         "num": 4,
@@ -1779,24 +2274,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "High responsibility",
+        "text": "Responsibility",
         "pos": "top",
         "type": "noun",
-        "vi": "Trách nhiệm cao"
+        "vi": "Tinh thần trách nhiệm"
       },
       {
         "num": 2,
         "text": "Good communication skills",
         "pos": "right",
         "type": "noun",
-        "vi": "Kỹ năng giao tiếp xuất sắc"
+        "vi": "Kỹ năng giao tiếp tốt"
       },
       {
         "num": 3,
-        "text": "Be supportive and encouraging",
+        "text": "Be supportive",
         "pos": "bottom",
-        "type": "verb",
-        "vi": "Luôn hỗ trợ và khích lệ cấp dưới"
+        "type": "adj",
+        "vi": "Luôn hỗ trợ và động viên"
       },
       {
         "num": 4,
@@ -1834,24 +2329,24 @@ const ALL_TOPICS_POOL = [
     "branches": [
       {
         "num": 1,
-        "text": "Be creative in lesson delivery",
+        "text": "Be creative",
         "pos": "top",
-        "type": "verb",
-        "vi": "Sáng tạo trong phương pháp giảng dạy"
+        "type": "adj",
+        "vi": "Sáng tạo trong giảng dạy"
       },
       {
         "num": 2,
-        "text": "Be knowledgeable and up-to-date",
+        "text": "Be knowledgeable",
         "pos": "right",
-        "type": "verb",
-        "vi": "Kiến thức sâu rộng và cập nhật"
+        "type": "adj",
+        "vi": "Am hiểu kiến thức sâu rộng"
       },
       {
         "num": 3,
-        "text": "Be patient and caring with all students",
+        "text": "Be patient",
         "pos": "bottom",
-        "type": "verb",
-        "vi": "Kiên nhẫn và tận tụy với học trò"
+        "type": "adj",
+        "vi": "Kiên nhẫn với học sinh"
       },
       {
         "num": 4,
@@ -1896,17 +2391,17 @@ const ALL_TOPICS_POOL = [
       },
       {
         "num": 2,
-        "text": "Eagerness to learn new knowledge",
+        "text": "Eagerness to learn",
         "pos": "right",
         "type": "noun",
-        "vi": "Tinh thần ham học hỏi"
+        "vi": "Sự ham học hỏi"
       },
       {
         "num": 3,
-        "text": "Ability to manage study time well",
+        "text": "Ability to manage time well",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Khả năng sắp xếp thời gian hợp lý"
+        "vi": "Khả năng quản lý thời gian tốt"
       },
       {
         "num": 4,
@@ -1935,501 +2430,6 @@ const ALL_TOPICS_POOL = [
     ]
   },
   {
-    "id": "w-topic-01",
-    "category": "ways",
-    "categoryName": "Nhóm Cách Thức / Phương Pháp",
-    "topicCode": "ĐỀ SỐ 01",
-    "title": "There are several ways to overcome sadness.",
-    "center": "Overcome sadness",
-    "branches": [
-      {
-        "num": 1,
-        "text": "Share thoughts with someone close",
-        "pos": "top",
-        "type": "verb",
-        "vi": "Tâm sự với người thân/bạn bè"
-      },
-      {
-        "num": 2,
-        "text": "Listen to soothing or favorite music",
-        "pos": "right",
-        "type": "verb",
-        "vi": "Nghe nhạc thư giãn"
-      },
-      {
-        "num": 3,
-        "text": "Do physical exercise regularly",
-        "pos": "bottom",
-        "type": "verb",
-        "vi": "Tập thể dục giải phóng năng lượng"
-      },
-      {
-        "num": 4,
-        "text": "[Your own idea]",
-        "pos": "left",
-        "type": "free",
-        "vi": "Ý kiến riêng của bạn"
-      }
-    ],
-    "followups": [
-      {
-        "q": "Is crying a healthy way to release negative emotions?",
-        "vi": "Khóc có phải là cách lành mạnh giải tỏa cảm xúc?",
-        "a": "Yes, crying is <strong>a natural and healthy way to release emotional pain</strong>. After crying, the body releases tension and the heart <strong>feels noticeably lighter and calmer</strong>."
-      },
-      {
-        "q": "What should you do when a friend feels deeply sad?",
-        "vi": "Nên làm gì khi bạn bè buồn bã?",
-        "a": "You should <strong>sit beside them, listen attentively</strong>, and say comforting words. Furthermore, <strong>taking them out for a warm meal or walk</strong> helps cheer them up."
-      },
-      {
-        "q": "Can spending time in nature improve mental health?",
-        "vi": "Hòa mình vào thiên nhiên có cải thiện tâm trạng?",
-        "a": "Yes, spending time in green parks helps <strong>lower stress hormones and refresh the mind</strong>. Breathing fresh air makes people <strong>feel peaceful and physically revitalized</strong>."
-      }
-    ]
-  },
-  {
-    "id": "w-topic-02",
-    "category": "ways",
-    "categoryName": "Nhóm Cách Thức / Phương Pháp",
-    "topicCode": "ĐỀ SỐ 02",
-    "title": "There are ways to maintain good workplace relationships.",
-    "center": "Workplace relationships",
-    "branches": [
-      {
-        "num": 1,
-        "text": "Build effective communication skills",
-        "pos": "top",
-        "type": "verb",
-        "vi": "Rèn luyện giao tiếp cởi mở, chân thành"
-      },
-      {
-        "num": 2,
-        "text": "Keep good co-operation and mutual support",
-        "pos": "right",
-        "type": "verb",
-        "vi": "Hợp tác và hỗ trợ đồng nghiệp"
-      },
-      {
-        "num": 3,
-        "text": "Avoid destructive criticism and office gossip",
-        "pos": "bottom",
-        "type": "verb",
-        "vi": "Tránh bàn tán sau lưng và chỉ trích xấu"
-      },
-      {
-        "num": 4,
-        "text": "[Your own idea]",
-        "pos": "left",
-        "type": "free",
-        "vi": "Ý kiến riêng của bạn"
-      }
-    ],
-    "followups": [
-      {
-        "q": "Why is office gossip harmful to a team?",
-        "vi": "Tại sao tin đồn công sở gây hại?",
-        "a": "Office gossip is very harmful because it <strong>damages trust and hurts people's reputations</strong>. It creates a <strong>toxic working atmosphere and destroys team harmony</strong>."
-      },
-      {
-        "q": "How can introverted workers build rapport with team members?",
-        "vi": "Người hướng nội kết nối với đồng nghiệp thế nào?",
-        "a": "Introverted workers can <strong>smile and have short friendly chats</strong> during lunch breaks. Moreover, <strong>offering small help on daily tasks</strong> shows kindness and builds rapport naturally."
-      },
-      {
-        "q": "Should managers socialize with employees after work?",
-        "vi": "Sếp có nên đi chơi với nhân viên sau giờ làm?",
-        "a": "Yes, occasional team dinners after work can <strong>help managers and staff understand each other better</strong>. However, managers should <strong>maintain professional boundaries</strong> during working hours."
-      }
-    ]
-  },
-  {
-    "id": "w-topic-03",
-    "category": "ways",
-    "categoryName": "Nhóm Cách Thức / Phương Pháp",
-    "topicCode": "ĐỀ SỐ 03",
-    "title": "People should do a few things to have a successful interview.",
-    "center": "A successful interview",
-    "branches": [
-      {
-        "num": 1,
-        "text": "Being punctual",
-        "pos": "top",
-        "type": "adj",
-        "vi": "Đến đúng giờ"
-      },
-      {
-        "num": 2,
-        "text": "Being well-dressed and professional",
-        "pos": "right",
-        "type": "adj",
-        "vi": "Ăn mặc lịch sự, chỉn chu"
-      },
-      {
-        "num": 3,
-        "text": "Being humorous and confident",
-        "pos": "bottom",
-        "type": "adj",
-        "vi": "Tự tin, thân thiện, trả lời khéo léo"
-      },
-      {
-        "num": 4,
-        "text": "[Your own idea]",
-        "pos": "left",
-        "type": "free",
-        "vi": "Ý kiến riêng của bạn"
-      }
-    ],
-    "followups": [
-      {
-        "q": "What question should an applicant ask the interviewer at the end?",
-        "vi": "Ứng viên nên hỏi gì ở cuối buổi phỏng vấn?",
-        "a": "An applicant can ask about <strong>daily work duties and future training programs</strong> at the company. This smart question shows that they are <strong>truly eager to learn and contribute</strong>."
-      },
-      {
-        "q": "How can candidates calm interview nerves?",
-        "vi": "Làm sao giữ bình tĩnh trước phỏng vấn?",
-        "a": "Candidates should <strong>take deep slow breaths and practice common questions</strong> at home. Furthermore, <strong>arriving fifteen minutes early</strong> gives them time to feel calm and ready."
-      },
-      {
-        "q": "Is sending a thank-you email after the interview recommended?",
-        "vi": "Có nên gửi email cảm ơn sau phỏng vấn?",
-        "a": "Yes, sending a brief thank-you email <strong>shows professionalism and polite manners</strong>. It also reminds the employer of your <strong>strong enthusiasm for the job position</strong>."
-      }
-    ]
-  },
-  {
-    "id": "w-topic-04",
-    "category": "ways",
-    "categoryName": "Nhóm Cách Thức / Phương Pháp",
-    "topicCode": "ĐỀ SỐ 04",
-    "title": "There are some simple ways to stay healthy.",
-    "center": "Stay healthy",
-    "branches": [
-      {
-        "num": 1,
-        "text": "Do physical exercise regularly",
-        "pos": "top",
-        "type": "verb",
-        "vi": "Tập thể dục đều đặn"
-      },
-      {
-        "num": 2,
-        "text": "Manage stress effectively",
-        "pos": "right",
-        "type": "verb",
-        "vi": "Kiểm soát căng thẳng tinh thần"
-      },
-      {
-        "num": 3,
-        "text": "Eat healthy food and drink plenty of water",
-        "pos": "bottom",
-        "type": "verb",
-        "vi": "Ăn uống lành mạnh, đủ chất"
-      },
-      {
-        "num": 4,
-        "text": "[Your own idea]",
-        "pos": "left",
-        "type": "free",
-        "vi": "Ý kiến riêng của bạn"
-      }
-    ],
-    "followups": [
-      {
-        "q": "Why is drinking enough water every day essential?",
-        "vi": "Tại sao uống đủ nước rất quan trọng?",
-        "a": "Drinking enough water is essential because it <strong>helps filter toxins and keeps the skin hydrated</strong>. It also prevents <strong>fatigue and supports healthy body digestion</strong>."
-      },
-      {
-        "q": "How many hours of sleep do adults need per night?",
-        "vi": "Người lớn cần ngủ bao nhiêu tiếng mỗi đêm?",
-        "a": "Adults usually need <strong>about seven to eight hours of sound sleep</strong> every night. Sleeping enough allows the body to <strong>recover energy and keeps the brain sharp</strong>."
-      },
-      {
-        "q": "Is mental health as important as physical health?",
-        "vi": "Sức khỏe tinh thần có quan trọng như thể chất?",
-        "a": "Yes, mental health is <strong>just as important as physical fitness</strong> for overall well-being. A peaceful and happy mind <strong>boosts the immune system and prevents illnesses</strong>."
-      }
-    ]
-  },
-  {
-    "id": "w-topic-05",
-    "category": "ways",
-    "categoryName": "Nhóm Cách Thức / Phương Pháp",
-    "topicCode": "ĐỀ SỐ 05",
-    "title": "There are effective ways to manage stress in daily life.",
-    "center": "Manage stress",
-    "branches": [
-      {
-        "num": 1,
-        "text": "Do physical exercise",
-        "pos": "top",
-        "type": "verb",
-        "vi": "Tập luyện thể thao"
-      },
-      {
-        "num": 2,
-        "text": "Talk to someone you trust",
-        "pos": "right",
-        "type": "verb",
-        "vi": "Tâm sự với người tin cậy"
-      },
-      {
-        "num": 3,
-        "text": "Take a short break and relax",
-        "pos": "bottom",
-        "type": "verb",
-        "vi": "Nghỉ ngơi ngắn giữa giờ"
-      },
-      {
-        "num": 4,
-        "text": "[Your own idea]",
-        "pos": "left",
-        "type": "free",
-        "vi": "Ý kiến riêng của bạn"
-      }
-    ],
-    "followups": [
-      {
-        "q": "Does meditation help reduce anxiety?",
-        "vi": "Thiền có giúp giảm lo âu không?",
-        "a": "Yes, mindfulness meditation helps <strong>calm racing thoughts and relaxes the whole nervous system</strong>. Practicing it for ten minutes daily <strong>brings peace and emotional balance</strong>."
-      },
-      {
-        "q": "Can listening to instrumental music help people relax?",
-        "vi": "Nhạc không lời có giúp thư giãn?",
-        "a": "Listening to gentle classical music or nature sounds <strong>lowers heart rate and blood pressure</strong> effectively. It creates a <strong>soothing atmosphere that relieves daily mental fatigue</strong>."
-      },
-      {
-        "q": "Why is taking short breaks during work crucial?",
-        "vi": "Tại sao nghỉ giải lao ngắn là cần thiết?",
-        "a": "Taking short breaks allows the brain to <strong>rest and regain sharp concentration</strong> quickly. It prevents <strong>work burnout and keeps productivity high</strong> throughout the day."
-      }
-    ]
-  },
-  {
-    "id": "w-topic-06",
-    "category": "ways",
-    "categoryName": "Nhóm Cách Thức / Phương Pháp",
-    "topicCode": "ĐỀ SỐ 06",
-    "title": "There are some good ways to save money as a student.",
-    "center": "Save money",
-    "branches": [
-      {
-        "num": 1,
-        "text": "Prepare meals at home",
-        "pos": "top",
-        "type": "verb",
-        "vi": "Nấu ăn tại nhà"
-      },
-      {
-        "num": 2,
-        "text": "Avoid unnecessary shopping",
-        "pos": "right",
-        "type": "verb",
-        "vi": "Tránh mua sắm hoang phí"
-      },
-      {
-        "num": 3,
-        "text": "Set a monthly budget",
-        "pos": "bottom",
-        "type": "verb",
-        "vi": "Lập ngân sách chi tiêu hàng tháng"
-      },
-      {
-        "num": 4,
-        "text": "[Your own idea]",
-        "pos": "left",
-        "type": "free",
-        "vi": "Ý kiến riêng của bạn"
-      }
-    ],
-    "followups": [
-      {
-        "q": "Why do students struggle to save money?",
-        "vi": "Tại sao sinh viên khó tiết kiệm tiền?",
-        "a": "Students struggle to save because of <strong>frequent eating out with friends and impulsive shopping</strong>. Without tracking small daily expenses, money <strong>disappears very quickly each month</strong>."
-      },
-      {
-        "q": "Should students buy second-hand textbooks?",
-        "vi": "Sinh viên có nên mua giáo trình cũ?",
-        "a": "Yes, buying used textbooks helps students <strong>save a large amount of money each semester</strong>. Most second-hand books are <strong>still in good shape and have helpful notes</strong>."
-      },
-      {
-        "q": "How can student discounts help with monthly budgets?",
-        "vi": "Ưu đãi sinh viên giúp gì cho ngân sách?",
-        "a": "Student discounts offer <strong>cheaper bus fares, cinema tickets, and software subscriptions</strong>. Taking advantage of these deals <strong>cuts monthly living costs noticeably</strong>."
-      }
-    ]
-  },
-  {
-    "id": "w-topic-07",
-    "category": "ways",
-    "categoryName": "Nhóm Cách Thức / Phương Pháp",
-    "topicCode": "ĐỀ SỐ 07",
-    "title": "There are different ways to improve the school library.",
-    "center": "Improve the school library",
-    "branches": [
-      {
-        "num": 1,
-        "text": "Add more useful books and reference resources",
-        "pos": "top",
-        "type": "verb",
-        "vi": "Bổ sung nhiều sách và tài liệu hữu ích"
-      },
-      {
-        "num": 2,
-        "text": "Provide digital materials and modern computers",
-        "pos": "right",
-        "type": "verb",
-        "vi": "Cung cấp tài liệu số và máy tính tra cứu"
-      },
-      {
-        "num": 3,
-        "text": "Create a more comfortable, quiet reading space",
-        "pos": "bottom",
-        "type": "verb",
-        "vi": "Tạo không gian đọc yên tĩnh, thoải mái"
-      },
-      {
-        "num": 4,
-        "text": "[Your own idea]",
-        "pos": "left",
-        "type": "free",
-        "vi": "Ý kiến riêng của bạn"
-      }
-    ],
-    "followups": [
-      {
-        "q": "How can libraries attract more students to visit?",
-        "vi": "Thư viện làm gì để thu hút học sinh?",
-        "a": "Libraries should <strong>provide comfortable study seats, fast Wi-Fi</strong>, and lots of modern books. Creating a <strong>quiet reading environment with natural light</strong> also attracts students."
-      },
-      {
-        "q": "Are physical libraries still needed in the internet age?",
-        "vi": "Thời đại internet có còn cần thư viện?",
-        "a": "Yes, physical libraries are still necessary because they <strong>offer a quiet and focused atmosphere</strong> that homes lack. Being around studious peers <strong>motivates students to read more</strong>."
-      },
-      {
-        "q": "Should food and drinks be allowed in school libraries?",
-        "vi": "Có nên cho phép đồ ăn trong thư viện?",
-        "a": "No, food and sugary drinks should be banned to <strong>keep books clean and avoid spilling on computers</strong>. However, having a <strong>small coffee corner outside the reading room</strong> is a great idea."
-      }
-    ]
-  },
-  {
-    "id": "w-topic-08",
-    "category": "ways",
-    "categoryName": "Nhóm Cách Thức / Phương Pháp",
-    "topicCode": "ĐỀ SỐ 08",
-    "title": "There are different ways to learn history effectively.",
-    "center": "Learn history",
-    "branches": [
-      {
-        "num": 1,
-        "text": "Reading more history books",
-        "pos": "top",
-        "type": "verb",
-        "vi": "Đọc thêm sách lịch sử đa dạng"
-      },
-      {
-        "num": 2,
-        "text": "Listen to historical stories and podcasts",
-        "pos": "right",
-        "type": "verb",
-        "vi": "Nghe kể chuyện lịch sử & podcast"
-      },
-      {
-        "num": 3,
-        "text": "Watch historical documentaries or films",
-        "pos": "bottom",
-        "type": "verb",
-        "vi": "Xem phim tài liệu & phim lịch sử"
-      },
-      {
-        "num": 4,
-        "text": "[Your own idea]",
-        "pos": "left",
-        "type": "free",
-        "vi": "Ý kiến riêng của bạn"
-      }
-    ],
-    "followups": [
-      {
-        "q": "Why do some students find history boring?",
-        "vi": "Tại sao vài học sinh thấy lịch sử nhàm chán?",
-        "a": "Students find it boring when they only <strong>memorize dry numbers and long lists of dates</strong> for tests. When history is taught without stories, it <strong>loses all its excitement and meaning</strong>."
-      },
-      {
-        "q": "How can visiting museums make history more exciting?",
-        "vi": "Tham quan bảo tàng giúp học lịch sử thế nào?",
-        "a": "Museums display <strong>real ancient weapons, traditional clothing, and historical films</strong>. Seeing real objects helps students <strong>visualize historical events much better</strong> than books."
-      },
-      {
-        "q": "Why is learning history important for every citizen?",
-        "vi": "Tại sao học lịch sử quan trọng với mọi công dân?",
-        "a": "Learning history helps citizens <strong>understand national traditions and take pride in their roots</strong>. It also teaches <strong>valuable lessons from the past to build a better future</strong>."
-      }
-    ]
-  },
-  {
-    "id": "w-topic-09",
-    "category": "ways",
-    "categoryName": "Nhóm Cách Thức / Phương Pháp",
-    "topicCode": "ĐỀ SỐ 09",
-    "title": "People use different ways to keep in touch with others.",
-    "center": "Keep in touch",
-    "branches": [
-      {
-        "num": 1,
-        "text": "Make phone and video calls",
-        "pos": "top",
-        "type": "verb",
-        "vi": "Gọi điện thoại và gọi video"
-      },
-      {
-        "num": 2,
-        "text": "Meet in person for coffee or meals",
-        "pos": "right",
-        "type": "verb",
-        "vi": "Gặp mặt trực tiếp ăn uống, trò chuyện"
-      },
-      {
-        "num": 3,
-        "text": "Send instant messages and emails",
-        "pos": "bottom",
-        "type": "verb",
-        "vi": "Nhắn tin qua ứng dụng & mạng xã hội"
-      },
-      {
-        "num": 4,
-        "text": "[Your own idea]",
-        "pos": "left",
-        "type": "free",
-        "vi": "Ý kiến riêng của bạn"
-      }
-    ],
-    "followups": [
-      {
-        "q": "How has social media changed how we stay in touch?",
-        "vi": "Mạng xã hội đã thay đổi cách giữ liên lạc thế nào?",
-        "a": "Social media allows people to <strong>send free instant messages and video call friends anytime</strong>. It makes staying in touch <strong>extremely easy, even across different countries</strong>."
-      },
-      {
-        "q": "Do you prefer calling or texting?",
-        "vi": "Bạn thích gọi điện hay nhắn tin?",
-        "a": "I prefer <strong>texting for daily casual chats</strong> because it is quiet and convenient. However, for urgent matters, <strong>making a phone call is much clearer and faster</strong>."
-      },
-      {
-        "q": "Why is face-to-face communication still the best?",
-        "vi": "Tại sao gặp mặt trực tiếp vẫn là tốt nhất?",
-        "a": "Face-to-face talk is best because you can <strong>see real facial expressions and hear vocal tones</strong>. Meeting in person builds <strong>deep emotional connection and genuine trust</strong>."
-      }
-    ]
-  },
-  {
     "id": "f-topic-01",
     "category": "factors",
     "categoryName": "Nhóm Yếu Tố",
@@ -2453,7 +2453,7 @@ const ALL_TOPICS_POOL = [
       },
       {
         "num": 3,
-        "text": "Friendly working environment",
+        "text": "A friendly working environment",
         "pos": "bottom",
         "type": "noun",
         "vi": "Môi trường làm việc & đồng nghiệp"
@@ -2497,21 +2497,21 @@ const ALL_TOPICS_POOL = [
         "text": "Professional appearance and attire",
         "pos": "top",
         "type": "noun",
-        "vi": "Trang phục và ngoại hình chuyên nghiệp"
+        "vi": "Trang phục và diện mạo chuyên nghiệp"
       },
       {
         "num": 2,
         "text": "Punctuality",
         "pos": "right",
         "type": "noun",
-        "vi": "Sự đúng giờ"
+        "vi": "Đúng giờ"
       },
       {
         "num": 3,
         "text": "Clear and confident communication",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Giao tiếp rõ ràng, tự tin"
+        "vi": "Giao tiếp rõ ràng và tự tin"
       },
       {
         "num": 4,
@@ -2543,7 +2543,7 @@ const ALL_TOPICS_POOL = [
     "id": "f-topic-03",
     "category": "factors",
     "categoryName": "Nhóm Yếu Tố",
-    "topicCode": "BÀI MẪU",
+    "topicCode": "TOPIC 03",
     "title": "There are several factors to consider when choosing a university.",
     "center": "Choosing a university",
     "branches": [
@@ -2552,21 +2552,21 @@ const ALL_TOPICS_POOL = [
         "text": "Tuition fees",
         "pos": "top",
         "type": "noun",
-        "vi": "Học phí & chi phí đào tạo"
+        "vi": "Học phí và chi phí sinh hoạt"
       },
       {
         "num": 2,
         "text": "Academic reputation",
         "pos": "right",
         "type": "noun",
-        "vi": "Danh tiếng & chất lượng đào tạo"
+        "vi": "Danh tiếng học thuật và giảng viên"
       },
       {
         "num": 3,
         "text": "Career prospects",
         "pos": "bottom",
         "type": "noun",
-        "vi": "Cơ hội việc làm sau tốt nghiệp"
+        "vi": "Cơ hội việc làm sau khi ra trường"
       },
       {
         "num": 4,
