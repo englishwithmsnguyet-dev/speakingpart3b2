@@ -2685,7 +2685,11 @@ const CLASS_STUDENTS = {
         "Trần Thị Ánh Tuyết",
         "Đặng Nguyễn Khánh Uyên",
         "Nguyễn Thị Chúc Yến"
-]
+    ],
+    "B2": [
+        "Gia Tuệ",
+        "Gia Tuê"
+    ]
 };
 
 // Các tab được mở quyền truy cập cho lớp B212 (Mở Nhóm 1, Tổng quan và Công cụ; Khóa Nhóm 2-6)
@@ -2799,7 +2803,7 @@ function initAuth() {
             return;
         }
 
-        let formattedClass = classVal.toUpperCase().replace(/\s+/g, '');
+        let formattedClass = classVal.toUpperCase().replace(/\s+/g, '').replace(/^(LỚP|LOP|CLASS)/i, '');
         const normName = normalizeStr(nameVal);
 
         // 1. Kiểm tra tài khoản Giáo viên (tên PTMN, mã lớp GV)
@@ -2813,8 +2817,8 @@ function initAuth() {
             finalClass = formattedClass || 'GV';
             state.student.isTeacher = true;
         } else {
-            // 2. Kiểm tra học viên thuộc lớp B212
-            const allowedClasses = ['B212'];
+            // 2. Kiểm tra học viên thuộc lớp B212 hoặc B2
+            const allowedClasses = ['B212', 'B2'];
             if (!allowedClasses.includes(formattedClass)) {
                 if (errorMsg) {
                     errorMsg.textContent = 'Mã lớp không hợp lệ. Vui lòng kiểm tra lại!';
@@ -2824,8 +2828,19 @@ function initAuth() {
                 return;
             }
 
-            const roster = CLASS_STUDENTS[formattedClass];
-            const matchedStudent = roster ? roster.find(s => normalizeStr(s) === normName) : null;
+            let matchedStudent = null;
+            if (formattedClass === 'B2') {
+                const isGiaTue = normName.includes('gia tue') || 
+                                normName.includes('gia tuê') || 
+                                normName.includes('gia tuệ') ||
+                                normName.replace(/\s+/g, '').includes('giatue');
+                if (isGiaTue) {
+                    matchedStudent = nameVal.trim() || 'Gia Tuệ';
+                }
+            } else {
+                const roster = CLASS_STUDENTS[formattedClass];
+                matchedStudent = roster ? roster.find(s => normalizeStr(s) === normName) : null;
+            }
 
             if (!matchedStudent) {
                 if (errorMsg) {
