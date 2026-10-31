@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>VSTEP SPEAKING PART 03 - B2 LEVEL | MS. NGUYỆT</title>
+<title>VSTEP SPEAKING PART 03 - ENGLISH WITH MISS NGUYET</title>
 <meta content="Nền tảng luyện thi tương tác VSTEP Speaking Part 03 (Topic Development) B2 Level theo tài liệu độc quyền của Ms. Nguyệt." name="description"/>
 <!-- Google Fonts: Roboto Serif -->
 <link href="https://fonts.googleapis.com" rel="preconnect"/>
@@ -14,42 +14,77 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
 <!-- Canvas Confetti -->
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
-<link href="styles.css?v=20261022_b2_v1" rel="stylesheet"/>
+<link href="styles.css?v=20261031_brand_identity" rel="stylesheet"/>
 </head>
 <body>
 <!-- Modal Đăng Nhập / Chào Mừng -->
 <!-- Modal Đăng Nhập / Chào Mừng -->
-<div class="login-overlay" id="welcome-modal">
-<div class="login-card">
-<div class="login-icon">
-<svg fill="none" height="30" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" viewbox="0 0 24 24" width="30" xmlns="http://www.w3.org/2000/svg">
-<path d="M12 20h9"></path>
-<path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
-</svg>
-</div>
-<h2 class="login-title">CHÀO MỪNG BẠN ĐẾN VỚI LỚP<br/>HỌC CỦA MISS NGUYET</h2>
-<p class="login-subtitle">Vui lòng điền Họ tên và Lớp học của bạn để bắt đầu học. Kết quả luyện tập sẽ được ghi nhận và gửi báo cáo cho giáo viên.</p>
-<div class="login-form">
-<input autocomplete="off" id="student-name" placeholder="HỌ VÀ TÊN" required="" spellcheck="false" type="text"/>
-<input autocomplete="off" id="student-class" placeholder="LỚP HỌC" required="" spellcheck="false" type="text"/>
-<p class="login-error" id="login-error" style="display: none;"></p>
-<button class="login-btn" id="start-btn">BẮT ĐẦU HỌC NGAY</button>
-</div>
-<iframe id="hidden_iframe" name="hidden_iframe" style="display:none;"></iframe>
-<form action="https://docs.google.com/forms/d/e/1FAIpQLScpre6r5axG648nbdv1kiNUHV1JXmF2Fssv0top8w-SpnFcWw/formResponse" id="google-form" method="POST" style="display:none;" target="hidden_iframe">
+    <!-- Modal Đăng Nhập / Chào Mừng (Chuẩn Phong Cách Miss Nguyet) -->
+    <div class="login-overlay" id="welcome-modal">
+        <div class="login-card-custom">
+            <!-- Miss Nguyet Avatar Brand Ring -->
+            <div class="login-teacher-avatar-wrap">
+                <div class="login-teacher-halo">
+                    <img src="assets/images/miss_nguyet.jpg" alt="Miss Nguyet" class="login-teacher-avatar">
+                </div>
+                <span class="login-teacher-badge"><i class="fa-solid fa-certificate"></i> Lead Instructor</span>
+            </div>
+
+            <div class="login-brand-tag">
+                <i class="fa-solid fa-graduation-cap"></i> Welcome to Miss Nguyet's Class!
+            </div>
+            <div class="login-course-title">VSTEP SPEAKING PART 03 – B2 LEVEL</div>
+            <h2 class="login-title-custom">NHẬP THÔNG TIN<br/>ĐỂ BẮT ĐẦU HỌC 🚀</h2>
+
+            <div class="login-form-wrapper">
+                <div class="input-group-custom">
+                    <label for="student-name">
+                        <i class="fa-solid fa-user-pen" style="color: #6366f1;"></i> HỌ VÀ TÊN HỌC VIÊN:
+                    </label>
+                    <input autocomplete="off" id="student-name" type="text" placeholder="Nhập họ và tên học viên..." onkeydown="if(event.key==='Enter') document.getElementById('start-btn').click()" />
+                </div>
+
+                <div class="input-group-custom">
+                    <label for="student-class">
+                        <i class="fa-solid fa-chalkboard-user" style="color: #0284c7;"></i> MÃ LỚP HỌC:
+                    </label>
+                    <input autocomplete="off" id="student-class" type="text" placeholder="Nhập mã lớp học..." onkeydown="if(event.key==='Enter') document.getElementById('start-btn').click()" />
+                </div>
+
+                <p id="login-error" class="login-error-msg" style="display: none;"></p>
+
+                <button class="btn-login-custom" id="start-btn">
+                    <span>BẮT ĐẦU HỌC</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+                <div class="login-footer-signature">
+                    <a href="https://www.facebook.com/nguyetpham28" target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-facebook"></i>
+                        <span>ENGLISH WITH MISS NGUYET</span>
+                    </a>
+                </div>
+            </div>
+            <iframe id="hidden_iframe" name="hidden_iframe" style="display:none;"></iframe>
+            <form action="https://docs.google.com/forms/d/e/1FAIpQLScpre6r5axG648nbdv1kiNUHV1JXmF2Fssv0top8w-SpnFcWw/formResponse" id="google-form" method="POST" style="display:none;" target="hidden_iframe">
 <input id="entry_388968236" name="entry.388968236" type="hidden"/>
 </form>
-</div>
-</div>
+        </div>
+    </div>
 <div class="app-container">
 <!-- Sidebar Navigation -->
 <aside class="sidebar" id="sidebar">
 <div class="sidebar-header">
-<div class="brand">
-<div class="brand-badge"><i class="fa-solid fa-sitemap"></i></div>
-<div>
-<div class="brand-title">VSTEP SPEAKING</div>
-<div class="brand-subtitle">PART 03 - B2 LEVEL</div>
+<a href="https://www.facebook.com/nguyetpham28" target="_blank" class="brand" title="Ghé thăm Facebook: English with Miss Nguyet">
+<div class="brand-avatar-box">
+<img src="assets/images/brand-circle.png" alt="English with Miss Nguyet" class="brand-avatar-img">
+<span class="brand-verified-dot" title="Giáo viên xác thực"><i class="fa-solid fa-check"></i></span>
+</div>
+<div class="brand-info-group">
+<div class="brand-author-name">MISS NGUYET</div>
+<div class="brand-course-badge">SPEAKING PART 03 - B2</div>
+</div>
+</a>
 </div>
 </div>
 </div>
@@ -120,7 +155,14 @@
 </li>
 </ul>
 <div class="sidebar-footer">
-                Tài liệu giảng dạy của <strong>Ms. Nguyệt</strong>
+<a href="https://www.facebook.com/nguyetpham28" target="_blank" class="sidebar-footer-brand" title="Ghé thăm Facebook: English with Miss Nguyet">
+<img src="assets/images/brand-circle.png" alt="Ms. Nguyet" class="sidebar-footer-avatar">
+<div class="sidebar-footer-text">
+<span class="sf-title">Giảng dạy &amp; Thiết kế</span>
+<strong class="sf-name">English with Miss Nguyet</strong>
+</div>
+<i class="fa-solid fa-arrow-up-right-from-square sf-arrow"></i>
+</a>
 </div>
 </aside>
 <!-- Backdrop for Mobile Sidebar -->
@@ -130,9 +172,9 @@
 <header class="top-bar">
 <button aria-label="Toggle Menu" class="mobile-toggle" id="mobile-toggle"><i class="fa-solid fa-bars"></i></button>
 <div class="current-title" id="top-title">TỔNG QUAN PHẦN THI</div>
-<a class="brand-link-header" href="https://www.facebook.com/nguyetpham28" rel="noopener noreferrer" target="_blank">
-<i class="fa-solid fa-heart" style="color: #ef4444; margin-right: 0.35rem;"></i>
-<span>Tài liệu tự học của Ms. Nguyệt</span>
+<a href="https://www.facebook.com/nguyetpham28" target="_blank" class="topbar-brand-link" title="English with Miss Nguyet - Ghé thăm Facebook">
+<img src="assets/images/brand-circle.png" alt="Miss Nguyet" class="topbar-brand-avatar">
+<span class="galaxy-text">ENGLISH WITH MISS NGUYET</span>
 </a>
 <div class="top-actions">
 <div class="voice-picker-wrap" title="Chọn giọng đọc tự nhiên">
@@ -157,6 +199,33 @@
                      TAB 1: TỔNG QUAN (OVERVIEW) & DÀN Ý CHUNG
                 ========================================================== -->
 <section class="tab-pane active" id="overview">
+                    <!-- Teacher Brand Showcase -->
+                    <div class="teacher-brand-card fade-in">
+                        <div class="teacher-brand-main">
+                            <div class="teacher-avatar-frame">
+                                <img src="assets/images/brand-circle.png" alt="Miss Nguyet" class="teacher-brand-photo">
+                                <span class="teacher-verified-pill"><i class="fa-solid fa-circle-check"></i> Giảng viên chính</span>
+                            </div>
+                            <div class="teacher-brand-content">
+                                <div class="teacher-tagline">
+                                    <span class="teacher-badge"><i class="fa-solid fa-award"></i> VSTEP B2 SPECIALIST</span>
+                                    <span class="teacher-badge fb-badge"><i class="fa-brands fa-facebook"></i> @nguyetpham28</span>
+                                </div>
+                                <h2 class="teacher-brand-heading">ENGLISH WITH MISS NGUYET</h2>
+                                <p class="teacher-brand-intro">
+                                    Chào mừng bạn đến với chương trình tương tác luyện thi <strong>VSTEP Speaking Part 03 (Topic Development) – B2 Level</strong>. Hệ thống được biên soạn độc quyền theo tài liệu chuẩn của <strong>Miss Nguyet</strong>, hỗ trợ phương pháp phát triển ý tưởng đa chiều, bộ câu hỏi Follow-up chuyên sâu và đồng hồ đếm giờ phòng thi thực chiến!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="teacher-brand-btn-row">
+                            <a href="https://www.facebook.com/nguyetpham28" target="_blank" class="btn-teacher-connect">
+                                <i class="fa-brands fa-facebook"></i> Kết nối với Miss Nguyet
+                            </a>
+                            <button type="button" class="btn-teacher-explore" onclick="switchTab('group-benefits')">
+                                <i class="fa-solid fa-comments"></i> Khám Phá Bài Giảng
+                            </button>
+                        </div>
+                    </div>
 <div class="hero-vibrant-card">
 <span class="hero-badge-pill"><i class="fa-solid fa-star"></i> VSTEP SPEAKING PART 03 • B2 LEVEL</span>
 <h1>VSTEP SPEAKING PART 03: TOPIC DEVELOPMENT - B2 LEVEL</h1>
