@@ -2698,7 +2698,7 @@ const CLASS_STUDENTS = {
 };
 
 // Các tab được mở quyền truy cập cho học viên (Mở Nhóm 1, Tổng quan và Công cụ; Khóa Nhóm 2-6)
-const UNLOCKED_TABS_B212 = ['overview', 'group-benefits', 'tool-simulator', 'tool-flashcards'];
+const UNLOCKED_TABS_B212 = ['flower-garden', 'overview', 'group-benefits', 'tool-simulator', 'tool-flashcards'];
 
 // Chuẩn hóa chuỗi so sánh họ tên
 function normalizeStr(str) {
@@ -3042,6 +3042,9 @@ function initNavigation() {
         const targetPane = document.getElementById(targetId);
         if (targetPane) {
             targetPane.classList.add('active');
+            if (targetId === 'flower-garden' && window.FlowerGarden) {
+                window.FlowerGarden.render();
+            }
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 

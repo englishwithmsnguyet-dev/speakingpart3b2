@@ -16,7 +16,7 @@
 <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
 <link href="styles.css?v=20261105_modal_fix" rel="stylesheet"/>
     <!-- Chậu Cỏ 4 Lá May Mắn & Tích Luỹ Nước Nỗ Lực Styles -->
-    <link rel="stylesheet" href="flower_garden.css?v=20261105_v13">
+    <link rel="stylesheet" href="flower_garden.css?v=20261105_v14">
 </head>
 <body>
     <!-- Modal Đăng Nhập / Chào Mừng -->
@@ -95,6 +95,12 @@
 </div>
 <div class="menu-label">MỤC LỤC BÀI GIẢNG</div>
 <ul class="nav-list">
+<li class="nav-item garden-nav-item" id="sidebar-nav-garden" data-target="flower-garden">
+<a href="#flower-garden">
+<i class="fa-solid fa-seedling" style="color: #10b981;"></i>
+<span>CHĂM HOA CHĂM HỌC</span>
+</a>
+</li>
 <li class="nav-item active" data-target="overview">
 <a href="#overview">
 <i class="fa-solid fa-compass" style="color: #4f46e5;"></i>
@@ -193,6 +199,13 @@
 </div>
 </header>
 <div class="content-area">
+<!-- =========================================================
+                     TAB: CHĂM HOA CHĂM HỌC
+                ========================================================== -->
+<section class="tab-pane hidden fade-in garden-dedicated-view" id="flower-garden">
+    <div id="garden-container"></div>
+</section>
+
 <!-- =========================================================
                      TAB 1: TỔNG QUAN (OVERVIEW) & DÀN Ý CHUNG
                 ========================================================== -->
@@ -11101,9 +11114,9 @@ Có một số lợi ích của những nhà lãnh đạo lớn tuổi đối v�
 </main>
 </div>
 <!-- Main Javascript -->
-<script src="script.js?v=20261105_modal_fix"></script>
+<script src="script.js?v=20261105_v14"></script>
     <!-- Hệ thống Chậu Cỏ 4 Lá May Mắn & Tích Luỹ Nước Nỗ Lực -->
-    <script src="flower_definitions.js?v=20261105_v13"></script>
-    <script src="flower_garden.js?v=20261105_v13"></script>
+    <script src="flower_definitions.js?v=20261105_v14"></script>
+    <script src="flower_garden.js?v=20261105_v14"></script>
 </body>
 </html>
