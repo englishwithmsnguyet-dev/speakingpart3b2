@@ -985,17 +985,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can consumers protect themselves when shopping online?",
         "vi": "Làm thế nào người mua tự bảo vệ mình?",
-        "a": "Consumers should <strong>buy products from official and trusted stores</strong> on reputable websites. In addition, they should always <strong>read reviews and customer ratings carefully</strong> before buying."
+        "a": "Consumers should <strong>purchase goods from reputable platforms with verified merchant badges</strong>. Furthermore, carefully <strong>checking buyer feedback</strong> and <strong>reviewing warranty policies</strong> helps guarantee financial safety."
       },
       {
         "q": "Will online stores completely replace traditional shopping malls?",
         "vi": "Cửa hàng online có thay thế hoàn toàn trung tâm thương mại?",
-        "a": "No, traditional malls will not disappear because people love <strong>trying on clothes in person and hanging out</strong> with friends. Real shopping gives an <strong>enjoyable experience</strong> that online shopping cannot replace."
+        "a": "I do not think online stores will eliminate shopping malls because <strong>physical shopping remains a popular recreational activity</strong>. Malls provide lively spaces where people can <strong>socialize with friends</strong> and <strong>experience entertainment facilities directly</strong>."
       },
       {
         "q": "What should you do if an online order arrives damaged?",
         "vi": "Nên làm gì khi hàng online bị hư hỏng?",
-        "a": "You should <strong>take photos of the damaged package</strong> and notify the seller immediately. After that, you can <strong>ask for a replacement or a full refund</strong>."
+        "a": "Customers should <strong>capture clear photographic evidence of the damaged package immediately</strong>. Then, contacting customer support to <strong>request an official replacement</strong> or <strong>a full refund protects buyer interests</strong>."
       }
     ]
   },
@@ -1040,17 +1040,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can governments encourage more people to ride buses and metros?",
         "vi": "Chính phủ khuyến khích đi xe bus thế nào?",
-        "a": "Governments should <strong>offer cheaper tickets</strong> and keep buses clean and comfortable. In addition, <strong>adding more bus routes</strong> will help passengers save time."
+        "a": "Authorities can <strong>provide affordable student fares and multi-trip discounts</strong> to incentivize commuters. Additionally, <strong>expanding modern bus transit lanes</strong> will ensure vehicles run on time."
       },
       {
         "q": "Is public transport eco-friendly?",
         "vi": "Phương tiện công cộng có thân thiện môi trường không?",
-        "a": "Yes, public transport is <strong>much more eco-friendly than private vehicles</strong> because buses can carry many people at once. This helps <strong>reduce traffic jams and air pollution</strong> significantly."
+        "a": "Yes, modern public transit is <strong>far more environmentally sustainable than private automobiles</strong>. Transporting dozens of passengers together significantly <strong>lowers urban carbon emissions</strong> and <strong>alleviates traffic congestion</strong>."
       },
       {
         "q": "Do you prefer traveling by motorbike or by bus?",
         "vi": "Bạn thích đi xe máy hay xe buýt?",
-        "a": "I prefer <strong>traveling by bus on rainy days</strong> because it is much safer and drier. However, on sunny days, <strong>riding a motorbike is quicker</strong> in narrow streets."
+        "a": "I prefer <strong>taking the bus during heavy rainstorms</strong> because it offers dry shelter and enhanced safety. However, for short daily errands, <strong>navigating a motorbike provides greater flexibility</strong> through narrow city alleys."
       }
     ]
   },
@@ -1095,17 +1095,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can people prevent sports injuries?",
         "vi": "Làm thế nào phòng tránh chấn thương thể thao?",
-        "a": "People should <strong>warm up carefully for ten minutes</strong> before doing exercise. In addition, <strong>wearing suitable sports shoes</strong> helps protect their feet and prevent injuries."
+        "a": "Athletes should <strong>perform comprehensive dynamic warm-ups</strong> before initiating heavy training sessions. Additionally, <strong>using proper protective gear</strong> and <strong>maintaining correct technique</strong> prevents severe physical damage."
       },
       {
         "q": "Is going to an expensive gym necessary to stay fit?",
         "vi": "Có cần đến phòng gym đắt tiền không?",
-        "a": "No, going to an expensive gym is not necessary because people can <strong>jog in the park or exercise at home</strong>. Doing simple exercises every day is <strong>enough to stay healthy</strong>."
+        "a": "No, subscribing to luxury fitness centers is unnecessary because people can <strong>jog in neighborhood parks</strong> or <strong>perform bodyweight calisthenics at home</strong>. Maintaining consistency is <strong>far more decisive than expensive amenities</strong>."
       },
       {
         "q": "How many hours of exercise per week is enough for adults?",
         "vi": "Người lớn nên tập bao nhiêu giờ mỗi tuần?",
-        "a": "Adults should exercise for <strong>about three to five hours each week</strong>. Doing <strong>thirty minutes of moderate exercise each day</strong> brings great health benefits."
+        "a": "Health experts recommend adults participate in <strong>approximately 150 minutes of moderate aerobic activity weekly</strong>. Dividing this into <strong>thirty-minute daily sessions</strong> provides sustainable cardiovascular wellness."
       }
     ]
   },
@@ -1150,17 +1150,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Do you think people should become self-employed despite these disadvantages?",
         "vi": "Có nên tự kinh doanh bất chấp bất lợi?",
-        "a": "Yes, self-employment gives people <strong>freedom to control their own work schedule</strong> and pursue their passions. If they work hard and stay patient, they can <strong>achieve great success</strong>."
+        "a": "Yes, pursuing self-employment grants professionals <strong>greater autonomy over their strategic vision and working hours</strong>. If entrepreneurs demonstrate resilience, they can <strong>reap substantial financial and creative rewards</strong>."
       },
       {
         "q": "Should students choose self-employment or work for a company after graduation?",
         "vi": "Sinh viên nên tự kinh doanh hay đi làm công ty?",
-        "a": "Graduates should <strong>work for a company first</strong> to gain practical experience and professional skills. After a few years, they can <strong>start their own business with lower risks</strong>."
+        "a": "New graduates should ideally <strong>work within established organizations first</strong> to gain industry insights and build networks. After cultivating competence, they can <strong>launch independent ventures with significantly reduced failure risks</strong>."
       },
       {
         "q": "What skills are most important for self-employed entrepreneurs?",
         "vi": "Kỹ năng nào quan trọng nhất cho chủ kinh doanh?",
-        "a": "The most important skills are <strong>self-discipline and good financial management</strong>. In addition, having <strong>good communication skills helps entrepreneurs attract more customers</strong>."
+        "a": "Entrepreneurs primarily require <strong>unwavering self-discipline and astute cash-flow management skills</strong>. Moreover, <strong>effective interpersonal negotiation abilities</strong> enable founders to secure long-term client contracts."
       }
     ]
   },
@@ -1205,17 +1205,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Why do many young families still choose apartments?",
         "vi": "Tại sao nhiều gia đình trẻ vẫn chọn chung cư?",
-        "a": "Young families choose apartments because of <strong>reasonable prices and good security</strong>. In addition, having <strong>elevators, playgrounds, and mini-marts nearby</strong> is very convenient."
+        "a": "Young couples prefer condominiums because of <strong>affordable entry pricing and round-the-clock professional security</strong>. Furthermore, having <strong>integrated amenities like swimming pools and kindergartens</strong> provides immense daily convenience."
       },
       {
         "q": "How can apartment residents deal with noisy neighbors?",
         "vi": "Xử lý hàng xóm ồn ào thế nào?",
-        "a": "Residents should <strong>talk politely with their neighbors</strong> to ask them to keep the noise down. If the problem continues, they can <strong>report it to the building management</strong>."
+        "a": "Residents should first <strong>initiate a calm, respectful conversation</strong> to highlight the disturbance constructively. If unresolved, reporting the issue to <strong>building management ensures impartial enforcement of quiet hours</strong>."
       },
       {
         "q": "Do you prefer a townhouse or a condominium?",
         "vi": "Bạn thích nhà phố hay chung cư?",
-        "a": "I prefer <strong>living in an apartment</strong> because it offers good security and a peaceful living environment. Living on higher floors also <strong>provides fresh air and reduces street noise</strong>."
+        "a": "I prefer <strong>residing in a modern high-rise condominium</strong> because upper floors enjoy refreshing breezes and unobstructed city vistas. Additionally, gated access provides <strong>exceptional safety for young children</strong>."
       }
     ]
   },
@@ -1260,17 +1260,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can students avoid relying too much on AI?",
         "vi": "Học sinh tránh phụ thuộc AI thế nào?",
-        "a": "Students should <strong>try to brainstorm and write drafts by themselves</strong> before checking with AI. In addition, teachers can <strong>organize more in-class speaking activities and presentations</strong>."
+        "a": "Students should <strong>produce preliminary outlines and drafts through their own brainpower</strong> before consulting digital assistants. Additionally, educators should <strong>assign interactive in-class oral defenses</strong> to assess authentic mastery."
       },
       {
         "q": "Can AI replace human creativity in art and writing?",
         "vi": "AI có thay thế được sáng tạo nghệ thuật?",
-        "a": "No, AI cannot replace real human creativity because it lacks <strong>real feelings and personal life experiences</strong>. True art always comes from <strong>human emotions and imagination</strong>."
+        "a": "No, computational programs cannot replace genuine human creativity because they lack <strong>lived emotional experiences and moral intuition</strong>. Authentic artistic expression fundamentally <strong>springs from profound human empathy and cultural identity</strong>."
       },
       {
         "q": "What should schools do about students using ChatGPT to do homework?",
         "vi": "Trường học nên làm gì khi học sinh dùng ChatGPT?",
-        "a": "Schools should <strong>guide students on how to use AI as a helpful study tool</strong> instead of copying. In addition, teachers can <strong>assign more in-class writing tasks</strong>."
+        "a": "Educational institutions should <strong>instruct pupils on utilizing generative models as ethical study companions</strong> rather than cheating shortcuts. Furthermore, integrating <strong>critical verification tasks into assignments</strong> teaches students to detect factual fallacies."
       }
     ]
   },
@@ -1315,17 +1315,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can schools help prevent school violence?",
         "vi": "Trường học làm gì để ngăn bạo lực học đường?",
-        "a": "Schools should <strong>teach moral lessons about mutual respect</strong> and organize anti-bullying workshops. In addition, <strong>installing security cameras and strict rules</strong> will stop aggressive behavior."
+        "a": "Schools should <strong>establish confidential student counseling offices</strong> to resolve peer conflicts early. Furthermore, implementing <strong>mandatory life skills and empathy education</strong> teaches pupils peaceful dispute resolution."
       },
       {
         "q": "Is cyberbullying among youth becoming worse?",
         "vi": "Bạo lực mạng ở giới trẻ có đang tồi tệ hơn?",
-        "a": "Yes, cyberbullying is becoming more serious because people can <strong>hide their identity behind computer screens</strong>. Hurtful comments on social media can <strong>cause deep depression among teenagers</strong>."
+        "a": "Rather than an outright prohibition, authorities should <strong>strictly enforce digital age ratings</strong> and <strong>require biometric parent verification</strong>. Meanwhile, parents need to <strong>set strict recreational screen limits</strong>."
       },
       {
         "q": "What role do parents play in guiding aggressive teenagers?",
         "vi": "Vai trò của cha mẹ khi con cái bướng bỉnh?",
-        "a": "Parents should <strong>spend time talking with their children daily</strong> and listen to their personal struggles. Providing <strong>warm emotional support at home</strong> prevents kids from becoming aggressive."
+        "a": "Local police should <strong>conduct regular patrols around school gates during dismissal hours</strong>. Moreover, hosting <strong>interactive legal awareness workshops</strong> helps students understand the grave consequences of criminal records."
       }
     ]
   },
@@ -1370,17 +1370,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What values should parents teach children first?",
         "vi": "Cha mẹ nên dạy con giá trị nào đầu tiên?",
-        "a": "Parents should teach children <strong>honesty, politeness, and respect for elders</strong> first. These basic moral values form <strong>the solid foundation of good character</strong>."
+        "a": "No, schools primarily convey <strong>academic curriculum and technical knowledge</strong>, whereas parents cultivate emotional resilience and moral principles. A child's lifelong integrity is <strong>predominantly molded within the home environment</strong>."
       },
       {
         "q": "Can parents sometimes teach their children bad habits?",
         "vi": "Cha mẹ có thể vô tình dạy con thói quen xấu?",
-        "a": "Yes, if parents smoke, argue loudly, or spend too much time on phones, children will <strong>copy these negative habits easily</strong>. Therefore, parents must <strong>set a good personal example</strong>."
+        "a": "Parents should prioritize teaching <strong>polite manners, empathy, and personal responsibility</strong>. Children who possess strong ethical foundations <strong>adapt far better to school environments and community life</strong>."
       },
       {
         "q": "Who has a stronger influence on teenagers: parents or teachers?",
         "vi": "Cha mẹ hay thầy cô có ảnh hưởng lớn hơn?",
-        "a": "I think parents have a stronger influence because they <strong>live with teenagers and love them unconditionally</strong>. However, school teachers also play a big role in <strong>shaping career knowledge</strong>."
+        "a": "Parents should maintain <strong>undistracted family dinner conversations</strong> and <strong>spend meaningful weekend time outdoors</strong> with their children. Consistent active listening is <strong>far more valuable than expensive consumer presents</strong>."
       }
     ]
   },
@@ -1425,17 +1425,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can schools reduce exam stress for pupils?",
         "vi": "Làm sao giảm áp lực thi cử cho học sinh?",
-        "a": "Schools can <strong>reduce the amount of daily homework</strong> and replace heavy tests with practical group projects. This approach helps students <strong>learn with enjoyment instead of fear</strong>."
+        "a": "Students should <strong>break study materials into manageable daily goals</strong> rather than cramming overnight. In addition, <strong>taking short walking breaks</strong> and <strong>practicing mindful breathing</strong> prevents mental overload."
       },
       {
         "q": "What should parents do when their child gets low grades?",
         "vi": "Cha mẹ nên làm gì khi con bị điểm kém?",
-        "a": "Parents should <strong>encourage their children and help them review mistakes</strong> calmly instead of shouting. Showing patience makes the child <strong>feel confident to try harder next time</strong>."
+        "a": "Yes, modern educational institutions should <strong>replace repetitive mechanical worksheets with interactive project-based learning</strong>. Quality comprehension is <strong>far more productive than excessive homework volume</strong>."
       },
       {
         "q": "Can physical sports relieve study stress?",
         "vi": "Thể thao có giúp giảm căng thẳng học tập?",
-        "a": "Yes, playing sports helps students <strong>release pent-up stress and clear their minds</strong>. Physical exercise stimulates endorphins, making students <strong>feel happier and sleep much better</strong>."
+        "a": "Parents should <strong>offer continuous encouragement rather than criticizing lower test scores</strong>. Providing a calm household environment and <strong>listening empathetically to academic worries</strong> restores emotional well-being."
       }
     ]
   },
@@ -1480,17 +1480,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Do men and women lead differently?",
         "vi": "Nam và nữ lãnh đạo có khác nhau?",
-        "a": "Yes, women leaders often show <strong>greater empathy, active listening, and teamwork spirit</strong>. In contrast, men are sometimes <strong>more direct and decisive in taking risks</strong>."
+        "a": "Women still encounter <strong>subconscious gender biases and unequal expectations regarding household duties</strong>. Overcoming these barriers requires <strong>extraordinary resilience and progressive corporate policies</strong>."
       },
       {
         "q": "What is the biggest barrier for women aiming for executive roles?",
         "vi": "Rào cản lớn nhất của phụ nữ khi lên lãnh đạo?",
-        "a": "The biggest barrier is <strong>balancing heavy household chores with demanding corporate duties</strong>. Traditional gender stereotypes also <strong>prevent women from getting senior promotions</strong>."
+        "a": "In general, female executives tend to <strong>demonstrate higher emotional sensitivity and active listening</strong>. This empathetic approach fosters <strong>a supportive corporate climate that reduces employee turnover</strong>."
       },
       {
         "q": "How can companies foster gender equality?",
         "vi": "Doanh nghiệp thúc đẩy bình đẳng giới thế nào?",
-        "a": "Companies should <strong>provide equal pay and equal promotion chances</strong> for both men and women. In addition, <strong>flexible maternity leave policies</strong> help working mothers stay employed."
+        "a": "Companies should <strong>establish formal leadership mentoring programs for talented female professionals</strong>. Additionally, <strong>offering flexible scheduling and equal compensation packages</strong> ensures genuine workplace equality."
       }
     ]
   },
@@ -1535,17 +1535,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What are early symptoms of chronic stress?",
         "vi": "Dấu hiệu sớm của stress mãn tính?",
-        "a": "Early symptoms include <strong>chronic headaches, sudden anger, and insomnia</strong> at night. When stressed, people also <strong>lose their appetite and feel exhausted</strong> all day."
+        "a": "Yes, constantly viewing curated highlight reels of others often <strong>triggers unhealthy social comparisons and fear of missing out</strong>. Furthermore, toxic digital debates <strong>magnify anxiety levels among frequent users</strong>."
       },
       {
         "q": "Can talking to a friend relieve stress?",
         "vi": "Tâm sự với bạn bè có giảm stress?",
-        "a": "Yes, talking with a close friend helps people <strong>release pent-up emotions and feel understood</strong>. Good friends can also <strong>give helpful advice to solve daily worries</strong>."
+        "a": "Engaging in <strong>aerobic workouts like jogging or brisk swimming</strong> rapidly triggers endorphin production. Alternatively, <strong>listening to calming music</strong> allows the mind to decompress naturally."
       },
       {
         "q": "When should someone seek professional therapy?",
         "vi": "Khi nào nên gặp chuyên gia tâm lý?",
-        "a": "Someone should seek professional therapy when stress <strong>causes prolonged depression and stops normal daily work</strong>. Talking with a therapist provides <strong>safe treatments and scientific guidance</strong>."
+        "a": "Moderate stress can be constructive because it <strong>enhances alertness and motivates individuals to tackle critical deadlines</strong>. However, chronic distress without adequate recovery <strong>severely compromises long-term physiological health</strong>."
       }
     ]
   },
@@ -1590,17 +1590,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Should schools ban soft drinks and candy in canteens?",
         "vi": "Trường học có nên cấm nước ngọt ở căn tin?",
-        "a": "Yes, school canteens should <strong>ban sugary soft drinks and deep-fried snacks</strong> completely. Instead, they should <strong>provide fresh fruits, clean milk, and vegetables</strong>."
+        "a": "Parents should <strong>prepare colorful home-cooked meals featuring fresh vegetables and whole grains</strong>. Additionally, <strong>limiting the availability of processed snacks in the household</strong> naturally guides child preferences."
       },
       {
         "q": "What health issues can obese children face later in life?",
         "vi": "Trẻ béo phì đối mặt nguy cơ gì sau này?",
-        "a": "Obese children face high risks of <strong>diabetes, high blood pressure, and heart diseases</strong> as adults. In addition, they may <strong>feel low self-esteem due to teasing</strong>."
+        "a": "Governments should certainly <strong>prohibit aggressive commercial marketing of sugary goods during youth television programming</strong>. Protecting impressionable minors <strong>prevents early-stage obesity and diabetes epidemics</strong>."
       },
       {
         "q": "How can families create an active lifestyle together?",
         "vi": "Gia đình làm sao để cùng nhau vận động?",
-        "a": "Parents can <strong>take their kids cycling or swimming together</strong> every weekend. In addition, <strong>cooking fresh home-cooked meals</strong> prevents children from eating junk food."
+        "a": "Schools should <strong>extend daily physical education periods with engaging ball games and obstacle courses</strong>. Making active movement fun ensures <strong>lifelong fitness habits among growing pupils</strong>."
       }
     ]
   },
@@ -1645,17 +1645,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Is crying a healthy way to release negative emotions?",
         "vi": "Khóc có phải là cách lành mạnh giải tỏa cảm xúc?",
-        "a": "Yes, crying is <strong>a natural and healthy way to release emotional pain</strong>. After crying, the body releases tension and the heart <strong>feels noticeably lighter and calmer</strong>."
+        "a": "Friends should <strong>practice compassionate listening without passing premature judgments</strong>. Simply being present provides <strong>immense emotional comfort to grieving individuals</strong>."
       },
       {
         "q": "What should you do when a friend feels deeply sad?",
         "vi": "Nên làm gì khi bạn bè buồn bã?",
-        "a": "You should <strong>sit beside them, listen attentively</strong>, and say comforting words. In addition, <strong>taking them out for a warm meal or walk</strong> helps cheer them up."
+        "a": "Writing personal journal entries enables people to <strong>process complex sorrowful emotions constructively</strong>. Externalizing thoughts on paper helps <strong>clarify cognitive perspectives over time</strong>."
       },
       {
         "q": "Can spending time in nature improve mental health?",
         "vi": "Hòa mình vào thiên nhiên có cải thiện tâm trạng?",
-        "a": "Yes, spending time in green parks helps <strong>lower stress hormones and refresh the mind</strong>. Breathing fresh air makes people <strong>feel peaceful and physically revitalized</strong>."
+        "a": "Individuals should consider therapy when prolonged despair <strong>impairs basic daily functioning and sleep patterns</strong> for weeks."
       }
     ]
   },
@@ -1700,17 +1700,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Why is office gossip harmful to a team?",
         "vi": "Tại sao tin đồn công sở gây hại?",
-        "a": "Office gossip is very harmful because it <strong>damages trust and hurts people's reputations</strong>. It creates a <strong>toxic working atmosphere and destroys team harmony</strong>."
+        "a": "Corporations can <strong>sponsor periodic outdoor team-building retreats</strong> and <strong>interactive cross-departmental workshops</strong>."
       },
       {
         "q": "How can introverted workers build rapport with team members?",
         "vi": "Người hướng nội kết nối với đồng nghiệp thế nào?",
-        "a": "Introverted workers can <strong>smile and have short friendly chats</strong> during lunch breaks. Moreover, <strong>offering small help on daily tasks</strong> shows kindness and builds rapport naturally."
+        "a": "Employees should <strong>request a confidential private meeting</strong> to address the grievance factually without personal accusations."
       },
       {
         "q": "Should managers socialize with employees after work?",
         "vi": "Sếp có nên đi chơi với nhân viên sau giờ làm?",
-        "a": "Yes, occasional team dinners after work can <strong>help managers and staff understand each other better</strong>. However, managers should <strong>maintain professional boundaries</strong> during working hours."
+        "a": "Yes, socializing over casual lunches helps staff <strong>form authentic emotional connections</strong> beyond formal task assignments."
       }
     ]
   },
@@ -1755,17 +1755,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Do you think first impressions are important in job interviews?",
         "vi": "Bạn có nghĩ ấn tượng ban đầu quan trọng trong phỏng vấn xin việc không?",
-        "a": "Yes, I think they are important. Interviewers often form opinions about candidates in the first few minutes. Therefore, a good first impression may increase candidates’ chances of getting the job."
+        "a": "Candidates must <strong>conduct extensive research regarding company values</strong>, current market rivals, and recent milestone achievements."
       },
       {
         "q": "Which do you think is more important in an interview: appearance or personality?",
         "vi": "Theo bạn điều gì quan trọng hơn trong phỏng vấn: ngoại hình hay tính cách?",
-        "a": "I think both are important, but personality is more important. A good personality helps candidates communicate well with the interviewer. It can also help them build a good relationship with other people at work."
+        "a": "Practicing the STAR technique helps job seekers <strong>structure behavioral responses logically</strong> with measurable accomplishments."
       },
       {
         "q": "What can people do if they make a bad first impression in an interview?",
         "vi": "Mọi người có thể làm gì nếu lỡ tạo ấn tượng ban đầu không tốt trong phỏng vấn?",
-        "a": "They should stay calm and continue the interview confidently. They can give clear answers and show their skills. This may help change the interviewer's opinion."
+        "a": "Posing insightful inquiries regarding internal career progression showcases <strong>long-term dedication and intellectual engagement</strong>."
       }
     ]
   },
@@ -1810,17 +1810,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Why is drinking enough water every day essential?",
         "vi": "Tại sao uống đủ nước rất quan trọng?",
-        "a": "Drinking enough water is essential because it <strong>helps filter toxins and keeps the skin hydrated</strong>. It also prevents <strong>fatigue and supports healthy body digestion</strong>."
+        "a": "Adults should target <strong>seven to eight hours of undisturbed sleep nightly</strong> to facilitate cellular recovery."
       },
       {
         "q": "How many hours of sleep do adults need per night?",
         "vi": "Người lớn cần ngủ bao nhiêu tiếng mỗi đêm?",
-        "a": "Adults usually need <strong>about seven to eight hours of sound sleep</strong> every night. Sleeping enough allows the body to <strong>recover energy and keeps the brain sharp</strong>."
+        "a": "Yes, drinking at least two liters of water daily <strong>optimizes metabolic detoxification</strong> and <strong>maintains cognitive alertness</strong>."
       },
       {
         "q": "Is mental health as important as physical health?",
         "vi": "Sức khỏe tinh thần có quan trọng như thể chất?",
-        "a": "Yes, mental health is <strong>just as important as physical fitness</strong> for overall well-being. A peaceful and happy mind <strong>boosts the immune system and prevents illnesses</strong>."
+        "a": "Government agencies should <strong>subsidize community sports amenities</strong> and <strong>mandate clear nutritional labeling on packaged foods</strong>."
       }
     ]
   },
@@ -1865,17 +1865,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Does meditation help reduce anxiety?",
         "vi": "Thiền có giúp giảm lo âu không?",
-        "a": "Yes, mindfulness meditation helps <strong>calm racing thoughts and relaxes the whole nervous system</strong>. Practicing it for ten minutes daily <strong>brings peace and emotional balance</strong>."
+        "a": "Authorities should <strong>construct accessible community fitness parks</strong> and <strong>promote public mental health hotlines</strong>."
       },
       {
         "q": "Can listening to instrumental music help people relax?",
         "vi": "Nhạc không lời có giúp thư giãn?",
-        "a": "Listening to gentle classical music or nature sounds <strong>lowers heart rate and blood pressure</strong> effectively. It creates a <strong>soothing atmosphere that relieves daily mental fatigue</strong>."
+        "a": "Yes, meditation allows practitioners to <strong>regulate respiratory rhythms</strong> and <strong>lower physiological cortisol levels</strong>."
       },
       {
         "q": "Why is taking short breaks during work crucial?",
         "vi": "Tại sao nghỉ giải lao ngắn là cần thiết?",
-        "a": "Taking short breaks allows the brain to <strong>rest and regain sharp concentration</strong> quickly. It prevents <strong>work burnout and keeps productivity high</strong> throughout the day."
+        "a": "Employers should <strong>discourage weekend communication</strong> and <strong>organize quarterly recreational retreats</strong>."
       }
     ]
   },
@@ -1920,17 +1920,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Why do you think saving money is important for students?",
         "vi": "Tại sao bạn nghĩ việc tiết kiệm tiền lại quan trọng đối với sinh viên?",
-        "a": "Saving money is important because students often have a limited budget. They can use their savings to pay for books or other necessary things. It can also help them prepare for unexpected problems."
+        "a": "Students can <strong>rent digital editions</strong> or <strong>borrow academic volumes from campus library archives</strong>."
       },
       {
         "q": "Which way of saving money do you think is the most effective for students?",
         "vi": "Cách tiết kiệm tiền nào bạn nghĩ là hiệu quả nhất đối với sinh viên?",
-        "a": "I think setting a monthly budget is the most effective way. Students can plan how much money they can spend each month. As a result, they can control their spending and save more money."
+        "a": "Yes, pursuing campus jobs provides <strong>supplementary disposable income</strong> while teaching valuable time-management habits."
       },
       {
         "q": "What difficulties do students often face when trying to save money?",
         "vi": "Sinh viên thường gặp khó khăn gì khi cố gắng tiết kiệm tiền?",
-        "a": "Students may find it difficult to save money because they have limited income. They may also want to buy clothes or eat out with their friends. As a result, they may spend too much money and have little left to save."
+        "a": "Utilizing mobile budget-tracking apps gives youths <strong>visual analytics regarding discretionary spending patterns</strong>."
       }
     ]
   },
@@ -1975,17 +1975,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can libraries attract more students to visit?",
         "vi": "Thư viện làm gì để thu hút học sinh?",
-        "a": "Libraries should <strong>provide comfortable study seats, fast Wi-Fi</strong>, and lots of modern books. Creating a <strong>quiet reading environment with natural light</strong> also attracts students."
+        "a": "Librarians should <strong>host interactive book clubs</strong>, author symposiums, and informational literacy seminars."
       },
       {
         "q": "Are physical libraries still needed in the internet age?",
         "vi": "Thời đại internet có còn cần thư viện?",
-        "a": "Yes, physical libraries are still necessary because they <strong>offer a quiet and focused atmosphere</strong> that homes lack. Being around studious peers <strong>motivates students to read more</strong>."
+        "a": "Yes, designated group discussion rooms ensure collaborative teamwork occurs without <strong>disturbing quiet independent readers</strong>."
       },
       {
         "q": "Should food and drinks be allowed in school libraries?",
         "vi": "Có nên cho phép đồ ăn trong thư viện?",
-        "a": "No, food and sugary drinks should be banned to <strong>keep books clean and avoid spilling on computers</strong>. However, having a <strong>small coffee corner outside the reading room</strong> is a great idea."
+        "a": "Providing access to prestigious international research databases like JSTOR enables undergraduates to <strong>produce high-caliber papers</strong>."
       }
     ]
   },
@@ -2030,17 +2030,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Why do some students find history boring?",
         "vi": "Tại sao vài học sinh thấy lịch sử nhàm chán?",
-        "a": "Students find it boring when they only <strong>memorize dry numbers and long lists of dates</strong> for tests. When history is taught without stories, it <strong>loses all its excitement and meaning</strong>."
+        "a": "Field trips to historical battlefields or national museums allow pupils to <strong>examine authentic physical artifacts directly</strong>."
       },
       {
         "q": "How can visiting museums make history more exciting?",
         "vi": "Tham quan bảo tàng giúp học lịch sử thế nào?",
-        "a": "Museums display <strong>real ancient weapons, traditional clothing, and historical films</strong>. Seeing real objects helps students <strong>visualize historical events much better</strong> than books."
+        "a": "Teachers should <strong>connect past milestones with contemporary geopolitical developments</strong> to demonstrate enduring relevance."
       },
       {
         "q": "Why is learning history important for every citizen?",
         "vi": "Tại sao học lịch sử quan trọng với mọi công dân?",
-        "a": "Learning history helps citizens <strong>understand national traditions and take pride in their roots</strong>. It also teaches <strong>valuable lessons from the past to build a better future</strong>."
+        "a": "Yes, organizing structured debate simulations based on historical controversies <strong>sharpens students' critical reasoning skills</strong>."
       }
     ]
   },
@@ -2085,17 +2085,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How has social media changed how we stay in touch?",
         "vi": "Mạng xã hội đã thay đổi cách giữ liên lạc thế nào?",
-        "a": "Social media allows people to <strong>send free instant messages and video call friends anytime</strong>. It makes staying in touch <strong>extremely easy, even across different countries</strong>."
+        "a": "Social networks allow individuals to <strong>maintain effortless connectivity with international acquaintances</strong> despite disparate time zones."
       },
       {
         "q": "Do you prefer calling or texting?",
         "vi": "Bạn thích gọi điện hay nhắn tin?",
-        "a": "I prefer <strong>texting for daily casual chats</strong> because it is quiet and convenient. However, for urgent matters, <strong>making a phone call is much clearer and faster</strong>."
+        "a": "Yes, receiving physical handwritten letters conveys <strong>uncommon sentimental value and deliberate dedication</strong>."
       },
       {
         "q": "Why is face-to-face communication still the best?",
         "vi": "Tại sao gặp mặt trực tiếp vẫn là tốt nhất?",
-        "a": "Face-to-face talk is best because you can <strong>see real facial expressions and hear vocal tones</strong>. Meeting in person builds <strong>deep emotional connection and genuine trust</strong>."
+        "a": "Long-distance friends should <strong>schedule recurring weekend video calls</strong> and <strong>plan collaborative holiday reunions</strong>."
       }
     ]
   },
@@ -2140,17 +2140,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How have the roles of husband and wife changed in the past 10 years?",
         "vi": "Vai trò vợ chồng đã thay đổi thế nào?",
-        "a": "In the past, husbands earned money while wives only did housework. Nowadays, both partners <strong>share financial responsibilities and household chores equally</strong>."
+        "a": "Modern men increasingly recognize that <strong>sharing domestic chores reflects mutual respect rather than outdated gender roles</strong>."
       },
       {
         "q": "What roles do grandparents play in a family?",
         "vi": "Vai trò của ông bà trong gia đình?",
-        "a": "Grandparents provide <strong>unconditional love and help look after grandchildren</strong> when parents work. They also share <strong>valuable traditional wisdom and family values</strong>."
+        "a": "Couples should <strong>conduct calm weekly discussions</strong> to balance household tasks flexibly around changing work demands."
       },
       {
         "q": "What do you think about single-parent families?",
         "vi": "Bạn nghĩ gì về gia đình đơn thân?",
-        "a": "Single parents are <strong>very admirable because they work double hard</strong> to raise their children alone. Society should <strong>offer them financial and emotional support</strong>."
+        "a": "Children raised by collaborative parents naturally <strong>develop higher emotional empathy and collaborative teamwork skills</strong>."
       }
     ]
   },
@@ -2195,17 +2195,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Why is adaptability important in today's rapid job market?",
         "vi": "Tại sao khả năng thích nghi quan trọng?",
-        "a": "Because business environments and technology <strong>change extremely fast with new tools</strong>. Adaptable workers can <strong>learn new skills quickly and keep their jobs</strong>."
+        "a": "Professionals adapt to unfamiliar corporate cultures by <strong>observing organizational norms and seeking constructive mentor feedback</strong>."
       },
       {
         "q": "Can someone improve their problem-solving skills?",
         "vi": "Có thể cải thiện kỹ năng giải quyết vấn đề?",
-        "a": "Yes, people can improve this skill by <strong>analyzing difficulties calmly and learning from mistakes</strong>. In addition, <strong>asking for advice from senior mentors</strong> is very effective."
+        "a": "In rapidly changing job markets, <strong>versatile adaptability is far more vital than narrow technical specialization</strong>."
       },
       {
         "q": "What is more valuable: technical skills or a positive work attitude?",
         "vi": "Kỹ năng chuyên môn hay thái độ tích cực quan trọng hơn?",
-        "a": "In my view, a <strong>positive and hardworking attitude is more valuable</strong> because technical skills can be trained. An honest and enthusiastic employee will <strong>always be trusted by the manager</strong>."
+        "a": "Employers cultivate adaptable talent by <strong>offering continuous skill-training allowances and sponsoring professional certifications</strong>."
       }
     ]
   },
@@ -2250,17 +2250,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "How can people maintain long-distance friendships?",
         "vi": "Duy trì tình bạn xa cách bằng cách nào?",
-        "a": "Friends can <strong>send daily messages and video call each other</strong> regularly on weekends. Moreover, <strong>sending birthday gifts and planning visits</strong> keeps the friendship strong."
+        "a": "Friends maintain long-term intimacy by <strong>sending thoughtful daily messages</strong> and <strong>organizing regular weekend reunions</strong>."
       },
       {
         "q": "Is having a few true friends better than having many acquaintances?",
         "vi": "Ít bạn thân tốt hơn nhiều bạn xã giao?",
-        "a": "Yes, having two or three loyal friends is <strong>far better than hundreds of superficial acquaintances</strong>. True friends will <strong>stand by you when you face difficulties</strong> in life."
+        "a": "Yes, having a small circle of loyal companions is <strong>far more fulfilling than collecting hundreds of superficial digital acquaintances</strong>."
       },
       {
         "q": "What should you do if a friend betrays your trust?",
         "vi": "Nên làm gì khi bạn bè phản bội lòng tin?",
-        "a": "First, you should <strong>talk directly to understand the real situation</strong>. If that person does not feel sorry or change, it is best to <strong>keep a safe distance from them</strong>."
+        "a": "Forgiving minor errors is possible, but <strong>deliberate breaches of trust require setting firm emotional boundaries</strong>."
       }
     ]
   },
@@ -2305,17 +2305,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Can leadership be taught, or is it inborn?",
         "vi": "Lãnh đạo là bẩm sinh hay do học tập?",
-        "a": "I believe leadership skills can be <strong>learned through practice and proper training</strong>. Although some people are naturally charismatic, <strong>anyone can become a leader with dedication</strong>."
+        "a": "A leader should <strong>convene private mediation sessions</strong> to listen impartially and establish a balanced consensus."
       },
       {
         "q": "How should a leader handle team conflicts?",
         "vi": "Lãnh đạo nên xử lý mâu thuẫn nhóm thế nào?",
-        "a": "A leader should <strong>listen to both sides calmly and impartially</strong>. Then, they should <strong>guide team members to find a fair compromise</strong> that everyone accepts."
+        "a": "A boss merely <strong>issues strict orders and demands compliance</strong>, whereas a leader <strong>inspires and collaborates alongside teammates</strong>."
       },
       {
         "q": "What is the difference between a boss and a true leader?",
         "vi": "Khác biệt giữa một ông chủ và người lãnh đạo?",
-        "a": "A boss simply <strong>gives strict orders and demands results</strong> from employees. In contrast, a true leader <strong>inspires the team and works alongside them</strong>."
+        "a": "Yes, individuals can cultivate leadership through <strong>public speaking practice, emotional regulation, and voluntary project coordination</strong>."
       }
     ]
   },
@@ -2360,17 +2360,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Who was your favorite teacher and why?",
         "vi": "Ai là giáo viên yêu thích nhất của bạn?",
-        "a": "My favorite teacher was my high school English teacher because she was <strong>very patient, caring, and encouraging</strong>. She always <strong>made complex lessons easy and fun to understand</strong>."
+        "a": "The most daunting challenge is <strong>engaging students who are chronically distracted by personal smartphones</strong>."
       },
       {
         "q": "Will computers ever replace human teachers?",
         "vi": "Máy tính có thể thay thế giáo viên?",
-        "a": "No, computers will never replace teachers because machines cannot <strong>show real human empathy and personal encouragement</strong>. A caring teacher <strong>inspires moral values and character</strong>."
+        "a": "Strict discipline establishes orderly classroom environments, but <strong>empathetic encouragement is far more effective for lasting motivation</strong>."
       },
       {
         "q": "What is the hardest challenge modern teachers face?",
         "vi": "Thử thách lớn nhất của giáo viên hiện nay?",
-        "a": "The hardest challenge is <strong>dealing with students who are distracted by smartphones</strong> in class. Teachers also have to <strong>manage heavy administrative paperwork</strong> every day."
+        "a": "Society should <strong>elevate teacher salaries and provide dedicated mental wellness counseling for educators</strong>."
       }
     ]
   },
@@ -2415,17 +2415,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Why is self-discipline the most crucial quality for students today?",
         "vi": "Tại sao tính tự giác là quan trọng nhất?",
-        "a": "Self-discipline is crucial because students face <strong>countless online distractions like social media and video games</strong>. With discipline, they can <strong>finish homework on time and study consistently</strong>."
+        "a": "Students develop stronger self-control by <strong>turning off phone notifications</strong> and <strong>utilizing structured Pomodoro intervals</strong>."
       },
       {
         "q": "Which is more important: high test scores or good character?",
         "vi": "Điểm số cao hay phẩm chất tốt quan trọng hơn?",
-        "a": "Good character is far more important because <strong>high scores without honesty cannot make a good citizen</strong>. A person with integrity will <strong>earn respect and succeed in the long run</strong>."
+        "a": "While natural aptitude offers initial advantages, <strong>unwavering persistence and deliberate practice determine ultimate academic excellence</strong>."
       },
       {
         "q": "How can students improve their time management?",
         "vi": "Học sinh cải thiện quản lý thời gian thế nào?",
-        "a": "Students should <strong>write down daily tasks in a study notebook</strong> and set realistic deadlines. Additionally, <strong>turning off phone notifications while studying</strong> helps them concentrate."
+        "a": "Teachers foster intellectual curiosity by <strong>connecting theoretical formulas with captivating real-world phenomena</strong>."
       }
     ]
   },
@@ -2470,17 +2470,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Which factor do you think is the most important?",
         "vi": "Yếu tố nào quan trọng nhất?",
-        "a": "In my view, <strong>career growth and learning opportunities</strong> are the most important factors. A good job should help you <strong>develop professional skills and advance higher</strong>."
+        "a": "While financial compensation is vital, <strong>internal promotion pathways and skill-development prospects are equally critical</strong>."
       },
       {
         "q": "Do young people and older people look for the same thing in a job?",
         "vi": "Người trẻ và lớn tuổi có tìm kiếm điều giống nhau?",
-        "a": "Young people often look for <strong>high promotion chances and creative working environments</strong>. In contrast, older workers value <strong>job stability and comprehensive health insurance</strong>."
+        "a": "Candidates can analyze verified employee reviews on platforms like Glassdoor to <strong>gauge authentic company culture</strong>."
       },
       {
         "q": "How can people find a job that is suitable for them?",
         "vi": "Làm thế nào để tìm được công việc phù hợp?",
-        "a": "Job seekers should <strong>identify their personal strengths and passions</strong> before applying. Additionally, <strong>researching trustworthy recruitment websites and attending job fairs</strong> is very helpful."
+        "a": "Yes, excessive commuting fatigue <strong>depletes daily productivity and infringes upon personal leisure time</strong>."
       }
     ]
   },
@@ -2525,17 +2525,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Which factor is the most important in a job interview?",
         "vi": "Yếu tố nào quan trọng nhất trong phỏng vấn?",
-        "a": "In my opinion, <strong>confident communication and thorough company research</strong> are most important. When you show knowledge about the company, the interviewer <strong>sees your genuine enthusiasm</strong>."
+        "a": "Applicants should <strong>practice delivering structured self-introductions in front of mirrors or cameras</strong>."
       },
       {
         "q": "Do you think first impressions are always accurate? Why or why not?",
         "vi": "Ấn tượng ban đầu có luôn chính xác không?",
-        "a": "No, first impressions are not always accurate because candidates are often <strong>very nervous during the first few minutes</strong>. Interviewers need <strong>more conversation to evaluate true ability</strong>."
+        "a": "Candidates must <strong>identify their distinct personal strengths and unique career accomplishments</strong>."
       },
       {
         "q": "What can people do if they make a bad first impression in an interview?",
         "vi": "Làm gì nếu lỡ tạo ấn tượng xấu ban đầu?",
-        "a": "Candidates should <strong>stay calm, smile politely</strong>, and answer the remaining questions with clear examples. Showing honesty and composure helps <strong>recover the interviewer's confidence</strong>."
+        "a": "Posing informed inquiries regarding strategic corporate visions demonstrates <strong>genuine intellectual interest in the role</strong>."
       }
     ]
   },
@@ -2580,17 +2580,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Which factor do you think is the most important when choosing a university?",
         "vi": "Bạn nghĩ yếu tố nào là quan trọng nhất khi chọn trường đại học?",
-        "a": "In my opinion, <strong>high teaching quality and job opportunities after graduation</strong> are most important. A reputable university helps students <strong>secure high-paying employment easily</strong>."
+        "a": "Yes, studying far away from home <strong>cultivates vital personal independence and self-reliance</strong>."
       },
       {
         "q": "Should high school students follow their parents' advice when selecting a college?",
         "vi": "Học sinh có nên nghe theo lời khuyên của cha mẹ khi chọn trường không?",
-        "a": "Yes, students should <strong>listen to their parents' valuable life experience</strong> for guidance. However, the final choice should <strong>suit the student's personal interests and strengths</strong>."
+        "a": "Students should consider parental advice, but <strong>the final academic decision must reflect personal passion and career aptitude</strong>."
       },
       {
         "q": "Is graduating from a prestigious university the only way to achieve career success?",
         "vi": "Tốt nghiệp trường danh tiếng có phải là cách duy nhất để thành công trong sự nghiệp?",
-        "a": "No, graduating from a top school is helpful, but <strong>practical skills and hard work matter more</strong>. Many self-taught individuals achieve great success through <strong>continuous dedication and passion</strong>."
+        "a": "Prestigious university degrees remain significant, yet <strong>practical internship experience and adaptive skills increasingly decide hiring outcomes</strong>."
       }
     ]
   }
