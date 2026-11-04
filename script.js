@@ -68,7 +68,7 @@ window.startSimWithTopic = function(tid) {
     const isTeacher = state.student.isTeacher || (typeof checkIfTeacher === 'function' && checkIfTeacher(state.student.name, state.student.classCode));
     const topic = ALL_TOPICS_POOL.find(t => t.id === tid);
     if (!isTeacher && topic && topic.category !== 'benefits') {
-        showToast('🔒 Đề thi này thuộc nhóm đang tạm khóa cho lớp B212!');
+        showToast(`🔒 Đề thi này thuộc nhóm đang tạm khóa cho lớp ${state.student.classCode || 'B2'}!`);
         return;
     }
     // Navigate to simulator tab
@@ -2685,15 +2685,19 @@ const CLASS_STUDENTS = {
         "Nguyễn Tiến Trung",
         "Trần Thị Ánh Tuyết",
         "Đặng Nguyễn Khánh Uyên",
-        "Nguyễn Thị Chúc Yến"
+        "Nguyễn Thị Chúc Yến",
+        "Gia Tuệ"
     ],
     "B2": [
         "Gia Tuệ",
-        "Gia Tuê"
+        "Gia Tuê",
+        "Nguyễn Gia Tuệ",
+        "Trần Gia Tuệ",
+        "Lê Gia Tuệ"
     ]
 };
 
-// Các tab được mở quyền truy cập cho lớp B212 (Mở Nhóm 1, Tổng quan và Công cụ; Khóa Nhóm 2-6)
+// Các tab được mở quyền truy cập cho học viên (Mở Nhóm 1, Tổng quan và Công cụ; Khóa Nhóm 2-6)
 const UNLOCKED_TABS_B212 = ['overview', 'group-benefits', 'tool-simulator', 'tool-flashcards'];
 
 // Chuẩn hóa chuỗi so sánh họ tên
@@ -2709,7 +2713,7 @@ function normalizeStr(str) {
 
 // Kiểm tra quyền Giáo viên
 function checkIfTeacher(name, classCode) {
-    const formattedClass = (classCode || '').toUpperCase().replace(/\s+/g, '');
+    const formattedClass = (classCode || '').toUpperCase().replace(/^(LỚP|LOP|CLASS)\s*/i, '').replace(/[^A-Z0-9]/g, '');
     const normName = normalizeStr(name || '');
     return formattedClass === 'GV' || 
            formattedClass === 'GV2026' ||
@@ -2726,6 +2730,7 @@ function checkIfTeacher(name, classCode) {
 // Áp dụng khóa/mở các nhóm đề thi
 function applyAccessControl(isTeacher) {
     const navItems = document.querySelectorAll('.nav-item');
+    const classCode = state.student.classCode || 'B2';
     navItems.forEach(item => {
         const target = item.dataset.target || item.getAttribute('data-target');
         const existingPill = item.querySelector('.lock-pill');
@@ -2736,7 +2741,7 @@ function applyAccessControl(isTeacher) {
             item.removeAttribute('title');
         } else {
             item.classList.add('locked');
-            item.setAttribute('title', 'Tạm khóa cho lớp B212');
+            item.setAttribute('title', `Tạm khóa cho lớp ${classCode}`);
             const link = item.querySelector('a');
             if (link) {
                 const pill = document.createElement('span');
@@ -2804,11 +2809,13 @@ function initAuth() {
             return;
         }
 
-        let formattedClass = classVal.toUpperCase().replace(/\s+/g, '').replace(/^(LỚP|LOP|CLASS)/i, '');
+        let formattedClass = classVal.toUpperCase()
+            .replace(/^(LỚP|LOP|CLASS)\s*/i, '')
+            .replace(/[^A-Z0-9]/g, '');
         const normName = normalizeStr(nameVal);
 
         // 1. Kiểm tra tài khoản Giáo viên (tên PTMN, mã lớp GV)
-        const isTeacher = checkIfTeacher(nameVal, classVal);
+        const isTeacher = checkIfTeacher(nameVal, formattedClass);
 
         let finalName = '';
         let finalClass = '';
@@ -2830,17 +2837,26 @@ function initAuth() {
             }
 
             let matchedStudent = null;
+            const isGiaTue = normName.includes('gia tue') || 
+                            normName.includes('gia tuê') || 
+                            normName.includes('gia tuệ') ||
+                            normName.replace(/\s+/g, '').includes('giatue') ||
+                            normName === 'tue' ||
+                            normName.endsWith(' tue');
+
             if (formattedClass === 'B2') {
-                const isGiaTue = normName.includes('gia tue') || 
-                                normName.includes('gia tuê') || 
-                                normName.includes('gia tuệ') ||
-                                normName.replace(/\s+/g, '').includes('giatue');
                 if (isGiaTue) {
                     matchedStudent = nameVal.trim() || 'Gia Tuệ';
+                } else {
+                    const roster = CLASS_STUDENTS['B2'] || [];
+                    matchedStudent = roster.find(s => normalizeStr(s) === normName);
                 }
             } else {
-                const roster = CLASS_STUDENTS[formattedClass];
-                matchedStudent = roster ? roster.find(s => normalizeStr(s) === normName) : null;
+                const roster = CLASS_STUDENTS[formattedClass] || [];
+                matchedStudent = roster.find(s => normalizeStr(s) === normName);
+                if (!matchedStudent && isGiaTue) {
+                    matchedStudent = nameVal.trim() || 'Gia Tuệ';
+                }
             }
 
             if (!matchedStudent) {
@@ -3010,7 +3026,7 @@ function initNavigation() {
     window.switchTab = function(targetId) {
         const isTeacher = state.student.isTeacher || checkIfTeacher(state.student.name, state.student.classCode);
         if (!isTeacher && !UNLOCKED_TABS_B212.includes(targetId)) {
-            showToast('🔒 Nhóm bài học này đang tạm khóa cho lớp B212 và sẽ được mở trong các buổi học tiếp theo!');
+            showToast(`🔒 Nhóm bài học này đang tạm khóa cho lớp ${state.student.classCode || 'B2'} và sẽ được mở trong các buổi học tiếp theo!`);
             targetId = 'group-benefits';
         }
 
@@ -3049,7 +3065,7 @@ function initNavigation() {
 
             const isTeacher = state.student.isTeacher || checkIfTeacher(state.student.name, state.student.classCode);
             if (!isTeacher && !UNLOCKED_TABS_B212.includes(targetId)) {
-                showToast('🔒 Nhóm bài học này đang tạm khóa cho lớp B212 và sẽ được mở trong các buổi học tiếp theo!');
+                showToast(`🔒 Nhóm bài học này đang tạm khóa cho lớp ${state.student.classCode || 'B2'} và sẽ được mở trong các buổi học tiếp theo!`);
                 return;
             }
 
@@ -3235,7 +3251,7 @@ function initExamSimulator() {
             const lockedTopics = ALL_TOPICS_POOL.filter(t => t.category !== 'benefits');
             if (lockedTopics.length > 0) {
                 const optGroup = document.createElement('optgroup');
-                optGroup.label = '── 🔒 CÁC CHỦ ĐỀ ĐANG TẠM KHÓA (LỚP B212) ──';
+                optGroup.label = `── 🔒 CÁC CHỦ ĐỀ ĐANG TẠM KHÓA (LỚP ${state.student.classCode || 'B2'}) ──`;
                 lockedTopics.forEach(t => {
                     const opt = document.createElement('option');
                     opt.value = t.id;
