@@ -160,17 +160,17 @@ const ALL_TOPICS_POOL = [
       {
         "q": "What are some disadvantages of working in a team?",
         "vi": "Những bất lợi của việc làm việc nhóm là gì?",
-        "a": "One major disadvantage is that members may <strong>have conflicting opinions</strong>, which can lead to heated arguments and delay project deadlines. Furthermore, some individuals might <strong>rely too much on others</strong>, creating an unfair division of work."
+        "a": "One major disadvantage is that members may <strong>have conflicting opinions</strong>, which can <strong>lead to heated arguments and delay project deadlines</strong>. Furthermore, some individuals might <strong>rely too much on others</strong>, creating <strong>an unfair division of work</strong>."
       },
       {
         "q": "In your opinion, how can organizations encourage effective teamwork?",
         "vi": "Theo bạn, các tổ chức có thể khuyến khích làm việc nhóm hiệu quả bằng cách nào?",
-        "a": "Organizations should <strong>set clear common goals and define specific roles</strong> so that each member understands their contribution. In addition, <strong>organizing regular team-building activities</strong> can help employees connect and cooperate more smoothly."
+        "a": "Organizations should <strong>set clear common goals and define specific roles</strong> so that each member understands their contribution. In addition, <strong>organizing regular team-building activities</strong> can help employees <strong>connect and cooperate more smoothly</strong>."
       },
       {
         "q": "Do you think teamwork is more beneficial for young people or older people? Why?",
         "vi": "Bạn có nghĩ làm việc nhóm có lợi hơn cho người trẻ hay người lớn tuổi?",
-        "a": "I believe teamwork is particularly <strong>beneficial for young people</strong> because they are still building essential workplace skills. Collaborating with others teaches them how to <strong>accept constructive feedback and adapt quickly</strong> to professional environments."
+        "a": "I believe teamwork is particularly <strong>beneficial for young people</strong> because they are still building essential workplace skills. Collaborating with others teaches them how to <strong>accept constructive feedback and adapt quickly to professional environments</strong>."
       }
     ]
   },
@@ -270,7 +270,7 @@ const ALL_TOPICS_POOL = [
       {
         "q": "Do you think online learning will replace traditional schooling in the future?",
         "vi": "Học online có thay thế trường học truyền thống không?",
-        "a": "I do not think online learning will completely replace traditional schools because <strong>face-to-face interaction is indispensable</strong>. Being in a physical classroom provides hands-on practice and helps students <strong>develop essential social manners and communication skills</strong> naturally."
+        "a": "I do not think online learning will completely replace traditional schools because <strong>face-to-face interaction is indispensable</strong>. Being in a physical classroom provides hands-on practice and helps students <strong>develop essential social manners and communication skills naturally</strong>."
       },
       {
         "q": "What are some disadvantages of online learning?",
