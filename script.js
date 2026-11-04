@@ -3038,10 +3038,15 @@ function initNavigation() {
             }
         });
 
-        document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+        document.querySelectorAll('.tab-pane').forEach(p => {
+            p.classList.remove('active');
+            p.style.display = '';
+        });
         const targetPane = document.getElementById(targetId);
         if (targetPane) {
             targetPane.classList.add('active');
+            targetPane.classList.remove('hidden');
+            targetPane.style.display = '';
             if (targetId === 'flower-garden' && window.FlowerGarden) {
                 window.FlowerGarden.render();
             }
