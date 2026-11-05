@@ -65,10 +65,10 @@ window.togglePracticeFollowups = function(tid, btn) {
 };
 
 window.startSimWithTopic = function(tid) {
-    const isTeacher = state.student.isTeacher || (typeof checkIfTeacher === 'function' && checkIfTeacher(state.student.name, state.student.classCode));
+    const hasFullAccess = typeof checkHasFullAccess === 'function' ? checkHasFullAccess() : state.student.isTeacher;
     const topic = ALL_TOPICS_POOL.find(t => t.id === tid);
-    if (!isTeacher && topic && topic.category !== 'benefits') {
-        showToast(`🔒 Đề thi này thuộc nhóm đang tạm khóa cho lớp ${state.student.classCode || 'B2'}!`);
+    if (!hasFullAccess && topic && topic.category !== 'benefits') {
+        showToast(`🔒 Đề thi này thuộc nhóm đang tạm khóa cho lớp ${state.student.classCode || 'B212'}!`);
         return;
     }
     // Navigate to simulator tab
@@ -2727,16 +2727,36 @@ function checkIfTeacher(name, classCode) {
            normName.includes('giao vien');
 }
 
+// Kiểm tra học viên Gia Tuệ (được mở khóa toàn bộ các nhóm bài học)
+function checkIfGiaTue(name) {
+    const normName = normalizeStr(name || '');
+    return normName.includes('gia tue') || 
+           normName.includes('gia tuê') || 
+           normName.includes('gia tuệ') ||
+           normName.replace(/\s+/g, '').includes('giatue') ||
+           normName === 'tue' ||
+           normName.endsWith(' tue');
+}
+
+// Kiểm tra quyền mở khóa toàn bộ (Giáo viên hoặc học viên Gia Tuệ / lớp B2)
+function checkHasFullAccess() {
+    if (state.student.isTeacher || state.student.hasFullAccess) return true;
+    const isTeacher = checkIfTeacher(state.student.name, state.student.classCode);
+    const isGiaTue = checkIfGiaTue(state.student.name);
+    const isClassB2 = (state.student.classCode || '').toUpperCase() === 'B2';
+    return isTeacher || isGiaTue || isClassB2;
+}
+
 // Áp dụng khóa/mở các nhóm đề thi
-function applyAccessControl(isTeacher) {
+function applyAccessControl(hasFullAccess) {
     const navItems = document.querySelectorAll('.nav-item');
-    const classCode = state.student.classCode || 'B2';
+    const classCode = state.student.classCode || 'B212';
     navItems.forEach(item => {
         const target = item.dataset.target || item.getAttribute('data-target');
         const existingPill = item.querySelector('.lock-pill');
         if (existingPill) existingPill.remove();
 
-        if (isTeacher || UNLOCKED_TABS_B212.includes(target)) {
+        if (hasFullAccess || UNLOCKED_TABS_B212.includes(target)) {
             item.classList.remove('locked');
             item.removeAttribute('title');
         } else {
@@ -2769,6 +2789,7 @@ function initAuth() {
     state.student.name = '';
     state.student.classCode = '';
     state.student.isTeacher = false;
+    state.student.hasFullAccess = false;
     
     // Mặc định ban đầu áp dụng chế độ khóa cho học viên
     applyAccessControl(false);
@@ -2824,6 +2845,7 @@ function initAuth() {
             finalName = (normName === 'ptmn' || !nameVal) ? 'Cô Nguyệt (PTMN)' : nameVal;
             finalClass = formattedClass || 'GV';
             state.student.isTeacher = true;
+            state.student.hasFullAccess = true;
         } else {
             // 2. Kiểm tra học viên thuộc lớp B212 hoặc B2
             const allowedClasses = ['B212', 'B2'];
@@ -2837,12 +2859,7 @@ function initAuth() {
             }
 
             let matchedStudent = null;
-            const isGiaTue = normName.includes('gia tue') || 
-                            normName.includes('gia tuê') || 
-                            normName.includes('gia tuệ') ||
-                            normName.replace(/\s+/g, '').includes('giatue') ||
-                            normName === 'tue' ||
-                            normName.endsWith(' tue');
+            const isGiaTue = checkIfGiaTue(nameVal);
 
             if (formattedClass === 'B2') {
                 if (isGiaTue) {
@@ -2871,6 +2888,7 @@ function initAuth() {
             finalName = matchedStudent;
             finalClass = formattedClass;
             state.student.isTeacher = false;
+            state.student.hasFullAccess = (isGiaTue || formattedClass === 'B2');
         }
 
         if (errorMsg) errorMsg.style.display = 'none';
@@ -2878,16 +2896,16 @@ function initAuth() {
         state.student.name = finalName;
         state.student.classCode = finalClass;
 
-        // Áp dụng quyền truy cập: mở Nhóm 1 cho B212, mở tất cả nếu là Giáo viên
-        applyAccessControl(state.student.isTeacher);
+        // Áp dụng quyền truy cập: mở Nhóm 1 cho B212, mở tất cả cho Gia Tuệ (lớp B2) và Giáo viên
+        applyAccessControl(state.student.hasFullAccess);
         if (typeof window.refreshSimulatorTopics === 'function') {
-            window.refreshSimulatorTopics(state.student.isTeacher);
+            window.refreshSimulatorTopics(state.student.hasFullAccess);
         }
 
         // Nếu tab hiện tại đang bị khóa thì tự động chuyển về Nhóm 1
         const activeNav = document.querySelector('.nav-item.active');
         const currentTarget = activeNav ? activeNav.getAttribute('data-target') : 'overview';
-        if (!state.student.isTeacher && !UNLOCKED_TABS_B212.includes(currentTarget)) {
+        if (!state.student.hasFullAccess && !UNLOCKED_TABS_B212.includes(currentTarget)) {
             if (typeof window.switchTab === 'function') {
                 window.switchTab('group-benefits');
             }
@@ -3024,9 +3042,9 @@ function initNavigation() {
     const backdrop = document.getElementById('sidebar-backdrop');
 
     window.switchTab = function(targetId) {
-        const isTeacher = state.student.isTeacher || checkIfTeacher(state.student.name, state.student.classCode);
-        if (!isTeacher && !UNLOCKED_TABS_B212.includes(targetId)) {
-            showToast(`🔒 Nhóm bài học này đang tạm khóa cho lớp ${state.student.classCode || 'B2'} và sẽ được mở trong các buổi học tiếp theo!`);
+        const hasFullAccess = checkHasFullAccess();
+        if (!hasFullAccess && !UNLOCKED_TABS_B212.includes(targetId)) {
+            showToast(`🔒 Nhóm bài học này đang tạm khóa cho lớp ${state.student.classCode || 'B212'} và sẽ được mở trong các buổi học tiếp theo!`);
             targetId = 'group-benefits';
         }
 
@@ -3071,9 +3089,9 @@ function initNavigation() {
             const targetId = item.getAttribute('data-target');
             if (!targetId) return;
 
-            const isTeacher = state.student.isTeacher || checkIfTeacher(state.student.name, state.student.classCode);
-            if (!isTeacher && !UNLOCKED_TABS_B212.includes(targetId)) {
-                showToast(`🔒 Nhóm bài học này đang tạm khóa cho lớp ${state.student.classCode || 'B2'} và sẽ được mở trong các buổi học tiếp theo!`);
+            const hasFullAccess = checkHasFullAccess();
+            if (!hasFullAccess && !UNLOCKED_TABS_B212.includes(targetId)) {
+                showToast(`🔒 Nhóm bài học này đang tạm khóa cho lớp ${state.student.classCode || 'B212'} và sẽ được mở trong các buổi học tiếp theo!`);
                 return;
             }
 
@@ -3239,11 +3257,11 @@ function initExamSimulator() {
     const playerAudio = document.getElementById('sim-audio-player');
     const downloadAudioBtn = document.getElementById('sim-download-audio-btn');
 
-    window.refreshSimulatorTopics = function(isTeacher) {
+    window.refreshSimulatorTopics = function(hasFullAccess) {
         if (!topicSelect) return;
         topicSelect.innerHTML = '';
 
-        const availableTopics = isTeacher 
+        const availableTopics = hasFullAccess 
             ? ALL_TOPICS_POOL 
             : ALL_TOPICS_POOL.filter(t => t.category === 'benefits');
 
@@ -3255,11 +3273,11 @@ function initExamSimulator() {
         });
 
         // Với học viên B212: Hiển thị các chủ đề của nhóm 2-6 dưới dạng tạm khóa
-        if (!isTeacher) {
+        if (!hasFullAccess) {
             const lockedTopics = ALL_TOPICS_POOL.filter(t => t.category !== 'benefits');
             if (lockedTopics.length > 0) {
                 const optGroup = document.createElement('optgroup');
-                optGroup.label = `── 🔒 CÁC CHỦ ĐỀ ĐANG TẠM KHÓA (LỚP ${state.student.classCode || 'B2'}) ──`;
+                optGroup.label = `── 🔒 CÁC CHỦ ĐỀ ĐANG TẠM KHÓA (LỚP ${state.student.classCode || 'B212'}) ──`;
                 lockedTopics.forEach(t => {
                     const opt = document.createElement('option');
                     opt.value = t.id;
@@ -3277,7 +3295,7 @@ function initExamSimulator() {
         }
     };
 
-    window.refreshSimulatorTopics(state.student.isTeacher);
+    window.refreshSimulatorTopics(checkHasFullAccess());
 
     if (topicSelect) {
         topicSelect.addEventListener('change', () => {
@@ -3288,8 +3306,8 @@ function initExamSimulator() {
 
     if (randomBtn) {
         randomBtn.addEventListener('click', () => {
-            const isTeacher = state.student.isTeacher || checkIfTeacher(state.student.name, state.student.classCode);
-            const pool = isTeacher 
+            const hasFullAccess = checkHasFullAccess();
+            const pool = hasFullAccess 
                 ? ALL_TOPICS_POOL 
                 : ALL_TOPICS_POOL.filter(t => t.category === 'benefits');
             if (!pool || pool.length === 0) return;
