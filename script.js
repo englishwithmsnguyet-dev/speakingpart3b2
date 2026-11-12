@@ -1315,12 +1315,12 @@ const ALL_TOPICS_POOL = [
         {
           "q": "How can schools help prevent school violence?",
           "vi": "Trường học làm gì để ngăn bạo lực học đường?",
-          "a": "Schools should set up a <strong>friendly support room</strong> where students can talk safely about problems early. Teaching <strong>kindness and anger control</strong> in regular lessons also helps teenagers solve arguments peacefully."
+          "a": "Schools should set up a <strong>friendly support room</strong> where students can talk safely about problems early. Teaching <strong>kindness</strong> and <strong>anger control</strong> in regular lessons also helps teenagers solve arguments peacefully."
         },
         {
           "q": "Is cyberbullying among youth becoming worse?",
           "vi": "Bạo lực mạng ở giới trẻ có đang tồi tệ hơn?",
-          "a": "Yes, online bullying is getting worse because teenagers spend hours on <strong>social media apps</strong> every day. Hurting messages or mean videos spread very fast online and can make young victims feel <strong>deeply lonely</strong>."
+          "a": "Yes, online bullying is getting worse because teenagers spend hours on <strong>social media apps</strong> every day. <strong>Hurtful messages</strong> or mean videos spread very fast online and can make young victims feel <strong>deeply lonely</strong>."
         },
         {
           "q": "What role do parents play in guiding aggressive teenagers?",
@@ -1370,7 +1370,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "What values should parents teach children first?",
           "vi": "Cha mẹ nên dạy con giá trị nào đầu tiên?",
-          "a": "Parents should first teach kids to be <strong>honest, polite, and kind</strong> to people around them. Building <strong>good basic manners</strong> early helps children make good friends and settle well at school."
+          "a": "Parents should first teach kids to be <strong>honest</strong>, <strong>polite</strong>, and <strong>kind</strong> to people around them. Building <strong>good basic manners</strong> early helps children make good friends and settle well at school."
         },
         {
           "q": "Can parents sometimes teach their children bad habits?",
@@ -1380,7 +1380,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Who has a stronger influence on teenagers: parents or teachers?",
           "vi": "Cha mẹ hay thầy cô có ảnh hưởng lớn hơn?",
-          "a": "I believe parents still have the stronger influence because they <strong>know their children</strong> deeply and live with them for years. Still, caring teachers also inspire teenagers a lot in <strong>learning and future goals</strong>."
+          "a": "I believe parents still have the stronger influence because they <strong>know their children</strong> deeply and live with them for years. Still, caring teachers also inspire teenagers a lot in <strong>learning</strong> and <strong>future goals</strong>."
         }
       ]
   },
@@ -1435,7 +1435,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Can physical sports relieve study stress?",
           "vi": "Thể thao có giúp giảm căng thẳng học tập?",
-          "a": "Yes, playing sports is one of the best ways to reduce stress. Exercise helps the mind <strong>forget school worries</strong> for a while and improves mood, helping students sleep better and focus again."
+          "a": "Yes, playing sports is one of the best ways to <strong>reduce stress</strong>. Exercise helps the mind <strong>forget school worries</strong> for a while and improves mood, helping students <strong>sleep better</strong> and focus again."
         }
       ]
   },
@@ -1485,7 +1485,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "What is the biggest barrier for women aiming for executive roles?",
           "vi": "Rào cản lớn nhất của phụ nữ khi lên lãnh đạo?",
-          "a": "Many women still face <strong>unfair ideas</strong> at work and heavier pressure to handle <strong>housework and childcare</strong> alone. Balancing career goals with family needs takes great effort and strong company support."
+          "a": "Many women still face <strong>unfair ideas</strong> at work and heavier pressure to handle <strong>housework</strong> and <strong>childcare</strong> alone. Balancing career goals with family needs takes great effort and strong company support."
         },
         {
           "q": "How can companies foster gender equality?",
@@ -1590,7 +1590,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Should schools ban soft drinks and candy in canteens?",
           "vi": "Trường học có nên cấm nước ngọt ở căn tin?",
-          "a": "Yes, stopping sugary drinks and sweets at school canteens helps protect <strong>children’s daily health</strong>. Offering fresh fruit, milk, and <strong>healthy snacks</strong> instead guides students toward better food choices."
+          "a": "Yes, banning sugary drinks and sweets at school canteens helps protect <strong>children’s daily health</strong>. Offering fresh fruit, milk, and <strong>healthy snacks</strong> instead guides students toward better food choices."
         },
         {
           "q": "What health issues can obese children face later in life?",
