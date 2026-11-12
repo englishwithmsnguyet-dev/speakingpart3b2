@@ -157,22 +157,22 @@ const ALL_TOPICS_POOL = [
       }
     ],
     "followups": [
-      {
-        "q": "What are some disadvantages of working in a team?",
-        "vi": "Những bất lợi của việc làm việc nhóm là gì?",
-        "a": "One major disadvantage is that members may <strong>have conflicting opinions</strong>, which can <strong>lead to heated arguments</strong> and <strong>delay project deadlines</strong>. Furthermore, some individuals might <strong>rely too much on others</strong>, creating <strong>an unfair division of work</strong>."
-      },
-      {
-        "q": "In your opinion, how can organizations encourage effective teamwork?",
-        "vi": "Theo bạn, các tổ chức có thể khuyến khích làm việc nhóm hiệu quả bằng cách nào?",
-        "a": "Organizations should <strong>set clear common goals</strong> and <strong>define specific roles</strong> so that each member understands their contribution. In addition, <strong>organizing regular team-building activities</strong> can help employees <strong>connect</strong> and <strong>cooperate more smoothly</strong>."
-      },
-      {
-        "q": "Do you think teamwork is more beneficial for young people or older people? Why?",
-        "vi": "Bạn có nghĩ làm việc nhóm có lợi hơn cho người trẻ hay người lớn tuổi?",
-        "a": "I believe teamwork is particularly <strong>beneficial for young people</strong> because they are still building essential workplace skills. Collaborating with others teaches them how to <strong>accept constructive feedback</strong> and <strong>adapt quickly to professional environments</strong>."
-      }
-    ]
+        {
+          "q": "What are some disadvantages of working in a team?",
+          "vi": "Những bất lợi của việc làm việc nhóm là gì?",
+          "a": "One big drawback is that teammates can have <strong>different opinions</strong>, which may lead to <strong>heated arguments</strong> and slow the work down. Also, some people might rely too much on others and make <strong>work feel unfair</strong>."
+        },
+        {
+          "q": "In your opinion, how can organizations encourage effective teamwork?",
+          "vi": "Theo bạn, các tổ chức có thể khuyến khích làm việc nhóm hiệu quả bằng cách nào?",
+          "a": "Companies should set <strong>clear team goals</strong> and give each person a <strong>specific role</strong> so everyone knows what to do. Planning <strong>fun team activities</strong> also helps workers get close and work together smoothly."
+        },
+        {
+          "q": "Do you think teamwork is more beneficial for young people or older people? Why?",
+          "vi": "Bạn có nghĩ làm việc nhóm có lợi hơn cho người trẻ hay người lớn tuổi?",
+          "a": "I think teamwork is especially <strong>helpful for young people</strong> because they are still learning key <strong>workplace habits</strong>. Working in groups teaches them how to accept <strong>helpful advice</strong> and fit easily into real workplaces."
+        }
+      ]
   },
   {
     "id": "b-topic-02",
@@ -270,7 +270,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Do you think online learning will replace traditional schooling in the future?",
           "vi": "Học online có thay thế trường học truyền thống không?",
-          "a": "No, I do not think online learning will <strong>completely replace</strong> traditional schools because <strong>face-to-face contact</strong> is still essential. Going to a real classroom gives students <strong>hands-on practice</strong> and helps them build <strong>natural social skills</strong>."
+          "a": "No, I do not think online learning will <strong>completely replace</strong> traditional schools because <strong>talking in person</strong> is still very important. Going to a real classroom gives students <strong>hands-on practice</strong> and helps them build <strong>natural social skills</strong>."
         },
         {
           "q": "What are some disadvantages of online learning?",
@@ -490,7 +490,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Are there any disadvantages of sending toddlers to school early?",
           "vi": "Có bất lợi gì khi cho trẻ đi học sớm?",
-          "a": "One common problem is that young kids often <strong>miss their parents</strong> and cry during the <strong>first few weeks</strong>. Also, being around many children makes it easier to catch <strong>common colds</strong> or minor illnesses."
+          "a": "One common problem is that young kids often <strong>miss their parents</strong> and cry during the <strong>first few weeks</strong>. Also, being around many children makes it easier to catch <strong>common colds</strong> or small coughs."
         },
         {
           "q": "What should parents look for when choosing a preschool?",
@@ -935,7 +935,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Should there be an age limit for political leaders?",
           "vi": "Có nên giới hạn tuổi cho lãnh đạo chính trị không?",
-          "a": "I think having a reasonable <strong>retirement age</strong> helps bring <strong>younger voices</strong> and fresh energy into leadership. However, the rules should still be flexible enough to keep <strong>experienced leaders</strong> who stay healthy and sharp-minded."
+          "a": "I think having a reasonable <strong>retirement age</strong> helps bring <strong>younger voices</strong> and fresh energy into leadership. However, the rules should still be flexible enough to keep <strong>experienced leaders</strong> who stay healthy and <strong>mentally active</strong>."
         },
         {
           "q": "What makes a truly inspiring leader?",
