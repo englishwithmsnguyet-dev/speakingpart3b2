@@ -2035,14 +2035,30 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
 }
 
 .sentence-alt-option {
-    font-style: italic;
-    color: #4f46e5;
-    font-size: 0.96rem;
-    margin-top: 0.55rem;
-    margin-bottom: 0.45rem;
-    line-height: 1.95;
+    font-style: normal;
+    color: #4338ca;
+    font-size: 0.95rem;
+    line-height: 2.2;
+    margin-top: 0.9rem;
+    padding: 0.85rem 1.15rem;
+    background: rgba(79, 70, 229, 0.045);
+    border-left: 3.5px solid rgba(79, 70, 229, 0.35);
+    border-radius: 8px;
     text-align: justify;
     text-justify: inter-word;
+}
+
+.sentence-alt-option .sentence-alt-item {
+    margin-top: 0.55rem;
+    line-height: 2.2;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+[data-theme="dark"] .sentence-alt-option {
+    background: rgba(99, 102, 241, 0.12);
+    color: #c7d2fe;
+    border-left-color: rgba(129, 140, 248, 0.5);
 }
 
 .sample-translation-drawer {
@@ -3625,10 +3641,22 @@ body.dark-theme .teacher-brand-heading {
 }
 
 .sentence-alt-option {
+    font-style: normal !important;
+    color: #4338ca;
+    font-size: 0.95rem !important;
+    line-height: 2.2 !important;
+    margin-top: 0.9rem !important;
+    padding: 0.85rem 1.15rem !important;
+    background: rgba(79, 70, 229, 0.045) !important;
+    border-left: 3.5px solid rgba(79, 70, 229, 0.35) !important;
+    border-radius: 8px !important;
+    text-align: justify !important;
+    text-justify: inter-word !important;
+}
+
+.sentence-alt-option .sentence-alt-item {
     margin-top: 0.55rem !important;
-    margin-bottom: 0.45rem !important;
-    font-size: 0.96rem !important;
-    line-height: 1.95 !important;
+    line-height: 2.2 !important;
     text-align: justify !important;
     text-justify: inter-word !important;
 }
