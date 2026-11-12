@@ -2150,7 +2150,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "What do you think about single-parent families?",
           "vi": "Bạn nghĩ gì về gia đình đơn thân?",
-          "a": "Raising children alone takes <strong>amazing strength</strong> and daily hard work because one person carries both roles. With strong support from relatives and schools, single parents still raise <strong>happy, confident children</strong>."
+          "a": "Raising children alone takes <strong>amazing strength</strong> and daily hard work because one person carries both roles. With strong support from relatives and schools, single parents still raise <strong>happy</strong>, <strong>confident children</strong>."
         }
       ]
   },
@@ -2205,7 +2205,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "What is more valuable: technical skills or a positive work attitude?",
           "vi": "Kỹ năng chuyên môn hay thái độ tích cực quan trọng hơn?",
-          "a": "Both matter a lot, yet a <strong>positive work attitude</strong> often comes first because hard workers are always willing to learn new skills. Friendly and reliable staff help build a <strong>stronger, happier team</strong>."
+          "a": "Both matter a lot, yet a <strong>positive work attitude</strong> often comes first because hard workers are always willing to learn new skills. Friendly and reliable staff help build a <strong>stronger</strong>, <strong>happier team</strong>."
         }
       ]
   },
@@ -2250,7 +2250,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "How can people maintain long-distance friendships?",
           "vi": "Duy trì tình bạn xa cách bằng cách nào?",
-          "a": "Friends living in different cities can keep in touch by <strong>chatting online regularly</strong>, remembering birthdays, and calling to share big news. Planning a meet-up whenever free keeps the bond <strong>strong and lively</strong>."
+          "a": "Friends living in different cities can keep in touch by <strong>chatting online regularly</strong>, remembering birthdays, and calling to share big news. Planning a meet-up whenever free keeps the bond <strong>strong</strong> and <strong>lively</strong>."
         },
         {
           "q": "Is having a few true friends better than having many acquaintances?",
@@ -2310,7 +2310,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "How should a leader handle team conflicts?",
           "vi": "Lãnh đạo nên xử lý mâu thuẫn nhóm thế nào?",
-          "a": "A good leader should sit down privately with both sides and <strong>listen fairly</strong> without taking favorites. Helping coworkers focus on the <strong>shared goal</strong> usually settles arguments calmly."
+          "a": "A good leader should sit down privately with both sides and <strong>listen fairly</strong> without <strong>taking sides</strong>. Helping coworkers focus on the <strong>shared goal</strong> usually settles arguments calmly."
         },
         {
           "q": "What is the difference between a boss and a true leader?",
@@ -2360,17 +2360,17 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Who was your favorite teacher and why?",
           "vi": "Ai là giáo viên yêu thích nhất của bạn?",
-          "a": "My favorite teacher was my high school English teacher because she always made class <strong>fun and lively</strong>. She used games and real-life stories, and patiently helped shy students build <strong>confidence in speaking</strong>."
+          "a": "My favorite teacher was my high school English teacher because she always made class <strong>fun</strong> and <strong>lively</strong>. She used games and real-life stories, and patiently helped shy students build <strong>confidence in speaking</strong>."
         },
         {
           "q": "Will computers ever replace human teachers?",
           "vi": "Máy tính có thể thay thế giáo viên?",
-          "a": "No, computers can never replace human teachers because learning needs <strong>real human care</strong> and understanding. Apps can share facts fast, yet only teachers can cheer up tired learners and guide them with <strong>warm heart</strong>."
+          "a": "No, computers can never replace human teachers because learning needs <strong>real human care</strong> and understanding. Apps can share facts fast, yet only teachers can cheer up tired learners and guide them with a <strong>warm heart</strong>."
         },
         {
           "q": "What is the hardest challenge modern teachers face?",
           "vi": "Thử thách lớn nhất của giáo viên hiện nay?",
-          "a": "One of the biggest challenges today is keeping students focused when <strong>smartphones and social media</strong> easily distract them. Teachers also work under heavy pressure from large class sizes and <strong>strict exam targets</strong>."
+          "a": "One of the biggest challenges today is keeping students focused when <strong>smartphones</strong> and <strong>social media</strong> easily distract them. Teachers also work under heavy pressure from large class sizes and <strong>strict exam targets</strong>."
         }
       ]
   },
