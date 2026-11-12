@@ -2475,7 +2475,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Do young people and older people look for the same thing in a job?",
           "vi": "Người trẻ và lớn tuổi có tìm kiếm điều giống nhau?",
-          "a": "Usually they have slightly different goals. Young workers often look for chances to <strong>learn new skills</strong> and move up fast, whereas older staff usually value <strong>job safety</strong>, steady hours, and good health care."
+          "a": "Usually they have slightly different goals. Young workers often look for chances to <strong>learn new skills</strong> and move up fast, whereas older staff usually value <strong>job security</strong>, steady hours, and good health care."
         },
         {
           "q": "How can people find a job that is suitable for them?",
@@ -2525,17 +2525,17 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Which factor is the most important in a job interview?",
           "vi": "Yếu tố nào quan trọng nhất trong phỏng vấn?",
-          "a": "I think <strong>clear, honest communication</strong> is the most important factor because interviewers want to see how candidates think and talk. Explaining past projects smoothly with a confident smile shows real readiness for the role."
+          "a": "I think <strong>clear</strong>, <strong>honest communication</strong> is the most important factor because interviewers want to see how candidates think and talk. Explaining past projects smoothly with a confident smile shows real readiness for the role."
         },
         {
           "q": "Do you think first impressions are always accurate? Why or why not?",
           "vi": "Ấn tượng ban đầu có luôn chính xác không?",
-          "a": "No, first impressions are not always right because some very talented people simply feel <strong>shy or nervous</strong> at the start. Managers still need to look at actual skills and work results before judging someone."
+          "a": "No, first impressions are not always right because some very talented people simply feel <strong>shy</strong> or <strong>nervous</strong> at the start. Managers still need to look at actual skills and work results before judging someone."
         },
         {
           "q": "What can people do if they make a bad first impression in an interview?",
           "vi": "Làm gì nếu lỡ tạo ấn tượng xấu ban đầu?",
-          "a": "Candidates should stay calm, smile politely, and focus on giving <strong>strong, clear answers</strong> to the next questions. Showing eagerness to learn and asking thoughtful questions at the end can easily turn the talk around."
+          "a": "Candidates should stay calm, smile politely, and focus on giving <strong>strong</strong>, <strong>clear answers</strong> to the next questions. Showing eagerness to learn and asking thoughtful questions at the end can easily turn the talk around."
         }
       ]
   },
@@ -2585,12 +2585,12 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Should high school students follow their parents' advice when selecting a college?",
           "vi": "Học sinh có nên nghe theo lời khuyên của cha mẹ khi chọn trường không?",
-          "a": "Yes, teenagers should listen carefully to their parents since older family members have useful <strong>life experience</strong> and know family budgets well. Still, the final choice should follow the student’s own <strong>passions and strengths</strong>."
+          "a": "Yes, teenagers should listen carefully to their parents since older family members have useful <strong>life experience</strong> and know family budgets well. Still, the final choice should follow the student’s own <strong>passions</strong> and <strong>strengths</strong>."
         },
         {
           "q": "Is graduating from a prestigious university the only way to achieve career success?",
           "vi": "Tốt nghiệp trường danh tiếng có phải là cách duy nhất để thành công trong sự nghiệp?",
-          "a": "Not at all. While top university degrees help at the start, real <strong>practical experience</strong>, hard work, and good people skills decide long-term success much more."
+          "a": "Not at all. While top university degrees help at the start, real <strong>practical experience</strong>, hard work, and <strong>good people skills</strong> decide long-term success much more."
         }
       ]
   }
@@ -2607,16 +2607,16 @@ const FLASHCARDS_DATA = [
     { cat: 'Mở bài B2', front: 'There are several factors to consider when...', back: 'Có một số yếu tố cần cân nhắc khi... (Mở bài dạng Yếu tố)', ex: 'There are several factors to consider when applying for a job.' },
     { cat: 'Thân bài - Nhánh 1', front: 'One major advantage / factor is that...', back: 'Một ưu điểm / yếu tố lớn là...', ex: 'One major advantage is that digital learning is flexible.' },
     { cat: 'Thân bài - Nhánh 1', front: 'One effective measure is to [verb]...', back: 'Một biện pháp hiệu quả là...', ex: 'One effective measure is to prepare meals at home.' },
-    { cat: 'Thân bài - Nhánh 1', front: 'One major essential trait is that...', back: 'Một phẩm chất cốt lõi là...', ex: 'One major essential trait is that a good student has self-discipline.' },
+    { cat: 'Thân bài - Nhánh 1', front: 'One major quality is that...', back: 'Một phẩm chất quan trọng là...', ex: 'One major quality is that a good student has self-discipline.' },
     { cat: 'Thân bài - Nhánh 2', front: 'Another positive aspect / reason is that...', back: 'Một khía cạnh tích cực / lý do khác là...', ex: 'Another positive aspect is that e-learning is time-saving.' },
     { cat: 'Thân bài - Nhánh 2', front: 'Another practical method is to [verb]...', back: 'Một phương pháp thực tế khác là...', ex: 'Another practical method is to avoid unnecessary shopping.' },
-    { cat: 'Thân bài - Nhánh 2', front: 'Another important personal attribute is that...', back: 'Một đặc điểm cá nhân quan trọng khác là...', ex: 'Another important personal attribute is that a good student is eager to learn.' },
+    { cat: 'Thân bài - Nhánh 2', front: 'Another important quality is that...', back: 'Một phẩm chất quan trọng khác là...', ex: 'Another important quality is that a good student is eager to learn.' },
     { cat: 'Thân bài - Nhánh 3', front: 'One more beneficial effect / key element is that...', back: 'Thêm một tác động có lợi / yếu tố then chốt nữa là...', ex: 'One more beneficial effect is that distance learning is money-saving.' },
     { cat: 'Thân bài - Nhánh 3', front: 'One more useful approach is to [verb]...', back: 'Thêm một cách tiếp cận hữu ích nữa là...', ex: 'One more useful approach is to set a monthly budget.' },
     { cat: 'Thân bài - Nhánh 3', front: 'One more key strength is that...', back: 'Thêm một điểm mạnh then chốt nữa là...', ex: 'One more key strength is that a good student can manage time well.' },
     { cat: 'Mở rộng B2', front: '..., which is especially useful for...', back: 'Mệnh đề quan hệ giải thích lý do hoặc đối tượng hưởng lợi', ex: 'Students can study anytime, which is especially useful for those with busy schedules.' },
     { cat: 'Mở rộng B2', front: 'In fact, / To be specific, ...', back: 'Thực tế là / Cụ thể hơn là... (Dẫn dắt mở rộng ý)', ex: 'In fact, arriving on time shows that candidates are responsible.' },
-    { cat: 'Mở rộng B2', front: 'Consequently, / As a result, ...', back: 'Hậu quả là / Kết quả là... (Chỉ kết quả)', ex: 'As a result, they can balance their studies with other responsibilities.' },
+    { cat: 'Mở rộng B2', front: 'Therefore, / As a result, ...', back: 'Do đó / Kết quả là... (Chỉ kết quả)', ex: 'As a result, they can balance their studies with other responsibilities.' },
     { cat: 'Kết bài B2', front: 'In short, [topic] has several clear benefits, as mentioned above.', back: 'Tóm lại, [chủ đề] có những lợi ích rõ ràng như đã nêu.', ex: 'In short, online learning has several clear benefits, as mentioned above.' },
     { cat: 'Follow-ups B2', front: 'In my opinion, ... / Personally, I think...', back: 'Theo ý kiến của tôi... (Bắt đầu trả lời câu hỏi mở rộng)', ex: 'In my opinion, self-discipline is the most important quality.' },
     { cat: 'Follow-ups B2', front: 'There are two main reasons for this. Firstly, ...', back: 'Có hai lý do chính cho điều này. Thứ nhất là...', ex: 'There are two main reasons for this. Firstly, it reduces unexpected costs.' }
