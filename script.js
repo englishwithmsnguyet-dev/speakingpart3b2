@@ -995,7 +995,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "What should you do if an online order arrives damaged?",
           "vi": "Nên làm gì khi hàng online bị hư hỏng?",
-          "a": "Buyers should take <strong>clear photos or videos</strong> of the broken item as soon as they open the box. Then they can message <strong>customer support</strong> right away to ask for a <strong>new item or a full refund</strong>."
+          "a": "Buyers should take <strong>clear photos</strong> or <strong>videos</strong> of the broken item as soon as they open the box. Then they can message <strong>customer support</strong> right away to ask for a <strong>new item</strong> or a <strong>full refund</strong>."
         }
       ]
   },
@@ -1040,12 +1040,12 @@ const ALL_TOPICS_POOL = [
         {
           "q": "How can governments encourage more people to ride buses and metros?",
           "vi": "Chính phủ khuyến khích đi xe bus thế nào?",
-          "a": "The government can offer <strong>cheap monthly passes</strong> and student discounts to <strong>save commuters money</strong>. Building <strong>special bus lanes</strong> also helps buses run faster and stay right on time."
+          "a": "The government can offer <strong>cheap monthly passes</strong> and student discounts to <strong>help people save money</strong>. Building <strong>special bus lanes</strong> also helps buses run faster and stay right on time."
         },
         {
           "q": "Is public transport eco-friendly?",
           "vi": "Phương tiện công cộng có thân thiện môi trường không?",
-          "a": "Yes, modern buses and metros are much <strong>greener than private cars</strong>. Carrying dozens of people on one ride greatly cuts down <strong>city air pollution</strong> and lowers <strong>heavy traffic jams</strong>."
+          "a": "Yes, modern buses and metros are much <strong>greener than private cars</strong>. Carrying dozens of people on one ride greatly cuts down <strong>city air pollution</strong> and reduces <strong>traffic jams</strong>."
         },
         {
           "q": "Do you prefer traveling by motorbike or by bus?",
@@ -1105,7 +1105,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "How many hours of exercise per week is enough for adults?",
           "vi": "Người lớn nên tập bao nhiêu giờ mỗi tuần?",
-          "a": "Health doctors usually suggest around <strong>150 minutes</strong> of light or moderate exercise each week. Doing about <strong>thirty minutes a day</strong> five times a week is great for keeping the heart strong and healthy."
+          "a": "<strong>Doctors</strong> usually suggest around <strong>150 minutes</strong> of light or moderate exercise each week. Doing about <strong>thirty minutes a day</strong> five times a week is great for keeping the heart strong and healthy."
         }
       ]
   },
@@ -1150,7 +1150,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Do you think people should become self-employed despite these disadvantages?",
           "vi": "Có nên tự kinh doanh bất chấp bất lợi?",
-          "a": "Yes, working for yourself gives people much <strong>more freedom</strong> to decide their own <strong>work hours and ideas</strong>. If business owners keep trying through hard months, they can earn good money and feel proud of their work."
+          "a": "Yes, working for yourself gives people much <strong>more freedom</strong> to decide their own <strong>work hours</strong> and <strong>ideas</strong>. If business owners keep trying through hard months, they can earn good money and feel proud of their work."
         },
         {
           "q": "Should students choose self-employment or work for a company after graduation?",
@@ -1160,7 +1160,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "What skills are most important for self-employed entrepreneurs?",
           "vi": "Kỹ năng nào quan trọng nhất cho người tự kinh doanh?",
-          "a": "Self-employed people mostly need <strong>strong self-discipline</strong> and good skills in <strong>managing daily money</strong>. Knowing how to talk clearly with customers also helps them keep loyal buyers."
+          "a": "Self-employed people mostly need <strong>strong self-discipline</strong> and good skills in <strong>managing their money</strong>. Knowing how to talk clearly with customers also helps them keep <strong>regular customers</strong>."
         }
       ]
   },
@@ -1210,7 +1210,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "How can apartment residents deal with noisy neighbors?",
           "vi": "Xử lý hàng xóm ồn ào thế nào?",
-          "a": "Residents should start by having a <strong>polite, friendly talk</strong> to explain the noise problem gently. If nothing changes, telling the <strong>building managers</strong> helps make sure everyone follows quiet rules fairly."
+          "a": "Residents should start by having a <strong>polite, friendly talk</strong> to explain the noise problem gently. If nothing changes, telling the <strong>building managers</strong> helps make sure everyone follows <strong>noise rules</strong> fairly."
         },
         {
           "q": "Do you prefer a townhouse or a condominium?",
@@ -1265,7 +1265,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Can AI replace human creativity in art and writing?",
           "vi": "AI có thay thế được sáng tạo nghệ thuật?",
-          "a": "No, computer programs cannot replace <strong>real human creativity</strong> because machines do not have <strong>true feelings or life memories</strong>. Great art and writing always come from genuine human heart and experience."
+          "a": "No, computer programs cannot replace <strong>real human creativity</strong> because machines do not have <strong>true feelings</strong> or <strong>life memories</strong>. Great art and writing always come from genuine human heart and experience."
         },
         {
           "q": "What should schools do about students using ChatGPT to do homework?",
