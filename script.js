@@ -1655,7 +1655,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Can spending time in nature improve mental health?",
           "vi": "Hòa mình vào thiên nhiên có cải thiện tâm trạng?",
-          "a": "Yes, getting out into <strong>green parks</strong> or quiet beaches works wonders for mental health. Fresh air, sunlight, and gentle walking naturally lower stress and bring back a <strong>calm, hopeful mood</strong>."
+          "a": "Yes, getting out into <strong>green parks</strong> or quiet beaches works wonders for mental health. Fresh air, sunlight, and gentle walking naturally lower stress and bring back a <strong>calm</strong>, <strong>hopeful mood</strong>."
         }
       ]
   },
@@ -1765,7 +1765,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Is sending a thank-you email after the interview recommended?",
           "vi": "Có nên gửi email cảm ơn sau phỏng vấn?",
-          "a": "Yes, writing a short, polite thank-you note within a day is a <strong>very good habit</strong>. It reminds interviewers of the candidate’s name and shows <strong>good manners</strong> and excitement for the role."
+          "a": "Yes, writing a short, polite thank-you note within a day is a <strong>very good habit</strong>. It reminds interviewers of the candidate’s name and shows <strong>good manners</strong> and <strong>excitement about the job</strong>."
         }
       ]
   },
@@ -1810,7 +1810,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Why is drinking enough water every day essential?",
           "vi": "Tại sao uống đủ nước rất quan trọng?",
-          "a": "Drinking plenty of water every day keeps the body <strong>fresh and active</strong>, helps digest food smoothly, and stops headaches or tiredness. Without enough water, people quickly feel sluggish and find it harder to focus."
+          "a": "Drinking plenty of water every day keeps the body <strong>fresh</strong> and <strong>active</strong>, helps digest food smoothly, and stops headaches or tiredness. Without enough water, people quickly feel <strong>tired</strong> and find it harder to focus."
         },
         {
           "q": "How many hours of sleep do adults need per night?",
@@ -1820,7 +1820,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Is mental health as important as physical health?",
           "vi": "Sức khỏe tinh thần có quan trọng như thể chất?",
-          "a": "Yes, mental health is <strong>just as important</strong> as body health because stress and sadness affect everything people do. When people feel happy and calm inside, they sleep better, get sick less, and enjoy life more."
+          "a": "Yes, mental health is <strong>just as important</strong> as <strong>physical health</strong> because stress and sadness affect everything people do. When people feel happy and calm inside, they sleep better, get sick less, and enjoy life more."
         }
       ]
   },
@@ -1865,7 +1865,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Does meditation help reduce anxiety?",
           "vi": "Thiền có giúp giảm lo âu không?",
-          "a": "Yes, spending even ten minutes sitting quietly and <strong>breathing slowly</strong> calms racing thoughts right away. Regular meditation trains the mind to stay steady when facing <strong>busy or hard days</strong>."
+          "a": "Yes, spending even ten minutes sitting quietly and <strong>breathing slowly</strong> calms racing thoughts right away. Regular meditation trains the mind to stay steady when facing <strong>busy</strong> or <strong>hard days</strong>."
         },
         {
           "q": "Can listening to instrumental music help people relax?",
@@ -1875,7 +1875,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Why is taking short breaks during work crucial?",
           "vi": "Tại sao nghỉ giải lao ngắn là cần thiết?",
-          "a": "Short breaks give tired eyes and an overworked brain a chance to <strong>rest and reset</strong>. Even standing up to stretch for five minutes stops burnout and helps workers return with <strong>clearer focus</strong>."
+          "a": "Short breaks give tired eyes and an overworked brain a chance to <strong>rest</strong> and <strong>reset</strong>. Even standing up to stretch for five minutes stops burnout and helps workers return with <strong>clearer focus</strong>."
         }
       ]
   },
@@ -1980,7 +1980,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "Are physical libraries still needed in the internet age?",
           "vi": "Thời đại internet có còn cần thư viện?",
-          "a": "Yes, physical libraries are still very useful because they offer a <strong>quiet, focused place</strong> away from noisy dorms and homes. Students also get free access to <strong>reliable books</strong> and helpful librarians."
+          "a": "Yes, physical libraries are still very useful because they offer a <strong>quiet place</strong> to focus away from noisy dorms and homes. Students also get free access to <strong>reliable books</strong> and helpful librarians."
         },
         {
           "q": "Should food and drinks be allowed in school libraries?",
@@ -2035,7 +2035,7 @@ const ALL_TOPICS_POOL = [
         {
           "q": "How can visiting museums make history more exciting?",
           "vi": "Tham quan bảo tàng giúp học lịch sử thế nào?",
-          "a": "Going to museums lets students see <strong>real old objects</strong>, traditional clothes, and historic photos right in front of them. Touching or seeing actual items turns textbook lines into <strong>vivid memories</strong>."
+          "a": "Going to museums lets students see <strong>real old objects</strong>, traditional clothes, and historic photos right in front of them. Touching or seeing actual items turns textbook lines into <strong>lasting memories</strong>."
         },
         {
           "q": "Why is learning history important for every citizen?",
@@ -2085,12 +2085,12 @@ const ALL_TOPICS_POOL = [
         {
           "q": "How has social media changed how we stay in touch?",
           "vi": "Mạng xã hội đã thay đổi cách giữ liên lạc thế nào?",
-          "a": "Social apps make it super fast and cheap to chat with friends and relatives across <strong>different countries</strong>. Sharing photos and quick daily updates helps people stay close even across <strong>distant time zones</strong>."
+          "a": "Social apps make it super fast and cheap to chat with friends and relatives across <strong>different countries</strong>. Sharing photos and quick daily updates helps people stay close even across <strong>different time zones</strong>."
         },
         {
           "q": "Do you prefer calling or texting?",
           "vi": "Bạn thích gọi điện hay nhắn tin?",
-          "a": "For quick everyday plans, I prefer <strong>sending text messages</strong> because people can answer whenever they are free. However, when talking to close family or sharing big news, a <strong>voice or video call</strong> feels much warmer."
+          "a": "For quick everyday plans, I prefer <strong>sending text messages</strong> because people can answer whenever they are free. However, when talking to close family or sharing big news, a <strong>voice call</strong> or <strong>video call</strong> feels much warmer."
         },
         {
           "q": "Why is face-to-face communication still the best?",
