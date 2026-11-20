@@ -2815,6 +2815,776 @@ const ALL_TOPICS_POOL = [
     ]
   },
   {
+    "id": "b-topic-20",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 20",
+    "title": "Taking a gap year is very beneficial.",
+    "center": "Taking a gap year",
+    "branches": [
+      {
+        "num": 1,
+        "text": "gain experience",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Tích lũy kinh nghiệm sống và kỹ năng thực tế"
+      },
+      {
+        "num": 2,
+        "text": "recharge after years of schooling",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Nạp lại năng lượng sau những năm học tập căng thẳng"
+      },
+      {
+        "num": 3,
+        "text": "clarify goals for work or study",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Xác định rõ định hướng học tập và nghề nghiệp"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "What are some disadvantages of taking a gap year?",
+        "vi": "Những bất lợi của việc dành một năm nghỉ ngơi (gap year) là gì?",
+        "a": "A significant disadvantage is the **potential loss of academic momentum and peer dislocation**. Furthermore, without rigorous self-discipline, individuals risk **dissipating personal finances on unproductive pursuits**."
+      },
+      {
+        "q": "Is taking a gap year popular in your country?",
+        "vi": "Gap year có phổ biến ở đất nước của bạn không?",
+        "a": "While gap years are gaining traction among urban Vietnamese youths, the phenomenon remains relatively niche because traditional families predominantly advocate **seamless progression from high school directly to tertiary institutions**."
+      },
+      {
+        "q": "Will taking a gap year be more important to students in the future?",
+        "vi": "Liệu việc đi gap year có trở nên quan trọng hơn với học sinh trong tương lai?",
+        "a": "Inarguably. As automated labor evolves, recruiters will increasingly prize **emotional intelligence, adaptability, and cross-cultural experiential maturity**, competencies cultivated profoundly through purposeful gap-year endeavors."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-21",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 21",
+    "title": "Waking up early is very beneficial.",
+    "center": "Waking up early",
+    "branches": [
+      {
+        "num": 1,
+        "text": "increase productivity",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Nâng cao năng suất làm việc và học tập"
+      },
+      {
+        "num": 2,
+        "text": "feel fresher",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Cảm thấy tỉnh táo, sảng khoái và tràn đầy năng lượng"
+      },
+      {
+        "num": 3,
+        "text": "have many good habits",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Xây dựng được nhiều thói quen sinh hoạt tốt"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Do people still pay attention to their health nowadays?",
+        "vi": "Mọi người ngày nay có còn chú ý đến sức khỏe của mình không?",
+        "a": "Undoubtedly. Heightened awareness regarding lifestyle diseases has spurred widespread commitment toward **nutritional monitoring, regular cardiovascular workouts, and preventive health screenings**."
+      },
+      {
+        "q": "How can we encourage people to lead a healthy lifestyle?",
+        "vi": "Làm thế nào để khuyến khích mọi người sống lành mạnh hơn?",
+        "a": "Communities can foster wellness by **investing in accessible municipal sports parks, subsidizing organic agricultural products**, and promoting workplace wellness initiatives."
+      },
+      {
+        "q": "Why do many people know that bad habits are harmful but still maintain them?",
+        "vi": "Tại sao nhiều người biết thói quen xấu có hại nhưng vẫn duy trì?",
+        "a": "Unwholesome behaviors such as late-night screen scrolling or junk food consumption provide **immediate dopamine gratification and temporary stress relief**, whereas breaking entrenched addictive loops requires **sustained psychological discipline**."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-22",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 22",
+    "title": "Fast food is very beneficial.",
+    "center": "Fast food",
+    "branches": [
+      {
+        "num": 1,
+        "text": "save money",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Tiết kiệm chi phí, giá cả hợp lý"
+      },
+      {
+        "num": 2,
+        "text": "save time",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Tiết kiệm thời gian chuẩn bị và nấu nướng"
+      },
+      {
+        "num": 3,
+        "text": "tasty",
+        "pos": "bottom",
+        "type": "adj",
+        "vi": "Hương vị thơm ngon, hấp dẫn"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Who typically consumes fast food the most?",
+        "vi": "Ai là người tiêu thụ thức ăn nhanh nhiều nhất?",
+        "a": "**Adolescents, college students, and corporate commuters** constitute the primary demographic due to their demanding schedules, budgetary constraints, and preference for convenient casual dining."
+      },
+      {
+        "q": "Does fast food affect people's eating habits in recent times?",
+        "vi": "Đồ ăn nhanh có ảnh hưởng đến thói quen ăn uống thời gian gần đây không?",
+        "a": "Profoundly. The ubiquity of fast-food chains and on-demand delivery apps has normalized **sedentary eating patterns and diminished traditional home-cooking traditions** across urban communities."
+      },
+      {
+        "q": "What are some disadvantages of fast food?",
+        "vi": "Những bất lợi của thức ăn nhanh là gì?",
+        "a": "Fast food is notoriously saturated with **trans fats, sodium, and refined carbohydrates**, drastically elevating the long-term incidence of **obesity, hypertension, and cardiovascular disorders**."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-23",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 23",
+    "title": "Living in a hostel is beneficial for university students.",
+    "center": "Living in a hostel",
+    "branches": [
+      {
+        "num": 1,
+        "text": "networking",
+        "pos": "top",
+        "type": "noun",
+        "vi": "Mở rộng mạng lưới quan hệ và bạn bè"
+      },
+      {
+        "num": 2,
+        "text": "adaptability",
+        "pos": "right",
+        "type": "noun",
+        "vi": "Rèn luyện khả năng thích nghi và hòa nhập"
+      },
+      {
+        "num": 3,
+        "text": "responsibility",
+        "pos": "bottom",
+        "type": "noun",
+        "vi": "Nâng cao tinh thần trách nhiệm và tính tự lập"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "What are the disadvantages of living in a hostel?",
+        "vi": "Những bất lợi của việc sống trong nhà trọ / ký túc xá là gì?",
+        "a": "Primary drawbacks include **compromised personal privacy and noise disturbances**. Additionally, interpersonal friction may arise from disparate lifestyle schedules or hygiene standards among roommates."
+      },
+      {
+        "q": "What should schools do to attract more students?",
+        "vi": "Nhà trường nên làm gì để thu hút nhiều sinh viên hơn?",
+        "a": "Educational institutions should **modernize residential infrastructure, ensure high-speed connectivity, and implement robust security protocols**, while maintaining subsidized accommodation fees."
+      },
+      {
+        "q": "What should be considered when moving to a hostel?",
+        "vi": "Cần cân nhắc điều gì khi chuyển vào sống ở nhà trọ / ký túc xá?",
+        "a": "Essential factors include **geographic proximity to lecture halls, comprehensive rental costs, facility sanitation standards, and the stringency of security regulations**."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-24",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 24",
+    "title": "Students should improve their self-study skills.",
+    "center": "Self-study skills",
+    "branches": [
+      {
+        "num": 1,
+        "text": "more independence",
+        "pos": "top",
+        "type": "noun",
+        "vi": "Rèn luyện tính tự lập trong tư duy và học tập"
+      },
+      {
+        "num": 2,
+        "text": "better time management",
+        "pos": "right",
+        "type": "noun",
+        "vi": "Kỹ năng quản lý thời gian hiệu quả hơn"
+      },
+      {
+        "num": 3,
+        "text": "better academic performance",
+        "pos": "bottom",
+        "type": "noun",
+        "vi": "Đạt kết quả và thành tích học tập vượt trội"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Are self-study skills taught at schools in your country?",
+        "vi": "Kỹ năng tự học có được giảng dạy tại các trường học ở nước bạn không?",
+        "a": "Traditionally, rote memorization prevailed in Vietnamese curricula. However, modern educational reforms are increasingly incorporating **inquiry-based projects and independent research modules** to cultivate self-directed learning."
+      },
+      {
+        "q": "Should self-study skills be a compulsory subject at school?",
+        "vi": "Kỹ năng tự học có nên là một môn học bắt buộc ở trường không?",
+        "a": "Formal instruction in **information retrieval, critical reading, and cognitive note-taking** should undoubtedly be compulsory, as these meta-learning skills underpin all academic and professional success."
+      },
+      {
+        "q": "How does the lack of self-study skills affect students’ performance at university?",
+        "vi": "Thiếu kỹ năng tự học ảnh hưởng như thế nào đến kết quả của sinh viên tại đại học?",
+        "a": "Tertiary education demands immense independent reading. Undergraduates lacking autonomous research abilities frequently experience **academic disorientation, miss project deadlines, and underperform in research seminars**."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-25",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 25",
+    "title": "A healthy breakfast brings people many benefits.",
+    "center": "A healthy breakfast",
+    "branches": [
+      {
+        "num": 1,
+        "text": "control weight",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Hỗ trợ kiểm soát cân nặng hiệu quả"
+      },
+      {
+        "num": 2,
+        "text": "provide energy for the day",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Cung cấp nguồn năng lượng dồi dào cho cả ngày"
+      },
+      {
+        "num": 3,
+        "text": "prevent some health problems",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Phòng ngừa nhiều vấn đề sức khỏe và bệnh tật"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "What types of food are often served for breakfast?",
+        "vi": "Những loại thực phẩm nào thường được dùng cho bữa sáng?",
+        "a": "Traditional Vietnamese breakfasts feature **hot broths like phở, savory sticky rice, or crusty bánh mì**. In Western cultures, morning diets typically comprise **eggs, whole-grain toast, Greek yogurt, or oatmeal**."
+      },
+      {
+        "q": "What are the negative effects of skipping breakfast?",
+        "vi": "Những tác hại của việc bỏ bữa sáng là gì?",
+        "a": "Skipping breakfast triggers **acute hypoglycemia, causing cognitive fog and lethargy**. Chronic skipping precipitates **gastric mucosal damage, metabolic deceleration, and compensatory evening overeating**."
+      },
+      {
+        "q": "What makes a healthy diet?",
+        "vi": "Điều gì tạo nên một chế độ ăn uống lành mạnh?",
+        "a": "A wholesome diet necessitates a **balanced equilibrium of macronutrients, abundant fiber, micronutrients, and hydration**, alongside strict moderation of **refined sugars, sodium, and saturated fats**."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-26",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 26",
+    "title": "A healthy diet brings people many benefits.",
+    "center": "A healthy diet",
+    "branches": [
+      {
+        "num": 1,
+        "text": "keep fit",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Giữ gìn vóc dáng thon gọn và cân đối"
+      },
+      {
+        "num": 2,
+        "text": "refresh people’s mind",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Giúp tinh thần sảng khoái và giảm stress"
+      },
+      {
+        "num": 3,
+        "text": "prevent some diseases",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Phòng ngừa nhiều bệnh tật nguy hiểm"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "What makes your diet balanced?",
+        "vi": "Điều gì làm cho chế độ ăn uống của bạn cân bằng?",
+        "a": "A diet achieves nutritional balance when it incorporates **appropriate ratios of macronutrients, diverse micronutrients, dietary fiber, and adequate hydration**, while minimizing **refined sugars and saturated fats**."
+      },
+      {
+        "q": "What should be done to raise awareness of having a healthy diet in your country?",
+        "vi": "Cần làm gì để nâng cao nhận thức về ăn uống lành mạnh ở nước bạn?",
+        "a": "Public authorities should **enforce transparent nutritional labeling, restrict junk-food advertisements targeting children**, and promote national campaigns educating citizens on balanced culinary practices."
+      },
+      {
+        "q": "Which is more important for people’s health: a balanced diet or regular exercise?",
+        "vi": "Điều gì quan trọng hơn cho sức khỏe: chế độ ăn cân bằng hay tập thể dục đều đặn?",
+        "a": "Both are indispensable pillars of health. However, **nutrition is fundamentally foundational**, as an unhealthy diet loaded with toxins and excess calories cannot be out-trained by physical exercise alone."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-27",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 27",
+    "title": "Trees are very important in people’s lives.",
+    "center": "Trees",
+    "branches": [
+      {
+        "num": 1,
+        "text": "flood prevention",
+        "pos": "top",
+        "type": "noun",
+        "vi": "Chống xói mòn và ngăn ngừa lũ lụt thiên tai"
+      },
+      {
+        "num": 2,
+        "text": "better environment",
+        "pos": "right",
+        "type": "noun",
+        "vi": "Cải thiện môi trường sống và thanh lọc không khí"
+      },
+      {
+        "num": 3,
+        "text": "a source of food",
+        "pos": "bottom",
+        "type": "noun",
+        "vi": "Cung cấp nguồn thực phẩm và dược liệu dồi dào"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Do you think planting trees should be an extracurricular activity at school?",
+        "vi": "Bạn có nghĩ rằng trồng cây nên là một hoạt động ngoại khóa ở trường không?",
+        "a": "Undoubtedly. Organizing tree-planting excursions instills **ecological responsibility, environmental stewardship, and collaborative teamwork** among youths from an early age."
+      },
+      {
+        "q": "What else can individuals do to protect the environment?",
+        "vi": "Mỗi cá nhân có thể làm gì khác để bảo vệ môi trường?",
+        "a": "Individuals can adopt sustainable habits such as **minimizing single-use plastics, patronizing public transit, conserving domestic energy**, and practicing disciplined waste recycling."
+      },
+      {
+        "q": "What should the government do to increase green spaces?",
+        "vi": "Chính phủ nên làm gì để tăng diện tích không gian xanh?",
+        "a": "Authorities must enforce **stringent urban zoning mandates requiring green ratios in real estate developments**, penalize illegal logging, and expand public botanical sanctuaries."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-28",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 28",
+    "title": "Reading fiction is more enjoyable than watching movies.",
+    "center": "Reading fiction",
+    "branches": [
+      {
+        "num": 1,
+        "text": "improve imagination",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Kích thích và phát triển trí tưởng tượng phong phú"
+      },
+      {
+        "num": 2,
+        "text": "provide more information",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Cung cấp chi tiết và nội tâm nhân vật sâu sắc hơn"
+      },
+      {
+        "num": 3,
+        "text": "learn more languages",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Mở rộng vốn từ vựng và nâng cao trình độ ngôn ngữ"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "What are the disadvantages of reading fiction?",
+        "vi": "Những bất lợi của việc đọc tiểu thuyết là gì?",
+        "a": "Literary reading requires **substantial time investment and sustained concentration**. Furthermore, prolonged sedentary reading in inadequate lighting can precipitate **ocular fatigue and physical passivity**."
+      },
+      {
+        "q": "What types of fiction are popular among teenagers in your country? Why?",
+        "vi": "Thể loại tiểu thuyết nào phổ biến với thanh thiếu niên ở nước bạn? Tại sao?",
+        "a": "**Fantasy sagas, detective thrillers, and young-adult romance** dominate youth preferences due to their **compelling cliffhangers, imaginative escapism, and resonant adolescent themes**."
+      },
+      {
+        "q": "Should fiction writing be a compulsory subject in your country?",
+        "vi": "Viết truyện hư cấu có nên là một môn học bắt buộc ở nước bạn không?",
+        "a": "Making creative writing mandatory may burden analytically inclined students. Rather, educational institutions should **provide creative writing workshops as optional extracurricular modules**."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-29",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 29",
+    "title": "There are some advantages of electric cars.",
+    "center": "Electric cars",
+    "branches": [
+      {
+        "num": 1,
+        "text": "reduce pollution",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Cắt giảm khí thải và bảo vệ môi trường"
+      },
+      {
+        "num": 2,
+        "text": "save natural resources",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Tiết kiệm nguồn tài nguyên thiên nhiên và nhiên liệu hóa thạch"
+      },
+      {
+        "num": 3,
+        "text": "save money",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Tiết kiệm chi phí vận hành và bảo dưỡng"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "What are the disadvantages of electric cars?",
+        "vi": "Những nhược điểm của xe ô tô điện là gì?",
+        "a": "Major hurdles include **steep initial acquisition costs, limited battery driving range, and inadequate charging station infrastructure** outside major urban centers."
+      },
+      {
+        "q": "Should companies give electric cars to employees?",
+        "vi": "Các công ty có nên trang bị xe điện cho nhân viên không?",
+        "a": "Providing company electric fleets reinforces **corporate sustainability commitments, reduces operational carbon footprints**, and enhances employee welfare."
+      },
+      {
+        "q": "What should the government do to develop electric cars?",
+        "vi": "Chính phủ nên làm gì để phát triển phương tiện xe điện?",
+        "a": "Policymakers should implement **purchase tax exemptions, subsidize domestic battery manufacturing, and fund nationwide networks of public fast-charging terminals**."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-30",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 30",
+    "title": "There are some advantages of working individually.",
+    "center": "Working individually",
+    "branches": [
+      {
+        "num": 1,
+        "text": "have flexibility",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Có sự linh hoạt tối đa về thời gian và phương pháp"
+      },
+      {
+        "num": 2,
+        "text": "enjoy all of success",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Hưởng trọn vẹn thành quả và sự công nhận"
+      },
+      {
+        "num": 3,
+        "text": "encounter fewer conflicts",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Tránh được bất đồng và xung đột ý kiến"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "What are the disadvantages of working individually?",
+        "vi": "Những nhược điểm của việc làm việc độc lập là gì?",
+        "a": "Disadvantages include **vocational isolation, vulnerability to burnout, and the absence of diverse peer perspectives** to cross-examine complex dilemma."
+      },
+      {
+        "q": "Who usually works individually?",
+        "vi": "Ai là những người thường làm việc một mình?",
+        "a": "**Creative freelancers, novelists, independent researchers, and software developers** typically work autonomously, as their occupations demand uninterrupted cognitive absorption."
+      },
+      {
+        "q": "Why do people like to work individually?",
+        "vi": "Tại sao nhiều người thích làm việc một mình?",
+        "a": "People favor solo work to preserve **methodological autonomy, escape bureaucratic compromises, and avoid the friction of uncommitted collaborators**."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-31",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 31",
+    "title": "University education is beneficial to students in a number of ways.",
+    "center": "University education",
+    "branches": [
+      {
+        "num": 1,
+        "text": "academic education",
+        "pos": "top",
+        "type": "noun",
+        "vi": "Tiếp thu nền tảng kiến thức học thuật chuyên sâu"
+      },
+      {
+        "num": 2,
+        "text": "job opportunities",
+        "pos": "right",
+        "type": "noun",
+        "vi": "Mở rộng cơ hội việc làm và mức thu nhập cao"
+      },
+      {
+        "num": 3,
+        "text": "social skills",
+        "pos": "bottom",
+        "type": "noun",
+        "vi": "Rèn luyện các kỹ năng mềm và kỹ năng xã hội"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "What do you think about university entrance exams in Vietnam?",
+        "vi": "Bạn nghĩ gì về kỳ thi tuyển sinh đại học ở Việt Nam?",
+        "a": "The national examination is **intensely competitive and psychologically demanding**. Nevertheless, standardized testing maintains **transparent meritocracy and equitable access** to premier universities."
+      },
+      {
+        "q": "What do you think education in Vietnam will be like in the future?",
+        "vi": "Bạn nghĩ giáo dục ở Việt Nam trong tương lai sẽ như thế nào?",
+        "a": "Vietnamese education will increasingly incorporate **AI-driven personalized curricula, hybrid digital classrooms, and industry-partnered experiential modules**."
+      },
+      {
+        "q": "University is the only way to success. Do you agree?",
+        "vi": "Đại học là con đường duy nhất dẫn đến thành công. Bạn có đồng ý không?",
+        "a": "I firmly disagree. Higher education provides valuable advantages, yet extraordinary success can equally be attained through **vocational excellence, self-taught expertise, and entrepreneurial boldness**."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-32",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 32",
+    "title": "Young people should be encouraged to play musical instruments.",
+    "center": "Playing musical instruments",
+    "branches": [
+      {
+        "num": 1,
+        "text": "reduce stress",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Giảm căng thẳng và cân bằng cảm xúc"
+      },
+      {
+        "num": 2,
+        "text": "manage time better",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Rèn luyện tính kỷ luật và quản lý thời gian tốt hơn"
+      },
+      {
+        "num": 3,
+        "text": "improve connections",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Tăng cường kết nối xã hội và tự tin giao tiếp"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Do you think music should be a necessary subject in school? Why or why not?",
+        "vi": "Bạn có nghĩ rằng âm nhạc nên là môn học bắt buộc ở trường không? Tại sao?",
+        "a": "Undoubtedly. Music education stimulates **bilateral brain connectivity, refines aesthetic appreciation**, and provides vital emotional balance amid rigorous academic demands."
+      },
+      {
+        "q": "What are some popular musical instruments in your country?",
+        "vi": "Những nhạc cụ nào phổ biến ở đất nước của bạn?",
+        "a": "Contemporary youths predominantly favor **acoustic guitars, digital pianos, and drums**, while traditional folk instruments like **the monochord (đàn bầu) and zither (đàn tranh)** are preserved reverently."
+      },
+      {
+        "q": "What are some kinds of popular traditional music in your country?",
+        "vi": "Những thể loại âm nhạc truyền thống nào phổ biến ở nước bạn?",
+        "a": "Vietnam boasts prestigious musical legacies recognized by UNESCO, notably **Quan họ folk duets, Hue royal court music (Nhã nhạc), and Đờn ca tài tử** from the Mekong Delta."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-33",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 33",
+    "title": "Doing exercise is good for people’s health.",
+    "center": "Doing exercise",
+    "branches": [
+      {
+        "num": 1,
+        "text": "keep fit",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Giữ gìn vóc dáng cân đối và săn chắc"
+      },
+      {
+        "num": 2,
+        "text": "prevent diseases",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Phòng chống các bệnh tim mạch và mãn tính"
+      },
+      {
+        "num": 3,
+        "text": "improve people’s mood",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Cải thiện tâm trạng và giải tỏa căng thẳng"
+      },
+      {
+        "num": 4,
+        "text": "[Your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Where do people in your area usually exercise?",
+        "vi": "Mọi người ở khu vực bạn sống thường tập thể dục ở đâu?",
+        "a": "Residents predominantly frequent **municipal parks, pedestrian lakesides, and modern fitness clubs** to engage in walking, aerobics, or weight training."
+      },
+      {
+        "q": "What is the most popular sport where you live?",
+        "vi": "Môn thể thao phổ biến nhất ở nơi bạn sống là gì?",
+        "a": "**Association football and badminton** enjoy immense popularity. Football attracts vast grassroots participation, while badminton remains ubiquitous across public courtyards."
+      },
+      {
+        "q": "Should physical exercise be included in schools?",
+        "vi": "Thể dục thể thao có nên được đưa vào trường học không?",
+        "a": "Inarguably. Comprehensive physical education is indispensable to **combat sedentary habits, promote skeletal growth, and instill lifelong athletic discipline** among schoolchildren."
+      }
+    ]
+  },
+  {
     "id": "d-topic-07",
     "category": "drawbacks",
     "categoryName": "Nhóm Bất Lợi",
