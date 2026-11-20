@@ -3585,6 +3585,776 @@ const ALL_TOPICS_POOL = [
     ]
   },
   {
+    "id": "b-topic-34",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 34",
+    "title": "Travelling abroad should be encouraged among young people.",
+    "center": "Travelling abroad",
+    "branches": [
+      {
+        "num": 1,
+        "text": "facilitate adaptation",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Rèn luyện khả năng thích ứng với môi trường mới"
+      },
+      {
+        "num": 2,
+        "text": "develop cultural sensitivity",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Phát triển sự hiểu biết và tôn trọng sự đa dạng văn hóa"
+      },
+      {
+        "num": 3,
+        "text": "boost confidence",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Gia tăng sự tự tin và độc lập"
+      },
+      {
+        "num": 4,
+        "text": "[your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "What should a person do to prepare for a trip to another country?",
+        "vi": "Một người nên chuẩn bị những gì trước khi đi du lịch nước ngoài?",
+        "a": "Meticulous preparation is essential prior to overseas travel. Individuals should verify passport validity, secure appropriate visas, purchase comprehensive travel insurance, and research local legal conventions and cultural etiquette."
+      },
+      {
+        "q": "What challenges can a person face when traveling abroad alone?",
+        "vi": "Một người có thể gặp phải những thử thách nào khi đi du lịch nước ngoài một mình?",
+        "a": "Solo travellers often confront severe communication hurdles and acute feelings of isolation. Furthermore, navigating emergency medical situations or personal security threats without an immediate support network poses significant challenges."
+      },
+      {
+        "q": "How have traveling habits changed over the last ten years?",
+        "vi": "Thói quen du lịch đã thay đổi như thế nào trong mười năm qua?",
+        "a": "Travel behaviors have transformed profoundly due to digital ubiquity. Today's travelers favor experiential tourism, spontaneous mobile bookings via online platforms, and remote work-travel integrations rather than traditional group package tours."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-35",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 35",
+    "title": "Visiting a foreign country is very beneficial to students.",
+    "center": "Visiting a foreign country",
+    "branches": [
+      {
+        "num": 1,
+        "text": "increase knowledge",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Mở rộng vốn kiến thức thực tế"
+      },
+      {
+        "num": 2,
+        "text": "make new friends",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Kết giao bạn bè quốc tế mới"
+      },
+      {
+        "num": 3,
+        "text": "have good memories",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Tạo dựng những kỷ niệm đáng nhớ"
+      },
+      {
+        "num": 4,
+        "text": "[your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Do people in your country often travel abroad?",
+        "vi": "Người dân ở nước bạn có thường đi du lịch nước ngoài không?",
+        "a": "Outbound tourism has experienced exponential growth in my country over the past decade. Thanks to rising disposable incomes and competitive budget airline fares, regional travel to destinations like Japan, South Korea, and Thailand has become immensely popular."
+      },
+      {
+        "q": "What are the disadvantages of traveling abroad?",
+        "vi": "Những bất lợi của việc đi du lịch nước ngoài là gì?",
+        "a": "Key drawbacks include substantial financial expenses and logistical vulnerabilities. Moreover, culture shock, acute communication barriers, differing healthcare regulations, and jet lag can hinder the overall experience."
+      },
+      {
+        "q": "What should people prepare before traveling abroad?",
+        "vi": "Mọi người nên chuẩn bị những gì trước khi đi du lịch nước ngoài?",
+        "a": "Travellers must guarantee valid passports, visa documentation, and adequate emergency currency. Additionally, acquiring comprehensive travel insurance and installing offline navigation and translation tools ensure smooth travels."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-36",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 36",
+    "title": "Working in groups benefits students a lot at school.",
+    "center": "Working in groups",
+    "branches": [
+      {
+        "num": 1,
+        "text": "improve communication skills",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Cải thiện kỹ năng giao tiếp và thuyết phục"
+      },
+      {
+        "num": 2,
+        "text": "become active",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Trở nên năng động và tích cực hơn"
+      },
+      {
+        "num": 3,
+        "text": "learn better at school",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Học tập hiệu quả và tiếp thu bài tốt hơn"
+      },
+      {
+        "num": 4,
+        "text": "[your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "What are some qualities of a good leader?",
+        "vi": "Một số phẩm chất của một người lãnh đạo giỏi là gì?",
+        "a": "An exemplary leader requires strategic vision, emotional intelligence, decisiveness, and inclusive communication. Furthermore, the ability to delegate tasks effectively and inspire collective commitment distinguishes outstanding leaders."
+      },
+      {
+        "q": "What are some qualities of a good team?",
+        "vi": "Một số phẩm chất của một tập thể nhóm tốt là gì?",
+        "a": "A high-performing team is characterised by psychological safety, transparent communication, shared accountability, and complementary competencies. Mutual respect empowers members to resolve creative conflicts constructively."
+      },
+      {
+        "q": "Should students get non-academic training at school? Give an example.",
+        "vi": "Học sinh có nên được đào tạo các kỹ năng phi học thuật tại trường không? Cho ví dụ.",
+        "a": "Undoubtedly, holistic education must incorporate soft skill development alongside academic curricula. For instance, workshops in interpersonal conflict resolution and critical digital literacy equip students with indispensable tools for adulthood."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-37",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 37",
+    "title": "Face-to-face communication brings many benefits to people.",
+    "center": "Face-to-face communication",
+    "branches": [
+      {
+        "num": 1,
+        "text": "direct expressions",
+        "pos": "top",
+        "type": "noun",
+        "vi": "Biểu cảm trực diện qua nét mặt và cử chỉ"
+      },
+      {
+        "num": 2,
+        "text": "closeness",
+        "pos": "right",
+        "type": "noun",
+        "vi": "Cảm giác gần gũi và gắn kết tình cảm"
+      },
+      {
+        "num": 3,
+        "text": "immediate feedback",
+        "pos": "bottom",
+        "type": "noun",
+        "vi": "Nhận được phản hồi tức thì và chính xác"
+      },
+      {
+        "num": 4,
+        "text": "[your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "What is the role of non-verbal communication in communication?",
+        "vi": "Vai trò của giao tiếp phi ngôn ngữ trong giao tiếp là gì?",
+        "a": "Non-verbal cues account for a dominant portion of interpersonal messaging. Facial expressions, vocal inflection, and body posture reinforce verbal assertions, signal authenticity, and establish empathetic rapport."
+      },
+      {
+        "q": "How is communication today different from 10 years ago?",
+        "vi": "Giao tiếp ngày nay khác với 10 năm trước như thế nào?",
+        "a": "Communication has shifted from synchronous, in-person dialogues toward asynchronous digital correspondence across multiple multimedia apps. While accessibility has heightened, interpersonal depth and attention spans have diminished."
+      },
+      {
+        "q": "Does technology affect how people communicate?",
+        "vi": "Công nghệ có ảnh hưởng đến cách con người giao tiếp không?",
+        "a": "Inevitably so. While technological innovations eradicate geographic boundaries and optimize transactional communications, they risk eroding organic conversational skills, empathy, and meaningful relational intimacy."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-38",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 38",
+    "title": "Working from home has a lot of benefits.",
+    "center": "Working from home",
+    "branches": [
+      {
+        "num": 1,
+        "text": "save time",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Tiết kiệm đáng kể thời gian đi lại"
+      },
+      {
+        "num": 2,
+        "text": "increase productivity",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Nâng cao năng suất và hiệu quả công việc"
+      },
+      {
+        "num": 3,
+        "text": "reduce working stress",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Giảm bớt áp lực và căng thẳng công sở"
+      },
+      {
+        "num": 4,
+        "text": "[your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "What do you think are the drawbacks of working from home?",
+        "vi": "Bạn nghĩ những bất lợi của việc làm việc tại nhà là gì?",
+        "a": "Prominent drawbacks encompass professional isolation and blurred boundaries between professional duties and private domestic life. Additionally, suboptimal home technology infrastructures may hinder seamless teamwork."
+      },
+      {
+        "q": "Has the number of people working from home increased? Why?",
+        "vi": "Số lượng người làm việc tại nhà có gia tăng không? Tại sao?",
+        "a": "Remote work adoption has escalated dramatically post-pandemic. Propelled by ubiquitous high-speed connectivity and cloud productivity software, corporations recognize that telecommuting diminishes overhead rental overheads while boosting recruitment reach."
+      },
+      {
+        "q": "What is the most important factor to work effectively when working from home?",
+        "vi": "Yếu tố quan trọng nhất để làm việc hiệu quả khi ở nhà là gì?",
+        "a": "Rigorous personal self-discipline coupled with proactive time management is undeniably paramount. Maintaining deliberate working boundaries and establishing structured routines prevent burnout and procrastination."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-39",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 39",
+    "title": "Facebook is a useful tool to learn.",
+    "center": "Facebook for learning",
+    "branches": [
+      {
+        "num": 1,
+        "text": "Way of entertainment",
+        "pos": "top",
+        "type": "noun",
+        "vi": "Hình thức giải trí giúp việc học bớt khô khan"
+      },
+      {
+        "num": 2,
+        "text": "Way to learn",
+        "pos": "right",
+        "type": "noun",
+        "vi": "Phương thức học tập cộng đồng thuận tiện"
+      },
+      {
+        "num": 3,
+        "text": "rich source of information",
+        "pos": "bottom",
+        "type": "noun",
+        "vi": "Nguồn tài liệu và thông tin học thuật vô cùng phong phú"
+      },
+      {
+        "num": 4,
+        "text": "[your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "How can Facebook help improve learning for students?",
+        "vi": "Facebook có thể giúp cải thiện việc học của học sinh như thế nào?",
+        "a": "Facebook facilitates peer-to-peer mentoring, resource dissemination, and real-time scholastic debates within targeted study groups. Furthermore, following educational institutions exposes students to contemporary academic discourse."
+      },
+      {
+        "q": "What are some educational resources that people can find on Facebook?",
+        "vi": "Một số tài nguyên giáo dục mà mọi người có thể tìm thấy trên Facebook là gì?",
+        "a": "Learners can access comprehensive open-access study repositories, scholarly livestream webinars, instructional infographics, and curated alumni discussion forums spanning numerous academic disciplines."
+      },
+      {
+        "q": "Can Facebook distract people from studying? Why or why not?",
+        "vi": "Facebook có thể làm mọi người xao nhãng khỏi việc học không? Tại sao?",
+        "a": "Inevitably so. The algorithmic delivery of bite-sized entertainment and sensory notifications frequently interrupts cognitive concentration. Without robust digital discipline, study sessions frequently devolve into mindless scrolling."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-40",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 40",
+    "title": "Camping is good for students.",
+    "center": "Camping",
+    "branches": [
+      {
+        "num": 1,
+        "text": "fresh air",
+        "pos": "top",
+        "type": "noun",
+        "vi": "Hít thở bầu không khí trong lành ngoài trời"
+      },
+      {
+        "num": 2,
+        "text": "nature discovery",
+        "pos": "right",
+        "type": "noun",
+        "vi": "Khám phá vẻ đẹp kỳ thú của thế giới tự nhiên"
+      },
+      {
+        "num": 3,
+        "text": "camping skills",
+        "pos": "bottom",
+        "type": "noun",
+        "vi": "Rèn luyện các kỹ năng sinh tồn và cắm trại thực tế"
+      },
+      {
+        "num": 4,
+        "text": "[your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Do people in your country go camping? Why or why not?",
+        "vi": "Người dân ở nước bạn có đi cắm trại không? Tại sao / tại sao không?",
+        "a": "Camping and glamping have witnessed a remarkable surge in popularity, particularly among urban millennials. Seeking respite from digital overload and city stress, citizens increasingly venture into national parks for outdoor rejuvenation."
+      },
+      {
+        "q": "What should people prepare when going camping?",
+        "vi": "Mọi người nên chuẩn bị những gì khi đi cắm trại?",
+        "a": "Essential provisions include water-resistant tents, thermal sleeping bags, adequate non-perishable sustenance, water purifiers, navigation tools, insect repellent, and comprehensive first-aid medical supplies."
+      },
+      {
+        "q": "What should be done to encourage people to protect the environment after camping?",
+        "vi": "Nên làm gì để khuyến khích mọi người bảo vệ môi trường sau khi cắm trại?",
+        "a": "Authorities must enforce strict 'Leave No Trace' protocols by imposing punitive fines on littering. In addition, providing accessible recycling disposal infrastructure and promoting eco-camping ethics on social media will raise public responsibility."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-41",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 41",
+    "title": "Technology has a lot of benefits for students.",
+    "center": "Technology",
+    "branches": [
+      {
+        "num": 1,
+        "text": "Improve knowledge",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Nâng cao và cập nhật tri thức hiện đại"
+      },
+      {
+        "num": 2,
+        "text": "provide learning source",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Cung cấp nguồn tài liệu học tập vô tận"
+      },
+      {
+        "num": 3,
+        "text": "reduce the cost of study",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Tiết kiệm đáng kể chi phí học tập"
+      },
+      {
+        "num": 4,
+        "text": "[your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "How can students use technology effectively in their studies?",
+        "vi": "Học sinh có thể sử dụng công nghệ một cách hiệu quả trong việc học bằng cách nào?",
+        "a": "Students should strategically leverage digital tools: utilising AI assistants for structured brainstorming, participating in collaborative cloud document editing, and tracking tasks through productivity platforms like Notion."
+      },
+      {
+        "q": "What challenges do students face when using technology for learning?",
+        "vi": "Học sinh đối mặt với những thách thức nào khi sử dụng công nghệ để học tập?",
+        "a": "Prominent hurdles include chronic digital distractions, reliable internet connectivity disparities, and cognitive overload. Furthermore, prolonged sedentary screen exposure often results in physical fatigue and diminished attention spans."
+      },
+      {
+        "q": "Will technology completely replace traditional learning methods in the future?",
+        "vi": "Liệu công nghệ có thay thế hoàn toàn các phương pháp học tập truyền thống trong tương lai không?",
+        "a": "It's highly unlikely that technology will totally supplant traditional schooling. While AI will automate knowledge delivery, human educators remain indispensable for instilling ethical values, providing emotional mentorship, and nurturing human empathy."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-42",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 42",
+    "title": "Strict discipline at school brings about numerous benefits for students.",
+    "center": "Strict discipline",
+    "branches": [
+      {
+        "num": 1,
+        "text": "improve academic performance",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Cải thiện kết quả học tập và thi cử"
+      },
+      {
+        "num": 2,
+        "text": "teach work ethics",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Dạy tính tự giác và đạo đức làm việc chuẩn mực"
+      },
+      {
+        "num": 3,
+        "text": "keep the learning environment safe",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Bảo đảm môi trường học đường an toàn, lành mạnh"
+      },
+      {
+        "num": 4,
+        "text": "[your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "What are the drawbacks of strict discipline in class?",
+        "vi": "Những bất lợi của kỷ luật quá khắt khe trong lớp học là gì?",
+        "a": "Overly punitive discipline risks stifling spontaneous student curiosity and original creative thinking. Furthermore, an authoritarian classroom atmosphere can induce chronic emotional stress and fuel clandestine student rebellion."
+      },
+      {
+        "q": "What should the teachers do to maintain discipline in class?",
+        "vi": "Giáo viên nên làm gì để duy trì kỷ luật trong lớp học?",
+        "a": "Educators should establish clear behavioral expectations collaboratively with students while remaining consistently impartial. Applying positive reinforcement and empathetic active listening is infinitely more constructive than arbitrary punishments."
+      },
+      {
+        "q": "What is considered to be more important for teachers: love or respect from students?",
+        "vi": "Điều gì được coi là quan trọng hơn đối với người thầy: tình thương hay sự tôn trọng từ học sinh?",
+        "a": "While both dimensions are valuable, profound respect rooted in professional competence and moral integrity is foundational. When an educator displays genuine care and intellectual enthusiasm, respect and affection naturally coalesce."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-43",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 43",
+    "title": "Learning a new skill is beneficial.",
+    "center": "Learning a new skill",
+    "branches": [
+      {
+        "num": 1,
+        "text": "improve brain function",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Kích thích và cải thiện chức năng não bộ"
+      },
+      {
+        "num": 2,
+        "text": "live a more meaningful life",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Sống một cuộc đời ý nghĩa và giàu cảm hứng hơn"
+      },
+      {
+        "num": 3,
+        "text": "challenge oneself",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Thử thách bản thân và vượt qua vùng an toàn"
+      },
+      {
+        "num": 4,
+        "text": "[your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Do you think learning new skills is important for work?",
+        "vi": "Bạn có nghĩ rằng việc học các kỹ năng mới là quan trọng đối với công việc không?",
+        "a": "Continuous upskilling is undeniably critical in today's knowledge economy. Given rapid technological disruption and AI integration, professionals who fail to update technical and adaptive skill sets face acute obsolescence."
+      },
+      {
+        "q": "Do you believe it's better to take courses or learn new skills by yourself?",
+        "vi": "Bạn tin rằng nên tham gia các khóa học hay tự học kỹ năng mới thì tốt hơn?",
+        "a": "Both methods offer distinct virtues. Formal instructional courses provide curated curricula, accountability, and expert critique. Conversely, self-directed learning allows flexible pacing, autonomy, and resourceful problem-solving."
+      },
+      {
+        "q": "What are the benefits of learning new skills?",
+        "vi": "Những lợi ích của việc học kỹ năng mới là gì?",
+        "a": "Key benefits encompass enhanced employability, sharpened neurocognitive agility, and deep emotional self-actualisation. Moreover, diverse competencies foster interdisciplinary innovation and adaptability."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-44",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 44",
+    "title": "Travelling in a group is beneficial for students.",
+    "center": "Travelling in a group",
+    "branches": [
+      {
+        "num": 1,
+        "text": "opportunities to learn new things",
+        "pos": "top",
+        "type": "noun",
+        "vi": "Cơ hội phong phú để học hỏi nhiều điều mới lạ"
+      },
+      {
+        "num": 2,
+        "text": "cost-saving and safety",
+        "pos": "right",
+        "type": "noun",
+        "vi": "Tiết kiệm chi phí và bảo đảm an toàn tối đa"
+      },
+      {
+        "num": 3,
+        "text": "teamwork and social skills",
+        "pos": "bottom",
+        "type": "noun",
+        "vi": "Nâng cao kỹ năng làm việc nhóm và giao tiếp xã hội"
+      },
+      {
+        "num": 4,
+        "text": "[your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Do you think group travel is better than solo travel for students? Why?",
+        "vi": "Bạn có nghĩ du lịch theo nhóm tốt hơn du lịch một mình đối với sinh viên không? Tại sao?",
+        "a": "For most students with limited budgets and travel experience, group travel is distinctly superior due to shared economic costs and mutual safety. However, solo journeys offer unmatched independence and self-discovery."
+      },
+      {
+        "q": "What are some difficulties students may face when travelling together?",
+        "vi": "Những khó khăn mà sinh viên có thể gặp phải khi đi du lịch cùng nhau là gì?",
+        "a": "Significant friction frequently arises from clashing financial budgets, divergent pacing preferences, and unpunctuality. Failure to communicate openly regarding itinerary compromises can jeopardize interpersonal friendships."
+      },
+      {
+        "q": "How can students prepare to make the most of a group trip?",
+        "vi": "Sinh viên có thể chuẩn bị như thế nào để có một chuyến đi nhóm trọn vẹn nhất?",
+        "a": "Students should establish a mutually agreed-upon budget and transparent itinerary beforehand while assigning specific logistical responsibilities like booking and navigation. Maintaining mutual flexibility and empathy guarantees an exceptional expedition."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-45",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 45",
+    "title": "Taking part in extracurricular activities brings many benefits to students.",
+    "center": "Extracurricular activities",
+    "branches": [
+      {
+        "num": 1,
+        "text": "social connection",
+        "pos": "top",
+        "type": "noun",
+        "vi": "Mở rộng kết nối xã hội và mối quan hệ bạn bè"
+      },
+      {
+        "num": 2,
+        "text": "time management",
+        "pos": "right",
+        "type": "noun",
+        "vi": "Rèn luyện kỹ năng quản lý và phân bổ thời gian"
+      },
+      {
+        "num": 3,
+        "text": "balance their life",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Cân bằng cuộc sống và giảm bớt căng thẳng học hành"
+      },
+      {
+        "num": 4,
+        "text": "[your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "What kind of extracurricular activities do students in your country usually join?",
+        "vi": "Học sinh, sinh viên ở nước bạn thường tham gia những loại hoạt động ngoại khóa nào?",
+        "a": "Vietnamese students actively participate in social philanthropy campaigns, environmental conservation groups, and English speaking clubs. Additionally, sports clubs like football and academic debate societies are exceptionally popular."
+      },
+      {
+        "q": "Do you think these activities are more important than academic study?",
+        "vi": "Bạn có nghĩ rằng các hoạt động này quan trọng hơn việc học chính khóa không?",
+        "a": "Neither should supersede the other; they are symbiotic. Rigorous academic curricula furnish intellectual rigor and professional credentials, whereas extracurricular engagements nurture emotional intelligence, grit, and leadership competence."
+      },
+      {
+        "q": "How can schools encourage more students to take part in extracurricular activities?",
+        "vi": "Nhà trường có thể làm gì để khuyến khích nhiều học sinh tham gia hoạt động ngoại khóa hơn?",
+        "a": "Educational institutions should integrate extracurricular milestones into student assessment criteria and allocate adequate funding for club facilities. Furthermore, designing diverse clubs aligned with modern career trends will attract broader student engagement."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-46",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 46",
+    "title": "Playing team sports brings many benefits.",
+    "center": "Team sports",
+    "branches": [
+      {
+        "num": 1,
+        "text": "keep fit",
+        "pos": "top",
+        "type": "verb",
+        "vi": "Giữ gìn vóc dáng và nâng cao sức khỏe thể chất"
+      },
+      {
+        "num": 2,
+        "text": "make friends",
+        "pos": "right",
+        "type": "verb",
+        "vi": "Giao lưu và kết bạn cùng chung niềm đam mê"
+      },
+      {
+        "num": 3,
+        "text": "learn new skills",
+        "pos": "bottom",
+        "type": "verb",
+        "vi": "Học hỏi các kỹ năng chiến thuật và làm việc nhóm"
+      },
+      {
+        "num": 4,
+        "text": "[your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "What are some popular team sports in your country?",
+        "vi": "Những môn thể thao đồng đội nào phổ biến ở nước bạn?",
+        "a": "Football is unequivocally the most revered sport in Vietnam, uniting millions across generations. In addition, volleyball, basketball among urban youth, and competitive rowing boast vibrant followings."
+      },
+      {
+        "q": "Do you think children should be encouraged to play team sports? Why or why not?",
+        "vi": "Bạn có nghĩ trẻ em nên được khuyến khích chơi các môn thể thao đồng đội không? Tại sao?",
+        "a": "Children should emphatically be motivated to join team sports. Physical play counteracts sedentary screen addiction, promotes skeletal development, and instills critical psychosocial values such as sportsmanship and perseverance."
+      },
+      {
+        "q": "How can people be encouraged to do exercise regularly?",
+        "vi": "Làm thế nào để khuyến khích mọi người tập thể dục đều đặn hơn?",
+        "a": "Municipalities should construct accessible community sports facilities and public running parks. Simultaneously, promoting corporate wellness programs and hosting community fitness challenges will foster a culture of active living."
+      }
+    ]
+  },
+  {
+    "id": "b-topic-47",
+    "category": "benefits",
+    "categoryName": "Nhóm Lợi Ích",
+    "topicCode": "ĐỀ SỐ 47",
+    "title": "Many people believe that setting goals plays an important role in life.",
+    "center": "Setting goals",
+    "branches": [
+      {
+        "num": 1,
+        "text": "measurable progress",
+        "pos": "top",
+        "type": "noun",
+        "vi": "Đo lường được sự tiến bộ và đánh giá lộ trình"
+      },
+      {
+        "num": 2,
+        "text": "self-motivation",
+        "pos": "right",
+        "type": "noun",
+        "vi": "Thúc đẩy động lực tự thân và lòng kiên trì"
+      },
+      {
+        "num": 3,
+        "text": "planning for the future",
+        "pos": "bottom",
+        "type": "noun",
+        "vi": "Hoạch định tương lai vững chắc và chủ động"
+      },
+      {
+        "num": 4,
+        "text": "[your own idea]",
+        "pos": "left",
+        "type": "free",
+        "vi": "Ý kiến riêng của bạn"
+      }
+    ],
+    "followups": [
+      {
+        "q": "Do you think short-term or long-term goals are more useful? Why?",
+        "vi": "Bạn nghĩ rằng mục tiêu ngắn hạn hay dài hạn hữu ích hơn? Tại sao?",
+        "a": "Both dimensions are complementary. Long-term goals establish overarching philosophical vision and career trajectories, whereas short-term milestones translate that grand vision into tangible daily action plans."
+      },
+      {
+        "q": "What can happen if someone lives without any goals?",
+        "vi": "Điều gì có thể xảy ra nếu một người sống mà không có mục tiêu nào?",
+        "a": "Living without defined goals precipitates existential disorientation, lethargy, and chronic underachievement. Individuals risk drifting passively through life, reacting to external events rather than shaping their own destiny."
+      },
+      {
+        "q": "Should schools teach students how to set and achieve goals?",
+        "vi": "Nhà trường có nên dạy học sinh cách thiết lập và hoàn thành mục tiêu không?",
+        "a": "Undoubtedly. Incorporating frameworks like SMART goal formulation into curricula empowers students with strategic foresight, disciplined focus, and the emotional resilience necessary to fulfill their potential."
+      }
+    ]
+  },
+  {
     "id": "d-topic-07",
     "category": "drawbacks",
     "categoryName": "Nhóm Bất Lợi",
